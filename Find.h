@@ -19,7 +19,7 @@
 
 #include <vector>
 
-class Solution01{
+class Solution01 {
 public:
 
     /*
