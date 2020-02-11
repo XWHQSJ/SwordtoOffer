@@ -2,8 +2,8 @@
 // Created by Wanhui on 2/9/20.
 //
 
-#ifndef SWORDTOOFFER_FIND_H
-#define SWORDTOOFFER_FIND_H
+#ifndef SWORDTOOFFER_FINDNUMBERIN2DARRAY_H
+#define SWORDTOOFFER_FINDNUMBERIN2DARRAY_H
 
 /*
  * 剑指offer 01 二维数组的查找
@@ -33,7 +33,7 @@ public:
      * 由于r和c两个变量是条件变化的，
      * 使用while循环处理更加方便
      * */
-    bool Find(int target, std::vector<std::vector<int> > array);
+    bool findNumberIn2DArray(int target, std::vector<std::vector<int> > array);
 };
 
-#endif //SWORDTOOFFER_FIND_H
+#endif //SWORDTOOFFER_FINDNUMBERIN2DARRAY_H

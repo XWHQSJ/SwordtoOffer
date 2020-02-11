@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <assert.h>
-#include "Find.h"
+#include "FindNumberIn2DArray.h"
 #include "Median.h"
 #include "ReplaceSpace.h"
 
@@ -22,7 +22,7 @@ int main() {
                                            {4, 5, 6, 7}};
     int target = 9;
     Solution01 solution01;
-    bool b = solution01.Find(target, array);
+    bool b = solution01.findNumberIn2DArray(target, array);
     // assert(b);
     std::cout << b << std::endl;
 
