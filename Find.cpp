@@ -6,12 +6,12 @@
 #include <iostream>
 
 bool Solution01::Find(int target, std::vector<std::vector<int> > array) {
-    int rows = array.size();
-    int cols = array[0].size();
-
     if (array.empty()) {
         return false;
     }
+
+    int rows = array.size();
+    int cols = array[0].size();
 
     int r = 0;
     int c = cols - 1;

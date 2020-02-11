@@ -46,7 +46,7 @@ int main() {
 
     char str2[] = "Hello World";
     solution02.replaceSpace(str2, length);
-    for(int i = 0; i < 13; ++i){
+    for (int i = 0; i < 13; ++i) {
         std::cout << str2[i];
     }
     std::cout << "\n";
