@@ -6,7 +6,7 @@
 #define SWORDTOOFFER_FINDNUMBERIN2DARRAY_H
 
 /*
- * 剑指offer 01 二维数组的查找
+ * 剑指offer 04 二维数组的查找
  *
  * 在一个二维数组中（每个一维数组的长度相同），
  * 每一行都按照从左到右递增的顺序排序，
@@ -19,7 +19,7 @@
 
 #include <vector>
 
-class Solution01 {
+class Solution04 {
 public:
 
     /*

@@ -4,7 +4,7 @@
 
 #include "Median.h"
 
-int Solution01_1::median(int n, unsigned int x, std::vector<unsigned int> arr) {
+int Solution04_1::median(int n, unsigned int x, std::vector<unsigned int> arr) {
 
     int less = 0, high = 0, equal = 0;    //分别表示array中数与x比较的个数——小，大，等
     for (int i = 0; i < n; i++) {

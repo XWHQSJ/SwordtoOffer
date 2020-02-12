@@ -5,7 +5,7 @@
 #include "FindNumberIn2DArray.h"
 #include <iostream>
 
-bool Solution01::findNumberIn2DArray(int target, std::vector<std::vector<int> > array) {
+bool Solution04::findNumberIn2DArray(int target, std::vector<std::vector<int> > array) {
     if (array.empty()) {
         return false;
     }

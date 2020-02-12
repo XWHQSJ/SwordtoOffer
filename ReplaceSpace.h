@@ -6,7 +6,7 @@
 #define SWORDTOOFFER_REPLACESPACE_H
 
 /*
- * 剑指offer 02 替换空格
+ * 剑指offer 05 替换空格
  *
  * 请实现一个函数，将一个字符串中的每个空格替换成“%20”。
  * 例如，当字符串为We Are Happy.
@@ -15,7 +15,7 @@
 
 #include <string>
 
-class Solution02 {
+class Solution05 {
 public:
     /*
      * 方法1

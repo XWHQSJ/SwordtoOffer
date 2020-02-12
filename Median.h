@@ -6,7 +6,7 @@
 #define SWORDTOOFFER_MEDIAN_H
 
 /* 校企题 中位数
- * 剑指offer 01 二维数组的查找 扩展题
+ * 剑指offer 04 二维数组的查找 扩展题
  *
  * 小M给你一个长度为n的数组，
  * 我们定义median数为该数组从小到大排序后，
@@ -47,7 +47,7 @@
 
 #include <vector>
 
-class Solution01_1 {
+class Solution04_1 {
 public:
     /*
      * 无论中位数x在数组的什么位置，

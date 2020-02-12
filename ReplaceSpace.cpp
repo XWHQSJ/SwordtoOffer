@@ -7,7 +7,7 @@
 #include <iostream>
 #include "ReplaceSpace.h"
 
-void Solution02::replaceSpace(char *str, int length) {
+void Solution05::replaceSpace(char *str, int length) {
     if (str == nullptr || length < 0) {
         return;
     }
@@ -37,7 +37,7 @@ void Solution02::replaceSpace(char *str, int length) {
     }
 }
 
-void Solution02::replaceSpace1(char *str, int length) {
+void Solution05::replaceSpace1(char *str, int length) {
     const char *sep = " ";
     char *ptr = nullptr;
     ptr = strtok(str, sep);
@@ -53,7 +53,7 @@ void Solution02::replaceSpace1(char *str, int length) {
     }
 }
 
-std::string Solution02::replaceSpace2(std::string s) {
+std::string Solution05::replaceSpace2(std::string s) {
     int i = 0;
     std::string str;
 
@@ -71,7 +71,7 @@ std::string Solution02::replaceSpace2(std::string s) {
     return str;
 }
 
-std::string Solution02::replaceSpace3(std::string s) {
+std::string Solution05::replaceSpace3(std::string s) {
     std::string str;
 
     for (auto c : s) {
