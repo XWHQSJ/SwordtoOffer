@@ -12,6 +12,7 @@
 #include "Median.h"
 #include "ReplaceSpace.h"
 #include "FindRepeatNumber.h"
+#include "ReversePrint.h"
 
 using namespace std;
 
@@ -74,6 +75,11 @@ int main() {
 
     num = solution03.findRepeatNumber2(vec);
     std::cout << num << std::endl;
+
+
+    // ReversePrint.cpp test
+    Solution06 solution06;
+    std::vector<int> val;
 
     return 0;
 }
