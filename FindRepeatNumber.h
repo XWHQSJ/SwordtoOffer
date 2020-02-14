@@ -37,7 +37,7 @@ public:
      * 最后遍历存储数组vec，返回vec[i]>1的下标i
      * 时间复杂度O(n)，空间复杂度O(max(nums))
      * */
-    int findRepeatNumber(std::vector<int>& nums);
+    int findRepeatNumber(std::vector<int> &nums);
 
     /*
      * 方法2 哈希表
@@ -48,7 +48,7 @@ public:
      * 则返回该key
      * 时间复杂度O(n),空间复杂度O(n)
      * */
-    int findRepeatNumber2(std::vector<int>& nums);
+    int findRepeatNumber2(std::vector<int> &nums);
 
     /*
      * 方法3 排序法++
@@ -58,7 +58,7 @@ public:
      * 该方法源于github : https://github.com/scandum/quadsort/blob/master/quadsort.c
      * 排序时间复杂度可达到O(n)
      * */
-    int findRepeatNumber3(std::vector<int>& nums);
+    int findRepeatNumber3(std::vector<int> &nums);
 };
 
 
