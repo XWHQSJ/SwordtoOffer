@@ -17,6 +17,7 @@ std::vector<int> Solution06::reversePrint(ListNode *head) {
     }
 
     std::vector<int> vec;
+    // WARNing : stk.top != 0 is wrong!!!
     while (!stk.empty()) {
         vec.push_back(stk.top());
         stk.pop();
