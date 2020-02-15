@@ -7,12 +7,13 @@
  * */
 
 #include <iostream>
-#include <assert.h>
+#include <cassert>
 #include "FindNumberIn2DArray.h"
 #include "Median.h"
 #include "ReplaceSpace.h"
 #include "FindRepeatNumber.h"
 #include "ReversePrint.h"
+#include "NthUglyNumber.h"
 
 using namespace std;
 
@@ -80,6 +81,14 @@ int main() {
     // ReversePrint.cpp test
     Solution06 solution06;
     std::vector<int> val;
+
+
+    // NthUglyNumber.cpp test
+    Solution49 solution49;
+    int n1 = 10;
+    int m = 0;
+    m = solution49.nthUglyNumber(n1);
+    std::cout << m << std::endl;
 
     return 0;
 }
