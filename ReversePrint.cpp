@@ -27,6 +27,16 @@ std::vector<int> Solution06::reversePrint(ListNode *head) {
 }
 
 std::vector<int> Solution06::reversePrint2(ListNode *head) {
+    std::vector<int> vec;
+    reverse(head, vec);
 
-    return {};
+    return vec;
+}
+
+void Solution06::reverse(ListNode *head, std::vector<int>& vec) {
+    if(!head) {
+        return;
+    }
+    reverse(head->next, vec);
+    vec.push_back(head->val);
 }
