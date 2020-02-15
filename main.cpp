@@ -14,6 +14,7 @@
 #include "FindRepeatNumber.h"
 #include "ReversePrint.h"
 #include "NthUglyNumber.h"
+#include "BuildTree.h"
 
 using namespace std;
 
@@ -89,6 +90,10 @@ int main() {
     int m = 0;
     m = solution49.nthUglyNumber(n1);
     std::cout << m << std::endl;
+
+
+    // BuildTree.cpp test
+    Solution07 solution07;
 
     return 0;
 }
