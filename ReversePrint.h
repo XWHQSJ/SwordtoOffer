@@ -50,8 +50,7 @@ public:
     /*
      * 递归反转函数
      *  WARNing : std::vector<int>& vec
-     * 一定要设置为引用，
-     * &引用使传入的数组与函数内使用的数组指向相同的地址
+     * 设置为引用&表示传入的数组(实参)与函数内使用的数组(形参)指向相同的内存空间
      * 因此函数内数组的值改变，函数外的数组值也会改变
      */
     static void reverse(ListNode* head, std::vector<int>& vec);
