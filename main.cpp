@@ -18,6 +18,7 @@
 #include "CQueue.h"
 #include "Fibonacci.h"
 #include "NumWays.h"
+#include "MinArray.h"
 
 using namespace std;
 
@@ -113,6 +114,16 @@ int main() {
 
     f = solution10_2.numWays2(n2);
     std::cout << f << std::endl;
+
+
+    // MinArray.cpp test
+    Solution11 solution11;
+    std::vector<int> num1 = {3, 4, 5, 1, 2};
+    std::vector<int> num2 = {2, 2, 2, 0, 1};
+    int m2 = solution11.minArray(num1);
+    std::cout << m2 << std::endl;
+    m2 = solution11.minArray2(num1);
+    std::cout << m2 << std::endl;
 
 
     // NthUglyNumber.cpp test
