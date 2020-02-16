@@ -96,6 +96,12 @@ int main() {
 
     // Fibonacci.cpp test
     Solution10_1 solution10_1;
+    int n3 = 5;
+    int f = solution10_1.fibonacci(n3);
+    std::cout << f << std::endl;
+
+    f = solution10_1.fibonacci2(n3);
+    std::cout << f << std::endl;
 
 
     // NthUglyNumber.cpp test
