@@ -35,7 +35,7 @@ public:
      * 如果min大于v[i]，就将min设置为v[i]，
      * 返回最小值min
      * */
-    int minArray(std::vector<int>& numbers);
+    int minArray(std::vector<int> &numbers);
 
     /*
      * 方法2 二分法 O(logn)
@@ -49,7 +49,7 @@ public:
      * 当mid比right值大，则下一轮在在左边，
      * 当mid比right值等于，使用将right减1去掉可能的重复值。
      * */
-    int minArray2(std::vector<int>& numbers);
+    int minArray2(std::vector<int> &numbers);
 };
 
 
