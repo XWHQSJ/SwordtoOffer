@@ -51,7 +51,7 @@ public:
     int findRepeatNumber2(std::vector<int> &nums);
 
     /*
-     * 方法3 排序法++
+     * 方法3 排序法
      * 使用通用排序算法将数据排序好后再遍历
      * 但通用排序算法的时间复杂度最快也只能达到O(nlogn)<快速排序,归并排序和堆排序>
      * 所以使用基于归并排序的最新设计的quadsort排序方法
