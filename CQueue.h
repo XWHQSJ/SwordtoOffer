@@ -56,10 +56,10 @@
  * 不能将栈1新添加元素再push进来，
  * 即删除操作过程，每次必须要等到栈2空了才能从栈1push元素到栈2中。
  * */
-class CQueue {
+class Solution09 {
 public:
-    CQueue();
-    ~CQueue();
+    Solution09();
+    ~Solution09();
 
     void appendTail(int value);
 

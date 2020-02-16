@@ -5,15 +5,15 @@
 
 #include "CQueue.h"
 
-CQueue::CQueue() = default;
-CQueue::~CQueue() = default;
+Solution09::Solution09() = default;
+Solution09::~Solution09() = default;
 
 // 直接将添加的元素push到栈1
-void CQueue::appendTail(int value) {
+void Solution09::appendTail(int value) {
     stk1.push(value);
 }
 
-int CQueue::deleteHead() {
+int Solution09::deleteHead() {
     if(stk1.empty() && stk2.empty()){
         return -1;
     }

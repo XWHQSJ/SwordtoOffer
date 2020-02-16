@@ -15,6 +15,8 @@
 #include "ReversePrint.h"
 #include "NthUglyNumber.h"
 #include "BuildTree.h"
+#include "CQueue.h"
+#include "Fibonacci.h"
 
 using namespace std;
 
@@ -84,16 +86,24 @@ int main() {
     std::vector<int> val;
 
 
+    // BuildTree.cpp test
+    Solution07 solution07;
+
+
+    // CQueue.cpp test
+    Solution09 solution09;
+
+
+    // Fibonacci.cpp test
+    Solution10_1 solution10_1;
+
+
     // NthUglyNumber.cpp test
     Solution49 solution49;
     int n1 = 10;
     int m = 0;
     m = solution49.nthUglyNumber(n1);
     std::cout << m << std::endl;
-
-
-    // BuildTree.cpp test
-    Solution07 solution07;
 
     return 0;
 }
