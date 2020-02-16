@@ -17,6 +17,7 @@
 #include "BuildTree.h"
 #include "CQueue.h"
 #include "Fibonacci.h"
+#include "NumWays.h"
 
 using namespace std;
 
@@ -101,6 +102,16 @@ int main() {
     std::cout << f << std::endl;
 
     f = solution10_1.fibonacci2(n3);
+    std::cout << f << std::endl;
+
+
+    // NumWays.cpp test
+    Solution10_2 solution10_2;
+    int n2 = 7;
+    f = solution10_2.numWays(n2);
+    std::cout << f << std::endl;
+
+    f = solution10_2.numWays2(n2);
     std::cout << f << std::endl;
 
 
