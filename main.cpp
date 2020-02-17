@@ -19,6 +19,7 @@
 #include "Fibonacci.h"
 #include "NumWays.h"
 #include "MinArray.h"
+#include "Exist.h"
 
 using namespace std;
 
@@ -94,6 +95,11 @@ int main() {
 
     // CQueue.cpp test
     Solution09 solution09;
+    solution09.appendTail(3);
+    solution09.appendTail(4);
+    solution09.appendTail(5);
+    int c = solution09.deleteHead();
+    std::cout << c << std::endl;
 
 
     // Fibonacci.cpp test
@@ -124,6 +130,29 @@ int main() {
     std::cout << m2 << std::endl;
     m2 = solution11.minArray2(num1);
     std::cout << m2 << std::endl;
+
+
+    // Exit.cpp test
+    Solution12 solution12;
+    std::vector<std::vector<char>> board1 = {{'A', 'B', 'C', 'E'},
+                                             {'S', 'F', 'C', 'S'},
+                                             {'A', 'D', 'E', 'E'}};
+    std::string word1 = "ABCCED";
+    std::vector<std::vector<char>> board2 = {{'a', 'b'},
+                                             {'c', 'd'}};
+    std::string word2 = "abcd";
+    std::vector<std::vector<char>> board3 = {{'a'}};
+    std::string word3 = "ab";
+    bool b1 = solution12.exist(board1, word1);
+    std::cout << "b1 = " << b1 << std::endl;
+    b1 = solution12.exist(board2, word2);
+    if (!b1) {
+        std::cout << "b1 = " << 0 << std::endl;
+    }
+    b1 = solution12.exist(board3, word3);
+    if (!b1) {
+        std::cout << "b1 = " << 0 << std::endl;
+    }
 
 
     // NthUglyNumber.cpp test
