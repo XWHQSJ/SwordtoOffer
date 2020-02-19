@@ -49,7 +49,7 @@ public:
      * 输入的如果是负数，不经过(unsigned int)强制转化，
      * 使用位移操作则循环就会无限下去
      * */
-    int hammingWeight(int n);
+    int hammingWeight(uint32_t n);
     /*
      * 方法2 汉明重量法
      * 通过汉明重量，

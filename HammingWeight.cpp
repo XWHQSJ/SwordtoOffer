@@ -4,7 +4,9 @@
 
 #include "HammingWeight.h"
 
-int Solution15::hammingWeight(int n) {
+//如果参数类型为int负数，则无法使用算术右移
+//使用强制转换实现逻辑右移(unsigned int)n >> 1;
+int Solution15::hammingWeight(uint32_t n) {
 //    if(n<0){
 //        return 0;
 //    }
