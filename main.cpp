@@ -22,6 +22,7 @@
 #include "Exist.h"
 #include "HammingWeight.h"
 #include "PrintNumbers.h"
+#include "DeleteNode.h"
 
 using namespace std;
 
@@ -186,6 +187,10 @@ int main() {
         std::cout << "num = " << num << " ";
     }
     std::cout << std::endl;
+
+
+    Solution18 solution18;
+
 
 
     // NthUglyNumber.cpp test
