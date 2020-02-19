@@ -20,6 +20,7 @@
 #include "NumWays.h"
 #include "MinArray.h"
 #include "Exist.h"
+#include "HammingWeight.h"
 
 using namespace std;
 
@@ -153,6 +154,28 @@ int main() {
     if (!b1) {
         std::cout << "b1 = " << 0 << std::endl;
     }
+
+
+    // HammingWeight.cpp test
+    Solution15 solution15;
+    uint32_t n4 = 00000000000000000000000000001011;
+    uint32_t n5 = 00000000000000000000000010000000;
+    uint32_t n6 = 9;
+    int n7 = -3;
+    int m3 = solution15.hammingWeight(n7);
+    std::cout << "m3 = " << m3 << std::endl;
+    m3 = solution15.hammingWeight2(n6);
+    std::cout << "m3 = " << m3 << std::endl;
+    m3 = solution15.hammingWeight3(n6);
+    std::cout << "m3 = " << m3 << std::endl;
+    m3 = solution15.hammingWeight4(n6);
+    std::cout << "m3 = " << m3 << std::endl;
+    m3 = solution15.hammingWeight5(n6);
+    std::cout << "m3 = " << m3 << std::endl;
+    m3 = solution15.hammingWeight6(n6);
+    std::cout << "m3 = " << m3 << std::endl;
+    m3 = solution15.hammingWeight7(n6);
+    std::cout << "m3 = " << m3 << std::endl;
 
 
     // NthUglyNumber.cpp test
