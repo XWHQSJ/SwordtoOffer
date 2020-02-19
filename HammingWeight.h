@@ -55,6 +55,9 @@ public:
      * 通过汉明重量，
      * 对数据进行特殊的运算，
      * 有几种汉明重量的计算方式
+     *
+     * 百度“汉明重量”
+     * https://baike.baidu.com/item/%E6%B1%89%E6%98%8E%E9%87%8D%E9%87%8F
      * */
     int hammingWeight2(uint32_t n);
     int hammingWeight3(uint32_t n);
