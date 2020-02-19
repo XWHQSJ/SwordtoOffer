@@ -6,26 +6,46 @@
 #include "DeleteNode.h"
 
 ListNode *Solution18::deleteNode(ListNode *head, int val) {
-    ListNode* node = head;
-    ListNode* node1 = head;
-    int c = 0, i = 0;
-    while (node->val != val){
-        node = node->next;
-        c++;
-    }
-    node = node->next;
 
-    if(c == 0){
+    if(!head){
+        return nullptr;
+    }
+
+    ListNode node(0);
+    node.next = head;
+
+    if(head->val == val){
         head = head->next;
         return head;
     }
 
-    while (i < c-1){
-        node1 = node1->next;
-        i++;
+    while (head->next){
+        if(head->next->val == val){
+            head->next = head->next->next;
+            break;
+        }
+        head = head->next;
     }
 
-    node1->next = node;
+    return node.next;
+}
+
+ListNode *Solution18::deleteNode(ListNode *head, ListNode *node) {
+    if(!head || !node){
+        return nullptr;
+    }
+
+    if(head->val == node->val) {
+        head = head->next;
+        return head;
+    }
+
+    //使用下一节点覆盖要删除节点
+    node = node->next;
+    node->val = node->next->val;
+
+    //删除多余的下一节点
+    node->next = node->next->next;
 
     return head;
 }
