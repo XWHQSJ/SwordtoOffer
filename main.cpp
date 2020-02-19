@@ -12,7 +12,7 @@
 #include "Median.h"
 #include "ReplaceSpace.h"
 #include "FindRepeatNumber.h"
-#include "ReversePrint.h"
+//#include "ReversePrint.h"
 #include "NthUglyNumber.h"
 #include "BuildTree.h"
 #include "CQueue.h"
@@ -22,7 +22,8 @@
 #include "Exist.h"
 #include "HammingWeight.h"
 #include "PrintNumbers.h"
-#include "DeleteNode.h"
+//#include "DeleteNode.h"
+#include "MovingCount.h"
 
 using namespace std;
 
@@ -88,8 +89,8 @@ int main() {
 
 
     // ReversePrint.cpp test
-    Solution06 solution06;
-    std::vector<int> val;
+//    Solution06 solution06;
+//    std::vector<int> val;
 
 
     // BuildTree.cpp test
@@ -158,6 +159,26 @@ int main() {
     }
 
 
+    // MovingCount.cpp test
+    Solution13 solution13;
+    int m1 = 2, n9 = 3, k = 1;
+    int m5 = 3, n10 = 1, k1 = 0;
+    int m6 = 16, n11 = 8, k2 = 4;
+    int c2 = solution13.movingCount(m1, n9, k);
+    std::cout << "c2 = " << c2 << std::endl;
+    c2 = solution13.movingCount(m5, n10, k1);
+    std::cout << "c2 = " << c2 << std::endl;
+    c2 = solution13.movingCount(m6, n11, k2);
+    std::cout << "c2 = " << c2 << std::endl;
+
+    int c3 = solution13.movingCount2(m1, n9, k);
+    std::cout << "c3 = " << c3 << std::endl;
+    c3 = solution13.movingCount2(m5, n10, k1);
+    std::cout << "c3 = " << c3 << std::endl;
+    c3 = solution13.movingCount2(m6, n11, k2);
+    std::cout << "c3 = " << c3 << std::endl;
+
+
     // HammingWeight.cpp test
     Solution15 solution15;
     uint32_t n4 = 00000000000000000000000000001011;
@@ -180,6 +201,7 @@ int main() {
     std::cout << "m3 = " << m3 << std::endl;
 
 
+    // PrintNumber.cpp test
     Solution17 solution17;
     int n8 = 1;
     std::vector<int> m4 = solution17.printNumbers(n8);
@@ -189,8 +211,8 @@ int main() {
     std::cout << std::endl;
 
 
-    Solution18 solution18;
-
+    // DeleteNode.cpp test
+//    Solution18 solution18;
 
 
     // NthUglyNumber.cpp test
