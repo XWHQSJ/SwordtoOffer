@@ -21,6 +21,7 @@
 #include "MinArray.h"
 #include "Exist.h"
 #include "HammingWeight.h"
+#include "PrintNumbers.h"
 
 using namespace std;
 
@@ -176,6 +177,15 @@ int main() {
     std::cout << "m3 = " << m3 << std::endl;
     m3 = solution15.hammingWeight7(n6);
     std::cout << "m3 = " << m3 << std::endl;
+
+
+    Solution17 solution17;
+    int n8 = 1;
+    std::vector<int> m4 = solution17.printNumbers(n8);
+    for (auto &num : m4) {
+        std::cout << "num = " << num << " ";
+    }
+    std::cout << std::endl;
 
 
     // NthUglyNumber.cpp test
