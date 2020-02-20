@@ -27,6 +27,7 @@
 #include "CuttingRopeI.h"
 #include "CuttingRopeII.h"
 #include "MyPow.h"
+#include "Exchange.h"
 
 using namespace std;
 
@@ -263,6 +264,10 @@ int main() {
 
     // DeleteNode.cpp test
 //    Solution18 solution18;
+
+
+    // Exchange.cpp test
+    Solution21 solution21;
 
 
     // NthUglyNumber.cpp test

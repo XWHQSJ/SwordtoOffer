@@ -51,6 +51,10 @@ using namespace std;
  * 遍历指针移动，交换指针不移动
  * */
 void partition(int *arr, int size) {
+    if (size <= 0) {
+        return;
+    }
+
     int lo = -1;
     int cur = 0;
     while (cur < size) {
@@ -71,6 +75,10 @@ void partition(int *arr, int size) {
  * 当low指向奇数，同时high指向偶数时，进行交换操作
  * */
 void partition1(int *arr, int size) {
+    if (size <= 0) {
+        return;
+    }
+
     int low = 0;
     int high = size - 1;
 
@@ -94,6 +102,10 @@ void partition1(int *arr, int size) {
  * 目的是内存操作正确
  * */
 void partition2(int *arr, int size) {
+    if (size <= 0) {
+        return;
+    }
+
     int *oarr = nullptr;
     oarr = (int *) malloc(size * sizeof(int));
 
