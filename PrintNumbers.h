@@ -28,7 +28,7 @@ typedef long long int LL;
 class Solution17 {
 public:
     /*
-     * 方法１　函数库方法
+     * 方法1　函数库方法
      * 直接使用cmath函数库中的pow(x,n)函数
      * 即x^n=pow(x,n)；
      *
@@ -38,7 +38,7 @@ public:
     std::vector<int> printNumbers(int n);
 
     /*
-     * 方法２　快速幂方法
+     * 方法2　快速幂方法
      * 求x=base^a，base是底数，a为指数幂
      * 对base^a进行分治，即：
      *
@@ -52,7 +52,7 @@ public:
 
 
     /*
-     * 通用方法１：模指数运算－分治原理
+     * 通用方法1：模指数运算－分治原理
      * 分治法：分、治再归并
      * 求x = a^e mod m，a是底数，e为指数幂，m是模数
      *
@@ -62,7 +62,7 @@ public:
      * 再将它们合并为a^e mod m
      *
      *
-     * 通用方法２：模指数运算－二进制算法
+     * 通用方法2：模指数运算－二进制算法
      * 以二进制方式分拆指数
      * 将e表示为二进制dn-1 dn-2 ... d1 d0，此处di=0或１
      * e = dn-1*2^(n-1) + ... + d1*2 + d0 = Dn-1 + ... D1 + D0 (Di = di*2^i)

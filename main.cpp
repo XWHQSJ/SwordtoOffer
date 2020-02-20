@@ -26,6 +26,7 @@
 #include "MovingCount.h"
 #include "CuttingRopeI.h"
 #include "CuttingRopeII.h"
+#include "MyPow.h"
 
 using namespace std;
 
@@ -235,6 +236,19 @@ int main() {
     std::cout << "m3 = " << m3 << std::endl;
     m3 = solution15.hammingWeight7(n6);
     std::cout << "m3 = " << m3 << std::endl;
+
+
+    // MyPow.cpp test
+    Solution16 solution16;
+    double x1 = 2.00000, x2 = 2.10000;
+    int n22 = 10, n23 = 3, n24 = -2;
+    double m7 = 0;
+    m7 = solution16.myPow(x1, n22);
+    std::cout << "m7 = " << m7 << std::endl;
+    m7 = solution16.myPow(x2, n23);
+    std::cout << "m7 = " << m7 << std::endl;
+    m7 = solution16.myPow(x1, n24);
+    std::cout << "m7 = " << m7 << std::endl;
 
 
     // PrintNumber.cpp test
