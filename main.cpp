@@ -24,6 +24,7 @@
 #include "PrintNumbers.h"
 //#include "DeleteNode.h"
 #include "MovingCount.h"
+#include "CuttingRope.h"
 
 using namespace std;
 
@@ -177,6 +178,27 @@ int main() {
     std::cout << "c3 = " << c3 << std::endl;
     c3 = solution13.movingCount2(m6, n11, k2);
     std::cout << "c3 = " << c3 << std::endl;
+
+
+    // CuttingRope.cpp test
+    Solution14_1 solution141;
+    int n12 = 2, n13 = 3, n14 = 5, n15 = 6, n16 = 10, n17 = 11;
+    int mul = solution141.cuttingRope(n12);
+    std::cout << "mul2 = " << mul << std::endl;
+    mul = solution141.cuttingRope(n13);
+    std::cout << "mul3 = " << mul << std::endl;
+    mul = solution141.cuttingRope(n14);
+    std::cout << "mul5 = " << mul << std::endl;
+    mul = solution141.cuttingRope(n15);
+    std::cout << "mul6 = " << mul << std::endl;
+    mul = solution141.cuttingRope(n16);
+    std::cout << "mul10 = " << mul << std::endl;
+    mul = solution141.cuttingRope(n17);
+    std::cout << "mul11 = " << mul << std::endl;
+    mul = solution141.cuttingRope2(n16);
+    std::cout << "mul102 = " << mul << std::endl;
+    mul = solution141.cuttingRope2(n17);
+    std::cout << "mul112 = " << mul << std::endl;
 
 
     // HammingWeight.cpp test
