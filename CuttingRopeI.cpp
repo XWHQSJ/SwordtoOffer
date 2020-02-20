@@ -4,7 +4,7 @@
 
 #include <cmath>
 #include <vector>
-#include "CuttingRope.h"
+#include "CuttingRopeI.h"
 
 int Solution14_1::cuttingRope(int n) {
     // 当n小于4时返回n-1

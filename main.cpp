@@ -24,7 +24,8 @@
 #include "PrintNumbers.h"
 //#include "DeleteNode.h"
 #include "MovingCount.h"
-#include "CuttingRope.h"
+#include "CuttingRopeI.h"
+#include "CuttingRopeII.h"
 
 using namespace std;
 
@@ -180,7 +181,7 @@ int main() {
     std::cout << "c3 = " << c3 << std::endl;
 
 
-    // CuttingRope.cpp test
+    // CuttingRopeI.cpp test
     Solution14_1 solution141;
     int n12 = 2, n13 = 3, n14 = 5, n15 = 6, n16 = 10, n17 = 11;
     int mul = solution141.cuttingRope(n12);
@@ -199,6 +200,19 @@ int main() {
     std::cout << "mul102 = " << mul << std::endl;
     mul = solution141.cuttingRope2(n17);
     std::cout << "mul112 = " << mul << std::endl;
+
+
+    // CuttingRopeII.cpp test
+    Solution14_2 solution142;
+    int n18 = 60, n19 = 70, n20 = 100, n21 = 120;
+    mul = solution142.cuttingRope(n18);
+    std::cout << "mul18 = " << mul << std::endl;
+    mul = solution142.cuttingRope(n19);
+    std::cout << "mul19 = " << mul << std::endl;
+    mul = solution142.cuttingRope(n20);
+    std::cout << "mul20 = " << mul << std::endl;
+    mul = solution142.cuttingRope(n21);
+    std::cout << "mul21 = " << mul << std::endl;
 
 
     // HammingWeight.cpp test
@@ -225,7 +239,7 @@ int main() {
 
     // PrintNumber.cpp test
     Solution17 solution17;
-    int n8 = 1;
+    int n8 = 2;
     std::vector<int> m4 = solution17.printNumbers(n8);
     for (auto &num : m4) {
         std::cout << "num = " << num << " ";
