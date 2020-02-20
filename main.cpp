@@ -28,6 +28,7 @@
 #include "CuttingRopeII.h"
 #include "MyPow.h"
 #include "Exchange.h"
+#include "GetKthFromEnd.h"
 
 using namespace std;
 
@@ -94,7 +95,6 @@ int main() {
 
     // ReversePrint.cpp test
 //    Solution06 solution06;
-//    std::vector<int> val;
 
 
     // BuildTree.cpp test
@@ -268,6 +268,26 @@ int main() {
 
     // Exchange.cpp test
     Solution21 solution21;
+    std::vector<int> nums = {1,2,3,4};
+    std::vector<int> nums2 = solution21.exchange(nums);
+    for(auto& num : nums2){
+        std::cout << "num is " << num << " ";
+    }
+    std::cout << std::endl;
+    nums2 = solution21.exchange2(nums);
+    for(auto& num : nums2){
+        std::cout << "num is " << num << " ";
+    }
+    std::cout << std::endl;
+    nums2 = solution21.exchange3(nums);
+    for(auto& num : nums2){
+        std::cout << "num is " << num << " ";
+    }
+    std::cout << std::endl;
+
+
+    // GetKthFromEnd.cpp test
+//    Solution22 solution22;
 
 
     // NthUglyNumber.cpp test
