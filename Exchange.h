@@ -33,7 +33,7 @@ public:
      * 他们从同一侧开始移动，
      * cur指针遍历数据，只有指向奇数时才做交换
      * lo在交换操作前，一直指向偶数左侧的数据
-     * 这样保留左侧的偶数，等待右侧cur指向的奇数进行交换
+     * 这样保留左侧的偶数，等待右侧cur指向的奇数来交换
      * */
     std::vector<int> exchange(std::vector<int>& nums);
 
@@ -51,11 +51,9 @@ public:
 
     /*
      * 方法3 空间换时间
-     * 增加数组oarr，使用空间换时间
-     * 先遍历数组arr将偶数取出存入oarr中，
-     * 再遍历一遍数据arr将奇数取出存入oarr中,
-     * 其中c和r是用于记录存入oarr中的数据量的，
-     * 目的是内存操作正确
+     * 增加数组arr，使用空间换时间
+     * 先遍历数组nums将奇数取出存入arr中，
+     * 再遍历一遍数据nums将偶数取出存入arr中
      * */
     std::vector<int> exchange3(std::vector<int>& nums);
 };
