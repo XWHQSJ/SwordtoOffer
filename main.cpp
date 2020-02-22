@@ -29,6 +29,7 @@
 #include "MyPow.h"
 #include "Exchange.h"
 #include "GetKthFromEnd.h"
+#include "IsMatch.h"
 
 using namespace std;
 
@@ -266,7 +267,14 @@ int main() {
 //    Solution18 solution18;
 
 
-
+    // IsMatch.cpp test
+    Solution19 solution19;
+    std::string s1 = "aa";
+    std::string p = "a*";
+    bool b2 = solution19.isMatch(s1, p);
+    std::cout << "b2 = " << b2 << std::endl;
+    b2 = solution19.isMatch2(s1, p);
+    std::cout << "b2 = " << b2 << std::endl;
 
 
     // Exchange.cpp test

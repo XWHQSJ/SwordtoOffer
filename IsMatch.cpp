@@ -34,7 +34,7 @@ bool Solution19::isMatch2(std::string s, std::string p) {
     // 防止 (ab, c*ab) 这样的匹配，
     // 避免复杂的初始化操作
     s = " " + s;
-    p = " " + s;
+    p = " " + p;
     int m = s.size(), n = p.size();
 
     // 定义记忆数组，并初始化为false
