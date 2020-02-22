@@ -30,6 +30,7 @@
 #include "Exchange.h"
 #include "GetKthFromEnd.h"
 #include "IsMatch.h"
+#include "IsNumber.h"
 
 using namespace std;
 
@@ -275,6 +276,13 @@ int main() {
     std::cout << "b2 = " << b2 << std::endl;
     b2 = solution19.isMatch2(s1, p);
     std::cout << "b2 = " << b2 << std::endl;
+
+
+    // IsNumber.cpp test
+    Solution20 solution20;
+    std::string s3 = "1";
+    bool b3 = solution20.isNumber(s3);
+    std::cout << "b3 = " << b3 << std::endl;
 
 
     // Exchange.cpp test
