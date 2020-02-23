@@ -290,19 +290,19 @@ int main() {
 
     // Exchange.cpp test
     Solution21 solution21;
-    std::vector<int> nums = {1,2,3,4};
+    std::vector<int> nums = {1, 2, 3, 4};
     std::vector<int> nums2 = solution21.exchange(nums);
-    for(auto& num : nums2){
+    for (auto &num : nums2) {
         std::cout << "num is " << num << " ";
     }
     std::cout << std::endl;
     nums2 = solution21.exchange2(nums);
-    for(auto& num : nums2){
+    for (auto &num : nums2) {
         std::cout << "num is " << num << " ";
     }
     std::cout << std::endl;
     nums2 = solution21.exchange3(nums);
-    for(auto& num : nums2){
+    for (auto &num : nums2) {
         std::cout << "num is " << num << " ";
     }
     std::cout << std::endl;

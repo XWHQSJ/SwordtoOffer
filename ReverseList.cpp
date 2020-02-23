@@ -6,7 +6,7 @@
 
 ListNode *Solution24::reverseList(ListNode *head) {
     // 空链表
-    if(head == nullptr){
+    if (head == nullptr) {
         return head;
     }
 
@@ -15,7 +15,7 @@ ListNode *Solution24::reverseList(ListNode *head) {
     // 指向遍历指针前一节点的指针
     ListNode *prenode = nullptr;
 
-    while (visitnode!= nullptr){
+    while (visitnode != nullptr) {
         // 每遍历一个节点，将该节点的next节点保存
         ListNode *nextnode = visitnode->next;
 
@@ -40,7 +40,7 @@ ListNode *Solution24::reverseList(ListNode *head) {
 
 ListNode *Solution24::reverseList2(ListNode *head) {
     // 递归终止条件是当前为空，或下一节点为空
-    if(head == nullptr || head->next == nullptr){
+    if (head == nullptr || head->next == nullptr) {
         return head;
     }
 
