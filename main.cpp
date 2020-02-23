@@ -28,9 +28,10 @@
 #include "CuttingRopeII.h"
 #include "MyPow.h"
 #include "Exchange.h"
-#include "GetKthFromEnd.h"
+//#include "GetKthFromEnd.h"
 #include "IsMatch.h"
 #include "IsNumber.h"
+//#include "ReverseList.h"
 
 using namespace std;
 
@@ -309,6 +310,10 @@ int main() {
 
     // GetKthFromEnd.cpp test
 //    Solution22 solution22;
+
+
+    // ReverseList.cpp test
+//    Solution24 solution24;
 
 
     // NthUglyNumber.cpp test
