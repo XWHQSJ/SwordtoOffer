@@ -82,7 +82,7 @@ public:
     bool isMatch(std::string s, std::string p);
 
     /*
-     * 方法2 动态规划
+     * 方法2 动态规划 自顶向下
      * 状态：dp[i][j] 表示s的前i个是否能被p的前j个匹配
      * 转移方程：要求dp[i][j]的状态，可以从已知的dp[i-1][j-1]的状态，
      * 再加上s[i]，p[j]来判断。
@@ -113,6 +113,9 @@ public:
      *     2) dp[i][j] = dp[i][j-2]
      * */
     bool isMatch2(std::string s, std::string p);
+
+    // 动态规划 自底向上
+    bool isMatch2_2(std::string s, std::string p);
 };
 
 

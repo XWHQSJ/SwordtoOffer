@@ -64,3 +64,26 @@ bool Solution19::isMatch2(std::string s, std::string p) {
     // 返回最后字符的匹配状态
     return dp[m][n];
 }
+
+bool Solution19::isMatch2_2(std::string s, std::string p) {
+    if (p.empty()) {
+        return s.empty();
+    }
+
+    int m = s.size(), n = p.size();
+    std::vector<std::vector<bool>> dp(m + 1, std::vector<bool>(n + 1, false));
+    dp[m][n] = true;
+
+    for (int i = m; i >= 0; i--) {
+        for (int j = n - 1; j >= 0; j--) {
+            bool first_match = (i < m && (p[j] == s[i] || p[j] == '.'));
+            if (j + 1 < n && p[j + 1] == '*') {
+                dp[i][j] = dp[i][j + 2] || (first_match && dp[i + 1][j]);
+            } else {
+                dp[i][j] = first_match && dp[i + 1][j + 1];
+            }
+        }
+    }
+
+    return dp[0][0];
+}

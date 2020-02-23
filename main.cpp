@@ -276,7 +276,8 @@ int main() {
     std::cout << "b2 = " << b2 << std::endl;
     b2 = solution19.isMatch2(s1, p);
     std::cout << "b2 = " << b2 << std::endl;
-
+    b2 = solution19.isMatch2_2(s1, p);
+    std::cout << "b2 = " << b2 << std::endl;
 
     // IsNumber.cpp test
     Solution20 solution20;
