@@ -6,38 +6,72 @@
 #include <regex>
 
 bool Solution20::isNumber(std::string s) {
-    bool sign = false, decimal = false, haveE = false;
+    int state = 0, flag = 0;
+    while (s[0] == ' ') {
+        s.erase(0, 1);
+    }
+
+    while (s[s.size() - 1] == ' ') {
+        s.erase(s.size() - 1, 1);
+    }
+
+    if (s.empty()) {
+        return false;
+    }
 
     for (int i = 0; i < s.size(); i++) {
-        if (s[i] == 'e' || s[i] == 'E') {
-            if (i == s.size() - 1 || i == 0) {
-                return false;
+        if ('0' <= s[i] && s[i] <= '9') {
+            flag = 1;
+            if (state <= 2) {
+                state = 2;
+            } else if (state <= 5) {
+                state = 5;
+            } else {
+                state = 7;
             }
-            if (haveE) {
-                return false;
-            }
-
-            haveE = true;
         } else if (s[i] == '+' || s[i] == '-') {
-            if (sign && s[i - 1] != 'e' && s[i - 1] != 'E') {
+            if (state == 0 || state == 3) {
+                state++;
+            } else {
                 return false;
             }
-            if (!sign && i > 0 && s[i - 1] != 'e' && s[i - 1] != 'E') {
-                return false;
-            }
-
-            sign = true;
         } else if (s[i] == '.') {
-            if (haveE || decimal) {
+            if (state <= 2) {
+                state = 6;
+            } else {
                 return false;
             }
-            if (i == s.size() - 1 || i == 0) {
+        } else if (s[i] == 'e' || s[i] == 'E') {
+            if (flag && (state == 2 || state == 6 || state == 7)) {
+                state = 3;
+            } else {
                 return false;
             }
-            decimal = true;
-        } else if (s[i] < '0' || s[i] > '9') {
+        } else {
             return false;
         }
     }
-    return true;
+    return (state == 2 || state == 5 || (flag && state == 6) || state == 7);
+}
+
+bool Solution20::isNumber2(std::string s) {
+    while (s[0] == ' ') {
+        s.erase(0, 1);
+    }
+
+    while (s[s.size() - 1] == ' ') {
+        s.erase(s.size() - 1, 1);
+    }
+
+    if (s.empty()) {
+        return false;
+    }
+
+    std::regex re(R"(^[\+\-]?(\d+\.\d+|\.\d+|\d+\.|\d+)(e[\+\-]?\d+)?$)");
+
+    return std::regex_match(s, re);
+}
+
+bool Solution20::isNumber3(std::string s) {
+    return false;
 }

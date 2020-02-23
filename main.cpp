@@ -281,10 +281,11 @@ int main() {
 
     // IsNumber.cpp test
     Solution20 solution20;
-    std::string s3 = "1";
+    std::string s3 = "75679.4172";
     bool b3 = solution20.isNumber(s3);
     std::cout << "b3 = " << b3 << std::endl;
-
+    b3 = solution20.isNumber2(s3);
+    std::cout << "b3 = " << b3 << std::endl;
 
     // Exchange.cpp test
     Solution21 solution21;
