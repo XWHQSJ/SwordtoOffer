@@ -32,6 +32,7 @@
 #include "IsMatch.h"
 #include "IsNumber.h"
 //#include "ReverseList.h"
+//#include "MergeTwoLists.h"
 
 using namespace std;
 
@@ -314,6 +315,10 @@ int main() {
 
     // ReverseList.cpp test
 //    Solution24 solution24;
+
+
+    // MergeTwoLists.cpp test
+//    Solution25 solution25;
 
 
     // NthUglyNumber.cpp test
