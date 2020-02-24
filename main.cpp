@@ -33,6 +33,7 @@
 #include "IsNumber.h"
 //#include "ReverseList.h"
 //#include "MergeTwoLists.h"
+//#include "GetIntersectionNode.h"
 
 using namespace std;
 
@@ -327,6 +328,9 @@ int main() {
     int m = 0;
     m = solution49.nthUglyNumber(n1);
     std::cout << m << std::endl;
+
+    // GetIntersectionNode.cpp test
+//    Solution52 solution52;
 
     return 0;
 }
