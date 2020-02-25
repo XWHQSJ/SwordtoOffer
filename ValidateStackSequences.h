@@ -55,7 +55,7 @@ public:
      * 相等则弹出，继续上述操作，
      * 不相等时继续遍历pushed序列并压栈
      * */
-    bool validateStackSequences(std::vector<int>& pushed, std::vector<int>& popped);
+    bool validateStackSequences(std::vector<int> &pushed, std::vector<int> &popped);
 };
 
 

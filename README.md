@@ -69,6 +69,8 @@
 │   └── 有限状态机.png
 ├── ReverseList.cpp
 ├── ReverseList.h    剑指offer 24 反转链表
+├── validateStackSequences.cpp
+├── validateStackSequences.h    剑指offer 31 栈的压入、弹出序列
 ├── ReversePrint.cpp
 └── ReversePrint.h    剑指offer 06 从尾到头打印链表
 
