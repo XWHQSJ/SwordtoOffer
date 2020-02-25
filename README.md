@@ -66,11 +66,16 @@
 │   ├── 两个链表的第一个公共节点2.png
 │   ├── 两个链表的第一个公共节点3.png
 │   ├── 两个链表的第一个公共节点4.png
+│   ├── 复杂链表的复制1.png
+│   ├── 复杂链表的复制2.png
+│   ├── 复杂链表的复制3.png
 │   └── 有限状态机.png
 ├── ReverseList.cpp
 ├── ReverseList.h    剑指offer 24 反转链表
-├── validateStackSequences.cpp
-├── validateStackSequences.h    剑指offer 31 栈的压入、弹出序列
+├── ValidateStackSequences.cpp
+├── ValidateStackSequences.h    剑指offer 31 栈的压入、弹出序列
+├── CopyRandomList.cpp
+└── CopyRandomList.h    剑指offer 35 复杂链表的复制
 ├── ReversePrint.cpp
 └── ReversePrint.h    剑指offer 06 从尾到头打印链表
 

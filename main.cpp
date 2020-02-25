@@ -32,6 +32,7 @@
 #include "IsMatch.h"
 #include "IsNumber.h"
 #include "ValidateStackSequences.h"
+#include "CopyRandomList.h"
 //#include "ReverseList.h"
 //#include "MergeTwoLists.h"
 //#include "GetIntersectionNode.h"
@@ -329,6 +330,10 @@ int main() {
     std::vector<int> popped = {4, 5, 3, 2, 1};
     bool b4 = solution31.validateStackSequences(pushed, popped);
     std::cout << "b4 = " << b4 << std::endl;
+
+
+    // CopyRandomList.cpp test
+    Solution35 solution35;
 
 
     // NthUglyNumber.cpp test
