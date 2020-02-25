@@ -325,8 +325,8 @@ int main() {
 
     // ValidateStackSequences.cpp test
     Solution31 solution31;
-    std::vector<int> pushed = {1,2,3,4,5};
-    std::vector<int> popped = {4,5,3,2,1};
+    std::vector<int> pushed = {1, 2, 3, 4, 5};
+    std::vector<int> popped = {4, 5, 3, 2, 1};
     bool b4 = solution31.validateStackSequences(pushed, popped);
     std::cout << "b4 = " << b4 << std::endl;
 
