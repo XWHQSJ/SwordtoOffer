@@ -31,11 +31,11 @@ public:
     void pop_back();
 
     void clear();
-    void sort();
-
-    void remove(const T& value);
-    void assign(const DoubleNodeList& other);
-    void swap(const DoubleNodeList& other);
+//    void sort();
+//
+//    void remove(const T& value);
+//    void assign(const DoubleNodeList& other);
+//    void swap(const DoubleNodeList& other);
 
 private:
     BiNode<T>* find(std::size_t position);
@@ -132,31 +132,6 @@ void DoubleNodeList<T>::pop_back() {
 }
 
 template<typename T>
-void DoubleNodeList<T>::clear() {
-
-}
-
-template<typename T>
-void DoubleNodeList<T>::sort() {
-
-}
-
-template<typename T>
-void DoubleNodeList<T>::remove(const T &value) {
-
-}
-
-template<typename T>
-void DoubleNodeList<T>::assign(const DoubleNodeList &other) {
-
-}
-
-template<typename T>
-void DoubleNodeList<T>::swap(const DoubleNodeList &other) {
-
-}
-
-template<typename T>
 BiNode<T> *DoubleNodeList<T>::find(std::size_t position) {
     BiNode<T>* temp = nullptr;
 
@@ -184,7 +159,7 @@ BiNode<T> *DoubleNodeList<T>::find(std::size_t position) {
 template<typename T>
 void DoubleNodeList<T>::insert_between(BiNode<T> *first, BiNode<T> *second, const T &value) {
     // location.prev = first = prev, location = second = next
-    BiNode<T>* temp = new BiNode<T>(value, second, first);
+    auto* temp = new BiNode<T>(value, second, first);
 
     // location.prev.next = temp
     first->mNetx = temp;
@@ -202,6 +177,14 @@ void DoubleNodeList<T>::remove_inner(BiNode<T> *first, BiNode<T> *second, BiNode
     first->mNetx = third;
     // location.pre = first
     third->mPrev = first;
+}
+
+template<typename T>
+void DoubleNodeList<T>::clear() {
+    if(empty()){
+        delete mHeadSentinel;
+        delete mTailSentinel;
+    }
 }
 
 
