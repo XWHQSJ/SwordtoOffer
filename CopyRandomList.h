@@ -41,20 +41,20 @@
  * 解释：给定的链表为空（空指针），因此返回 null。
  *
  * 提示：
- * -10000 <= Node.val <= 10000
- * Node.random 为空（null）或指向链表中的节点。
+ * -10000 <= BiNode.val <= 10000
+ * BiNode.random 为空（null）或指向链表中的节点。
  * 节点数目不超过 1000 。
  * */
 
 
-// Definition for a Node
-class Node {
+// Definition for a BiNode
+class BiNode {
 public:
     int val;
-    Node* next;
-    Node* random;
+    BiNode* next;
+    BiNode* random;
 
-    Node(int _val){
+    BiNode(int _val){
         val = _val;
         next = nullptr;
         random = nullptr;
@@ -66,7 +66,7 @@ public:
     /*
      *
      * */
-    Node* copyRandomList(Node* head);
+    BiNode* copyRandomList(BiNode* head);
 };
 
 

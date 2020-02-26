@@ -2,15 +2,14 @@
 // Created by Wanhui on 2/25/20.
 //
 
-#include <stdlib.h>
 #include "CopyRandomList.h"
 
-Node *Solution35::copyRandomList(Node *head) {
+BiNode *Solution35::copyRandomList(BiNode *head) {
     if(head == nullptr){
         return head;
     }
 
-    Node* node = head;
+    BiNode* node = head;
 
 
 
