@@ -47,26 +47,14 @@
  * */
 
 
-// Definition for a BiNode
-class BiNode {
-public:
-    int val;
-    BiNode* next;
-    BiNode* random;
-
-    BiNode(int _val){
-        val = _val;
-        next = nullptr;
-        random = nullptr;
-    }
-};
+#include "DataStruct/BiNode.h"
 
 class Solution35 {
 public:
     /*
      *
      * */
-    BiNode* copyRandomList(BiNode* head);
+    Node* copyRandomList(Node* head);
 };
 
 

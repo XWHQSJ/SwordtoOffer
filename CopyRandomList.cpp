@@ -4,12 +4,12 @@
 
 #include "CopyRandomList.h"
 
-BiNode *Solution35::copyRandomList(BiNode *head) {
+Node *Solution35::copyRandomList(Node *head) {
     if(head == nullptr){
         return head;
     }
 
-    BiNode* node = head;
+    Node* node = head;
 
 
 
