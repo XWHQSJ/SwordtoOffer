@@ -55,6 +55,21 @@ public:
      *
      * */
     Node* copyRandomList(Node* head);
+
+    /*
+     *
+     * */
+    void copyNodes(Node* head);
+
+    /*
+     *
+     * */
+    void connectRandomNode(Node* head);
+
+    /*
+     *
+     * */
+    Node* splitCopyNodeList(Node* head);
 };
 
 
