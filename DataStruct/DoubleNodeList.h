@@ -13,6 +13,7 @@ template <typename T>
 class DoubleNodeList {
 public:
     DoubleNodeList();
+    ~DoubleNodeList();
 
     bool empty() const;
     std::size_t size() const;
@@ -31,8 +32,8 @@ public:
     void pop_back();
 
     void clear();
-//    void sort();
-//
+    void sort();
+
 //    void remove(const T& value);
 //    void assign(const DoubleNodeList& other);
 //    void swap(const DoubleNodeList& other);
@@ -152,8 +153,9 @@ BiNode<T> *DoubleNodeList<T>::find(std::size_t position) {
     temp = mTailSentinel;
     while (position--){
         temp = temp->mPrev;
-        return temp->mPrev;
     }
+
+    return temp->mPrev;
 }
 
 template<typename T>
@@ -181,10 +183,62 @@ void DoubleNodeList<T>::remove_inner(BiNode<T> *first, BiNode<T> *second, BiNode
 
 template<typename T>
 void DoubleNodeList<T>::clear() {
-    if(empty()){
+    if(mSize == 0){
+        return;
+    }
+
+    BiNode<T>* p = mHeadSentinel->mNetx;
+    while (p != mTailSentinel){
+        BiNode<T> *temp = p;
+        p = p->mNetx;
+        delete temp;
+    }
+
+    mHeadSentinel->mNetx = mTailSentinel;
+    mTailSentinel->mPrev = mHeadSentinel;
+    mSize = 0;
+}
+
+template<typename T>
+void DoubleNodeList<T>::sort() {
+    if(mSize <= 1){
+        return;
+    }
+
+    BiNode<T>* p = mHeadSentinel->mNetx;
+
+    for(int i = 0; i < mSize - 1; i++){
+        BiNode<T> *q = p->mNetx;
+        for(int j = i+1; j < mSize; j++){
+            if(p->mData > q->mData){
+                T temp = q->mData;
+                q->mData = p->mData;
+                p->mData = temp;
+            }
+            q = q->mNetx;
+        }
+        p = p->mNetx;
+    }
+}
+
+template<typename T>
+DoubleNodeList<T>::~DoubleNodeList() {
+    if(mSize == 0){
         delete mHeadSentinel;
         delete mTailSentinel;
+        mHeadSentinel = nullptr;
+        mTailSentinel = nullptr;
+        return;
     }
+
+    while (mHeadSentinel->mNetx != nullptr){
+        BiNode<T> *temp = mHeadSentinel;
+        mHeadSentinel = mHeadSentinel->mNetx;
+        delete temp;
+    }
+
+    delete mHeadSentinel;
+    mHeadSentinel = nullptr;
 }
 
 
