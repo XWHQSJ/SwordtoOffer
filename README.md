@@ -16,8 +16,9 @@
 ├── CuttingRopeII.cpp
 ├── CuttingRopeII.h    剑指offer 14-2 剪绳子II
 ├── DataStruct
-│   ├── ListNode.cpp    
-│   └── ListNode.h    数据结构 链表
+│   ├── test.cpp    双向链表的测试
+│   ├── BiNode.h    数据结构 双向节点
+│   └── DoubleListNode.h    数据结构 双向链表
 ├── DeleteNode.cpp
 ├── DeleteNode.h    剑指offer 18 删除链表的节点
 ├── Exchange.cpp
