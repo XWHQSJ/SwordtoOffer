@@ -32,10 +32,11 @@
 #include "IsMatch.h"
 #include "IsNumber.h"
 #include "ValidateStackSequences.h"
-#include "CopyRandomList.h"
+#include "Permutation.h"
 //#include "ReverseList.h"
 //#include "MergeTwoLists.h"
 //#include "GetIntersectionNode.h"
+//#include "CopyRandomList.h"
 
 using namespace std;
 
@@ -333,7 +334,14 @@ int main() {
 
 
     // CopyRandomList.cpp test
-    Solution35 solution35;
+//    Solution35 solution35;
+
+
+    // Permutation.cpp test
+    Solution38 solution38;
+    std::string string1 = "abc";
+    std::vector<std::string> res = solution38.permutation(string1);
+    std::cout << "res[0] : " << res[0] << std::endl;
 
 
     // NthUglyNumber.cpp test
