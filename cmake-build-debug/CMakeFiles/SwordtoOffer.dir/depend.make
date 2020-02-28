@@ -47,6 +47,9 @@ CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o: ../GetIntersectionNode.h
 CMakeFiles/SwordtoOffer.dir/GetKthFromEnd.cpp.o: ../GetKthFromEnd.cpp
 CMakeFiles/SwordtoOffer.dir/GetKthFromEnd.cpp.o: ../GetKthFromEnd.h
 
+CMakeFiles/SwordtoOffer.dir/GetLeastNumbers.cpp.o: ../GetLeastNumbers.cpp
+CMakeFiles/SwordtoOffer.dir/GetLeastNumbers.cpp.o: ../GetLeastNumbers.h
+
 CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o: ../HammingWeight.cpp
 CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o: ../HammingWeight.h
 
@@ -116,6 +119,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Exist.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Fibonacci.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../FindNumberIn2DArray.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../FindRepeatNumber.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../GetLeastNumbers.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../HammingWeight.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsMatch.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsNumber.h

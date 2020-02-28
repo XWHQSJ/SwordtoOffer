@@ -35,6 +35,7 @@
 #include "Permutation.h"
 #include "MinStack.h"
 #include "MajorityElement.h"
+#include "GetLeastNumbers.h"
 //#include "ReverseList.h"
 //#include "MergeTwoLists.h"
 //#include "GetIntersectionNode.h"
@@ -374,6 +375,21 @@ int main() {
     index = solution39.majorityElement5(nums4);
     std::cout << "index is " << index << std::endl;
 
+
+    // GetLeastNumbers.cpp test
+    Solution40 solution40;
+    std::vector<int> arr1 = {3, 2, 1};
+    int k3 = 2;
+    std::vector<int> res1 = solution40.getLeastNumbers(arr1, k3);
+    for (auto num : res1) {
+        std::cout << "num = " << num << std::ends;
+    }
+    std::cout << std::endl;
+    res1 = solution40.getLeastNumbers2(arr1, k3);
+    for (auto num : res1) {
+        std::cout << "num = " << num << std::ends;
+    }
+    std::cout << std::endl;
 
     // NthUglyNumber.cpp test
     Solution49 solution49;

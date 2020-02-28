@@ -47,6 +47,9 @@ CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o
 CMakeFiles/SwordtoOffer.dir/GetKthFromEnd.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/GetKthFromEnd.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/GetKthFromEnd.h
+CMakeFiles/SwordtoOffer.dir/GetLeastNumbers.cpp.o
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.h
 CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.h
@@ -117,6 +120,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Fibonacci.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/FindNumberIn2DArray.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/FindRepeatNumber.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsMatch.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.h

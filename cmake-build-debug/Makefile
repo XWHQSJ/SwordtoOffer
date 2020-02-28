@@ -474,6 +474,33 @@ GetKthFromEnd.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/GetKthFromEnd.cpp.s
 .PHONY : GetKthFromEnd.cpp.s
 
+GetLeastNumbers.o: GetLeastNumbers.cpp.o
+
+.PHONY : GetLeastNumbers.o
+
+# target to build an object file
+GetLeastNumbers.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/GetLeastNumbers.cpp.o
+.PHONY : GetLeastNumbers.cpp.o
+
+GetLeastNumbers.i: GetLeastNumbers.cpp.i
+
+.PHONY : GetLeastNumbers.i
+
+# target to preprocess a source file
+GetLeastNumbers.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/GetLeastNumbers.cpp.i
+.PHONY : GetLeastNumbers.cpp.i
+
+GetLeastNumbers.s: GetLeastNumbers.cpp.s
+
+.PHONY : GetLeastNumbers.s
+
+# target to generate assembly for a file
+GetLeastNumbers.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/GetLeastNumbers.cpp.s
+.PHONY : GetLeastNumbers.cpp.s
+
 HammingWeight.o: HammingWeight.cpp.o
 
 .PHONY : HammingWeight.o
@@ -1035,6 +1062,9 @@ help:
 	@echo "... GetKthFromEnd.o"
 	@echo "... GetKthFromEnd.i"
 	@echo "... GetKthFromEnd.s"
+	@echo "... GetLeastNumbers.o"
+	@echo "... GetLeastNumbers.i"
+	@echo "... GetLeastNumbers.s"
 	@echo "... HammingWeight.o"
 	@echo "... HammingWeight.i"
 	@echo "... HammingWeight.s"

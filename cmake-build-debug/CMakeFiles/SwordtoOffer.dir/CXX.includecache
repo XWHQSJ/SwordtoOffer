@@ -38,6 +38,18 @@ vector
 vector
 -
 
+/home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.cpp
+algorithm
+-
+queue
+-
+GetLeastNumbers.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.h
+vector
+-
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.h
 cstdint
 -
@@ -49,18 +61,6 @@ string
 /home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.h
 string
 -
-
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.cpp
-cassert
--
-map
--
-unordered_map
--
-algorithm
--
-MajorityElement.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
 vector
@@ -165,4 +165,6 @@ MinStack.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.h
 MajorityElement.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
+GetLeastNumbers.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.h
 

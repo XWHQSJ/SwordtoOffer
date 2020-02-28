@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/GetKthFromEnd.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/GetLeastNumbers.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsMatch.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o"

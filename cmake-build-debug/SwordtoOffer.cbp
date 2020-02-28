@@ -182,6 +182,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/GetKthFromEnd.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>
