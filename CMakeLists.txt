@@ -59,4 +59,5 @@ add_executable(SwordtoOffer
         IsNumber.cpp IsNumber.h
         ValidateStackSequences.cpp ValidateStackSequences.h
         Permutation.cpp Permutation.h
-        MinStack.cpp MinStack.h)
+        MinStack.cpp MinStack.h
+        )
