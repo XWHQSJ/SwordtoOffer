@@ -6,6 +6,7 @@
 #include <queue>
 #include "GetLeastNumbers.h"
 
+// sort()函数
 std::vector<int> Solution40::getLeastNumbers(std::vector<int> &arr, int k) {
     std::sort(arr.begin(), arr.end());
 
@@ -17,6 +18,7 @@ std::vector<int> Solution40::getLeastNumbers(std::vector<int> &arr, int k) {
     return res;
 }
 
+// 大顶堆法
 std::vector<int> Solution40::getLeastNumbers2(std::vector<int> &arr, int k) {
     // 定义大顶堆
     std::priority_queue<int, std::vector<int>, std::less<>> que;
