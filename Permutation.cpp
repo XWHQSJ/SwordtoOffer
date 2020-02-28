@@ -21,7 +21,7 @@ std::vector<std::string> Solution38::permutation(std::string s) {
     return res;
 }
 
-void Solution38::backtrack(std::vector<std::string> &res, std::string s, std::string &track, std::vector<bool> &visit) {
+void Solution38::backtrack(std::vector<std::string> &res, std::string s, std::string &track, std::vector<bool> &visited) {
     // 回溯结束条件
     if(track.size() == s.size()){
         res.push_back(track);
@@ -31,22 +31,22 @@ void Solution38::backtrack(std::vector<std::string> &res, std::string s, std::st
     // 选择和选择列表
     for(int i = 0; i < s.size(); i++){
         // 排除不合法的选择
-        if(visit[i]){
+        if(visited[i]){
             continue;
         }
 
-        if(i > 0 && !visit[i-1] && s[i-1] == s[i]){
+        if(i > 0 && !visited[i-1] && s[i-1] == s[i]){
             continue;
         }
-        visit[i] = true;
+        visited[i] = true;
 
         // 做选择
         track.push_back(s[i]);
         // 进入下一次决策树
-        backtrack(res, s, track, visit);
+        backtrack(res, s, track, visited);
         // 撤销选择
         track.pop_back();
-        visit[i] = false;
+        visited[i] = false;
     }
 }
 

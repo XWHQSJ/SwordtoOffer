@@ -81,7 +81,7 @@ public:
      * 节点未遍历且相邻字符不是重复字符时，
      * 则将该字符加入排列字符串中，依次递归遍历。
      * */
-    void backtrack(std::vector<std::string> &res, std::string s, std::string &track, std::vector<bool> &visit);
+    void backtrack(std::vector<std::string> &res, std::string s, std::string &track, std::vector<bool> &visited);
 
 
     /*

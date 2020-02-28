@@ -2,6 +2,7 @@
 // Created by Wanhui on 2/25/20.
 //
 
+#include <map>
 #include "CopyRandomList.h"
 
 Node *Solution35::copyRandomList(Node *head) {
@@ -68,4 +69,16 @@ Node *Solution35::splitCopyNodeList(Node *head) {
     }
 
     return copyHead;
+}
+
+
+
+Node *Solution35::copyRandomList2(Node *head) {
+    std::map<Node*, Node*> visited;
+    visited[nullptr] = nullptr;
+}
+
+
+Node *Solution35::copyRandomList3(Node *head) {
+    return nullptr;
 }

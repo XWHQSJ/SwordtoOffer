@@ -81,6 +81,21 @@ public:
      * 拆分复制链表
      * */
     Node* splitCopyNodeList(Node* head);
+
+
+    /*
+     * 哈希表法
+     *
+     * */
+    Node* copyRandomList2(Node* head);
+
+
+
+    /*
+     * 回溯法
+     *
+     * */
+    Node* copyRandomList3(Node* head);
 };
 
 
