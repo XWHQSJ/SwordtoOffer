@@ -76,6 +76,20 @@ Node *Solution35::splitCopyNodeList(Node *head) {
 Node *Solution35::copyRandomList2(Node *head) {
     std::map<Node*, Node*> visited;
     visited[nullptr] = nullptr;
+
+    Node* prev = nullptr;
+    Node* node = head;
+
+    while (node != nullptr){
+        Node* newNode = new Node(0);
+        visited[node] = newNode;
+        node = node->next;
+    }
+
+    node = head;
+    while (node!= nullptr){
+
+    }
 }
 
 
