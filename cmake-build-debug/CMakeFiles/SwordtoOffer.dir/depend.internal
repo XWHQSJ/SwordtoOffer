@@ -67,6 +67,9 @@ CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o
 CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.h
+CMakeFiles/SwordtoOffer.dir/MinStack.cpp.o
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.h
 CMakeFiles/SwordtoOffer.dir/MovingCount.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MovingCount.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MovingCount.h
@@ -116,6 +119,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MovingCount.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MyPow.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/NthUglyNumber.h

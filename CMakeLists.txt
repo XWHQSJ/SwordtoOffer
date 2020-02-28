@@ -13,7 +13,9 @@ add_executable(SwordtoOffer
         # 数据结构 —— 链表
         DataStruct/BiNode.h
         DataStruct/DoubleNodeList.h
-#        DataStruct/test.cpp
+        DataStruct/Node.h
+        DataStruct/SingleNodeList.h
+        #        DataStruct/test.cpp
 
         # 数据结构 —— 二叉树
 #                DataStruct/BinaryTree.h
@@ -57,4 +59,4 @@ add_executable(SwordtoOffer
         IsNumber.cpp IsNumber.h
         ValidateStackSequences.cpp ValidateStackSequences.h
         Permutation.cpp Permutation.h
-        DataStruct/Node.h DataStruct/SingleNodeList.h)
+        MinStack.cpp MinStack.h)

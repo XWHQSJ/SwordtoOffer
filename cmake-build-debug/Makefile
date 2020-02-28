@@ -636,6 +636,33 @@ MinArray.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MinArray.cpp.s
 .PHONY : MinArray.cpp.s
 
+MinStack.o: MinStack.cpp.o
+
+.PHONY : MinStack.o
+
+# target to build an object file
+MinStack.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MinStack.cpp.o
+.PHONY : MinStack.cpp.o
+
+MinStack.i: MinStack.cpp.i
+
+.PHONY : MinStack.i
+
+# target to preprocess a source file
+MinStack.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MinStack.cpp.i
+.PHONY : MinStack.cpp.i
+
+MinStack.s: MinStack.cpp.s
+
+.PHONY : MinStack.s
+
+# target to generate assembly for a file
+MinStack.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MinStack.cpp.s
+.PHONY : MinStack.cpp.s
+
 MovingCount.o: MovingCount.cpp.o
 
 .PHONY : MovingCount.o
@@ -999,6 +1026,9 @@ help:
 	@echo "... MinArray.o"
 	@echo "... MinArray.i"
 	@echo "... MinArray.s"
+	@echo "... MinStack.o"
+	@echo "... MinStack.i"
+	@echo "... MinStack.s"
 	@echo "... MovingCount.o"
 	@echo "... MovingCount.i"
 	@echo "... MovingCount.s"

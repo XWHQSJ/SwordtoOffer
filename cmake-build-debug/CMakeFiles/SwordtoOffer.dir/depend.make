@@ -67,6 +67,9 @@ CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../MergeTwoLists.h
 CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o: ../MinArray.cpp
 CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o: ../MinArray.h
 
+CMakeFiles/SwordtoOffer.dir/MinStack.cpp.o: ../MinStack.cpp
+CMakeFiles/SwordtoOffer.dir/MinStack.cpp.o: ../MinStack.h
+
 CMakeFiles/SwordtoOffer.dir/MovingCount.cpp.o: ../MovingCount.cpp
 CMakeFiles/SwordtoOffer.dir/MovingCount.cpp.o: ../MovingCount.h
 
@@ -115,6 +118,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsMatch.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsNumber.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Median.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinArray.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinStack.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MovingCount.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MyPow.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../NthUglyNumber.h

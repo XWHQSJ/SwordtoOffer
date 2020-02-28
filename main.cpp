@@ -33,6 +33,7 @@
 #include "IsNumber.h"
 #include "ValidateStackSequences.h"
 #include "Permutation.h"
+#include "MinStack.h"
 //#include "ReverseList.h"
 //#include "MergeTwoLists.h"
 //#include "GetIntersectionNode.h"
@@ -323,6 +324,17 @@ int main() {
 
     // MergeTwoLists.cpp test
 //    Solution25 solution25;
+
+
+    // MinStack.cpp test
+    Solution30 solution30;
+    solution30.push(-2);
+    solution30.push(0);
+    solution30.push(-3);
+    std::cout << "min is " << solution30.min() << std::endl;
+    solution30.pop();
+    std::cout << "top is " << solution30.top() << std::endl;
+    std::cout << "min is " << solution30.min() << std::endl;
 
 
     // ValidateStackSequences.cpp test
