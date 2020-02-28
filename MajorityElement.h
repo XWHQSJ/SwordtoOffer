@@ -31,14 +31,14 @@ public:
      * 使用unordered_map实现哈希表映射，
      * 它是C++的STL中的的hash表实现函数
      * */
-    int majorityElement(std::vector<int>& nums);
+    int majorityElement(std::vector<int> &nums);
 
     /*
      * 方法二 排序法
      *
      * 先将数字排序，再取中间值
      * */
-    int majorityElement2(std::vector<int>& nums);
+    int majorityElement2(std::vector<int> &nums);
 
     /*
      * 方法三 分治法
@@ -51,8 +51,9 @@ public:
      * 如果它们的众数相同，那么显然这一段区间的众数是它们相同的值。
      * 否则，我们需要比较两个众数在整个区间内出现的次数来决定该区间的众数。
      * */
-    int majorityElement3(std::vector<int>& nums);
-    int majority(std::vector<int>& nums, int left, int right);
+    int majorityElement3(std::vector<int> &nums);
+
+    int majority(std::vector<int> &nums, int left, int right);
 
     /*
      * 方法四 摩尔投票法
@@ -65,7 +66,7 @@ public:
      * 而对于这道题，我们只需要利用上边的思想，
      * 把数组的每个数都看做队伍编号，然后模拟游戏过程即可。
      * */
-    int majorityElement4(std::vector<int>& nums);
+    int majorityElement4(std::vector<int> &nums);
 
     /*
      * 方法五 比特操作法
@@ -89,7 +90,7 @@ public:
      * 可以只统计 1 的个数，让每一位开始默认为 0，
      * 如果发现某一列的 1 的个数超过半数，就将当前位改为 1。
      * */
-    int majorityElement5(std::vector<int>& nums);
+    int majorityElement5(std::vector<int> &nums);
 };
 
 

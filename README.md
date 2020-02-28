@@ -83,6 +83,8 @@
 └── Permutation.h    剑指offer 38 字符串的排列
 ├── MinStack.cpp
 └── MinStack.h    剑指offer 30 包含min函数的栈
+├── MajorityElement.cpp
+└── MajorityElement.h    剑指offer 39 数组中出现次数超过一半的数字
 ├── ReversePrint.cpp
 └── ReversePrint.h    剑指offer 06 从尾到头打印链表
 

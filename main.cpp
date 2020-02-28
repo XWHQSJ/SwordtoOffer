@@ -360,7 +360,7 @@ int main() {
     // MajorityElement.cpp test
     Solution39 solution39;
     std::vector<int> nums3 = {1, 2, 3, 2, 2, 2, 5, 4, 2};
-    std::vector<int> nums4 = {3, 2,3};
+    std::vector<int> nums4 = {3, 2, 3};
     int index = solution39.majorityElement(nums3);
     std::cout << "index is " << index << std::endl;
     index = solution39.majorityElement(nums4);
