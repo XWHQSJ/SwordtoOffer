@@ -9,7 +9,8 @@ CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o: ../CQueue.h
 
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../CopyRandomList.cpp
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../CopyRandomList.h
-CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../DataStruct/BiNode.h
+CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../DataStruct/Node.h
+CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../DataStruct/SingleNodeList.h
 
 CMakeFiles/SwordtoOffer.dir/CuttingRopeI.cpp.o: ../CuttingRopeI.cpp
 CMakeFiles/SwordtoOffer.dir/CuttingRopeI.cpp.o: ../CuttingRopeI.h
@@ -17,8 +18,8 @@ CMakeFiles/SwordtoOffer.dir/CuttingRopeI.cpp.o: ../CuttingRopeI.h
 CMakeFiles/SwordtoOffer.dir/CuttingRopeII.cpp.o: ../CuttingRopeII.cpp
 CMakeFiles/SwordtoOffer.dir/CuttingRopeII.cpp.o: ../CuttingRopeII.h
 
-CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o: ../DataStruct/BiNode.h
-CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o: ../DataStruct/DoubleNodeList.h
+CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o: ../DataStruct/Node.h
+CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o: ../DataStruct/SingleNodeList.h
 CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o: ../DeleteNode.cpp
 CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o: ../DeleteNode.h
 
@@ -38,8 +39,8 @@ CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o: ../FindRepeatNumber.cpp
 CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o: ../FindRepeatNumber.h
 CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o: ../QuadSort.h
 
-CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o: ../DataStruct/BiNode.h
-CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o: ../DataStruct/DoubleNodeList.h
+CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o: ../DataStruct/Node.h
+CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o: ../DataStruct/SingleNodeList.h
 CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o: ../GetIntersectionNode.cpp
 CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o: ../GetIntersectionNode.h
 
@@ -58,8 +59,8 @@ CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o: ../IsNumber.h
 CMakeFiles/SwordtoOffer.dir/Median.cpp.o: ../Median.cpp
 CMakeFiles/SwordtoOffer.dir/Median.cpp.o: ../Median.h
 
-CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../DataStruct/BiNode.h
-CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../DataStruct/DoubleNodeList.h
+CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../DataStruct/Node.h
+CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../DataStruct/SingleNodeList.h
 CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../MergeTwoLists.cpp
 CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../MergeTwoLists.h
 
@@ -87,13 +88,13 @@ CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o: ../PrintNumbers.h
 CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o: ../ReplaceSpace.cpp
 CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o: ../ReplaceSpace.h
 
-CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../DataStruct/BiNode.h
-CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../DataStruct/DoubleNodeList.h
+CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../DataStruct/Node.h
+CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../DataStruct/SingleNodeList.h
 CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../ReverseList.cpp
 CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../ReverseList.h
 
-CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../DataStruct/BiNode.h
-CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../DataStruct/DoubleNodeList.h
+CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../DataStruct/Node.h
+CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../DataStruct/SingleNodeList.h
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.cpp
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.h
 

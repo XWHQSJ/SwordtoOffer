@@ -47,7 +47,7 @@
  * */
 
 
-#include "DataStruct/BiNode.h"
+#include "DataStruct/SingleNodeList.h"
 
 class Solution35 {
 public:

@@ -57,4 +57,4 @@ add_executable(SwordtoOffer
         IsNumber.cpp IsNumber.h
         ValidateStackSequences.cpp ValidateStackSequences.h
         Permutation.cpp Permutation.h
-        )
+        DataStruct/Node.h DataStruct/SingleNodeList.h)

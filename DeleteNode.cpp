@@ -2,7 +2,6 @@
 // Created by Wanhui on 2/19/20.
 //
 
-#include <malloc.h>
 #include "DeleteNode.h"
 
 ListNode *Solution18::deleteNode(ListNode *head, int val) {

@@ -32,7 +32,7 @@
  * */
 
 
-#include "DataStruct/DoubleNodeList.h"
+#include "DataStruct/SingleNodeList.h"
 
 class Solution18 {
 public:

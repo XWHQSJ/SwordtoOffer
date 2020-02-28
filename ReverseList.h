@@ -19,7 +19,7 @@
  * */
 
 
-#include "DataStruct/DoubleNodeList.h"
+#include "DataStruct/SingleNodeList.h"
 
 class Solution24 {
 public:

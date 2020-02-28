@@ -1,0 +1,11 @@
+//
+// Created by Wanhui on 2/28/20.
+//
+
+#ifndef SWORDTOOFFER_SINGLENODELIST_H
+#define SWORDTOOFFER_SINGLENODELIST_H
+
+#include "Node.h"
+
+
+#endif //SWORDTOOFFER_SINGLENODELIST_H

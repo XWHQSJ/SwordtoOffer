@@ -20,7 +20,7 @@
  * */
 
 #include <vector>
-#include "DataStruct/DoubleNodeList.h"
+#include "DataStruct/SingleNodeList.h"
 
 class Solution06 {
 public:
@@ -48,7 +48,7 @@ public:
      * 设置为引用&表示传入的数组(实参)与函数内使用的数组(形参)指向相同的内存空间
      * 因此函数内数组的值改变，函数外的数组值也会改变
      */
-    static void reverse(ListNode* head, std::vector<int>& vec);
+    void reverse(ListNode* head, std::vector<int>& vec);
 };
 
 
