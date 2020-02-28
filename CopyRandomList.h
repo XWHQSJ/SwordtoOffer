@@ -52,22 +52,33 @@
 class Solution35 {
 public:
     /*
+     * 分解法
      *
+     * A->A'->B->B'->C->C'->D->D'->E->E'
+     * |_____R|_______|R    |      |R
+     *        |_____________|______|
+     *        |_____________|
+     *
+     * 1. 根据原链表的value和next对原链表进行复制，
+     *    复制的节点在原节点之后，此步未处理random指针
+     * 2. 遍历链表，复制每个节点的random指针
+     * 3. 将复制后的链表拆分为原链表和复制链表。
      * */
     Node* copyRandomList(Node* head);
 
     /*
-     *
+     * 复制原链表的节点，
+     * 复制节点接在原节点之后
      * */
     void copyNodes(Node* head);
 
     /*
-     *
+     * 遍历链表，复制random指针
      * */
     void connectRandomNode(Node* head);
 
     /*
-     *
+     * 拆分复制链表
      * */
     Node* splitCopyNodeList(Node* head);
 };

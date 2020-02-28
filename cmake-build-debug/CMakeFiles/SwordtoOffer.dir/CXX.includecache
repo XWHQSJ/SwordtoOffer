@@ -73,8 +73,6 @@ queue
 /home/Wanhui/Workspace/Clion/SwordtoOffer/NumWays.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/Permutation.cpp
-sstream
--
 algorithm
 -
 Permutation.h
@@ -82,6 +80,8 @@ Permutation.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/Permutation.h
 string
+-
+set
 -
 vector
 -
