@@ -34,6 +34,7 @@
 #include "ValidateStackSequences.h"
 #include "Permutation.h"
 #include "MinStack.h"
+#include "MajorityElement.h"
 //#include "ReverseList.h"
 //#include "MergeTwoLists.h"
 //#include "GetIntersectionNode.h"
@@ -354,6 +355,24 @@ int main() {
     std::string string1 = "abc";
     std::vector<std::string> res = solution38.permutation(string1);
     std::cout << "res[0] : " << res[0] << std::endl;
+
+
+    // MajorityElement.cpp test
+    Solution39 solution39;
+    std::vector<int> nums3 = {1, 2, 3, 2, 2, 2, 5, 4, 2};
+    std::vector<int> nums4 = {3, 2,3};
+    int index = solution39.majorityElement(nums3);
+    std::cout << "index is " << index << std::endl;
+    index = solution39.majorityElement(nums4);
+    std::cout << "index is " << index << std::endl;
+    index = solution39.majorityElement2(nums4);
+    std::cout << "index is " << index << std::endl;
+    index = solution39.majorityElement3(nums4);
+    std::cout << "index is " << index << std::endl;
+    index = solution39.majorityElement4(nums4);
+    std::cout << "index is " << index << std::endl;
+    index = solution39.majorityElement5(nums4);
+    std::cout << "index is " << index << std::endl;
 
 
     // NthUglyNumber.cpp test

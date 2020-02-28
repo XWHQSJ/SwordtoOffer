@@ -200,6 +200,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/Median.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

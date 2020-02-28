@@ -56,6 +56,9 @@ CMakeFiles/SwordtoOffer.dir/IsMatch.cpp.o
 CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.h
+CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
 CMakeFiles/SwordtoOffer.dir/Median.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.h
@@ -117,6 +120,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsMatch.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.h

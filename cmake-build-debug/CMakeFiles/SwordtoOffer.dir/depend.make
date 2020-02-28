@@ -56,6 +56,9 @@ CMakeFiles/SwordtoOffer.dir/IsMatch.cpp.o: ../IsMatch.h
 CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o: ../IsNumber.cpp
 CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o: ../IsNumber.h
 
+CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o: ../MajorityElement.cpp
+CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o: ../MajorityElement.h
+
 CMakeFiles/SwordtoOffer.dir/Median.cpp.o: ../Median.cpp
 CMakeFiles/SwordtoOffer.dir/Median.cpp.o: ../Median.h
 
@@ -116,6 +119,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../FindRepeatNumber.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../HammingWeight.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsMatch.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsNumber.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MajorityElement.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Median.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinArray.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinStack.h

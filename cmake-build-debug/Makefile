@@ -555,6 +555,33 @@ IsNumber.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.s
 .PHONY : IsNumber.cpp.s
 
+MajorityElement.o: MajorityElement.cpp.o
+
+.PHONY : MajorityElement.o
+
+# target to build an object file
+MajorityElement.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o
+.PHONY : MajorityElement.cpp.o
+
+MajorityElement.i: MajorityElement.cpp.i
+
+.PHONY : MajorityElement.i
+
+# target to preprocess a source file
+MajorityElement.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.i
+.PHONY : MajorityElement.cpp.i
+
+MajorityElement.s: MajorityElement.cpp.s
+
+.PHONY : MajorityElement.s
+
+# target to generate assembly for a file
+MajorityElement.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.s
+.PHONY : MajorityElement.cpp.s
+
 Median.o: Median.cpp.o
 
 .PHONY : Median.o
@@ -1017,6 +1044,9 @@ help:
 	@echo "... IsNumber.o"
 	@echo "... IsNumber.i"
 	@echo "... IsNumber.s"
+	@echo "... MajorityElement.o"
+	@echo "... MajorityElement.i"
+	@echo "... MajorityElement.s"
 	@echo "... Median.o"
 	@echo "... Median.i"
 	@echo "... Median.s"

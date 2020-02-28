@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsMatch.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/Median.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o"

@@ -50,6 +50,22 @@ string
 string
 -
 
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.cpp
+cassert
+-
+map
+-
+unordered_map
+-
+algorithm
+-
+MajorityElement.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
+vector
+-
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.h
 vector
 -
@@ -57,12 +73,6 @@ vector
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.h
 vector
 -
-
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.cpp
-cassert
--
-MinStack.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.h
 vector
@@ -153,4 +163,6 @@ Permutation.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/Permutation.h
 MinStack.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.h
+MajorityElement.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
 
