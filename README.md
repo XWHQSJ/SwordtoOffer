@@ -70,6 +70,8 @@
 │   ├── 复杂链表的复制1.png
 │   ├── 复杂链表的复制2.png
 │   ├── 复杂链表的复制3.png
+│   ├── 复杂链表的复制回溯法1.png
+│   ├── 复杂链表的复制回溯法2.png
 │   └── 有限状态机.png
 ├── ReverseList.cpp
 ├── ReverseList.h    剑指offer 24 反转链表
