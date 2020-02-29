@@ -7,6 +7,7 @@
  * */
 
 #include <iostream>
+#include "DataStruct/SingleNodeList.h"
 #include "FindNumberIn2DArray.h"
 #include "Median.h"
 #include "ReplaceSpace.h"
@@ -107,7 +108,18 @@ int main() {
 
     // ReversePrint.cpp test
     Solution06 solution06;
-
+    ListNode* node1 = new ListNode(1);
+    ListNode* node2 = new ListNode(3);
+    ListNode* node3 = new ListNode(2);
+    SingleNodeList* singleNodeList = new SingleNodeList();
+    singleNodeList->insertTail(node1);
+    singleNodeList->insertTail(node2);
+    singleNodeList->insertTail(node3);
+    std::vector<int> result = solution06.reversePrint(node2);
+    for(auto num : result){
+        std::cout << "result is " << num<< std::ends;
+    }
+    std::cout << std::endl;
 
 
     // BuildTree.cpp test

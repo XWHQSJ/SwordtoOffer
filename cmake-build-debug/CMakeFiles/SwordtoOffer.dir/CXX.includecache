@@ -14,12 +14,6 @@ vector
 stack
 -
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.cpp
-map
--
-CopyRandomList.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.h
 DataStruct/Node.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
@@ -30,9 +24,9 @@ DataStruct/Node.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/DeleteNode.cpp
-DeleteNode.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/DeleteNode.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/SingleNodeList.h
+Node.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DeleteNode.h
 DataStruct/Node.h
@@ -57,10 +51,6 @@ vector
 /home/Wanhui/Workspace/Clion/SwordtoOffer/FindRepeatNumber.h
 vector
 -
-
-/home/Wanhui/Workspace/Clion/SwordtoOffer/GetIntersectionNode.cpp
-GetIntersectionNode.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/GetIntersectionNode.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/GetIntersectionNode.h
 DataStruct/Node.h
@@ -106,12 +96,6 @@ queue
 set
 -
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MergeTwoLists.cpp
-cstdlib
--
-MergeTwoLists.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MergeTwoLists.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MergeTwoLists.h
 DataStruct/Node.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
@@ -154,10 +138,6 @@ vector
 string
 -
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.cpp
-ReverseList.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.h
 DataStruct/Node.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
@@ -175,6 +155,8 @@ vector
 /home/Wanhui/Workspace/Clion/SwordtoOffer/main.cpp
 iostream
 -
+DataStruct/SingleNodeList.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/SingleNodeList.h
 FindNumberIn2DArray.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/FindNumberIn2DArray.h
 Median.h
