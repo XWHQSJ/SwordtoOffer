@@ -218,6 +218,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/Median.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MergeTwoLists.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

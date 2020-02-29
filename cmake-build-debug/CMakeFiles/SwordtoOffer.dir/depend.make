@@ -65,6 +65,9 @@ CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o: ../MajorityElement.h
 CMakeFiles/SwordtoOffer.dir/Median.cpp.o: ../Median.cpp
 CMakeFiles/SwordtoOffer.dir/Median.cpp.o: ../Median.h
 
+CMakeFiles/SwordtoOffer.dir/MedianFinder.cpp.o: ../MedianFinder.cpp
+CMakeFiles/SwordtoOffer.dir/MedianFinder.cpp.o: ../MedianFinder.h
+
 CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../DataStruct/Node.h
 CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../DataStruct/SingleNodeList.h
 CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../MergeTwoLists.cpp
@@ -125,6 +128,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsMatch.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsNumber.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MajorityElement.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Median.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MedianFinder.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinArray.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinStack.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MovingCount.h

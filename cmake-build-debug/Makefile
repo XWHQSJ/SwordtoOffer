@@ -636,6 +636,33 @@ Median.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/Median.cpp.s
 .PHONY : Median.cpp.s
 
+MedianFinder.o: MedianFinder.cpp.o
+
+.PHONY : MedianFinder.o
+
+# target to build an object file
+MedianFinder.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MedianFinder.cpp.o
+.PHONY : MedianFinder.cpp.o
+
+MedianFinder.i: MedianFinder.cpp.i
+
+.PHONY : MedianFinder.i
+
+# target to preprocess a source file
+MedianFinder.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MedianFinder.cpp.i
+.PHONY : MedianFinder.cpp.i
+
+MedianFinder.s: MedianFinder.cpp.s
+
+.PHONY : MedianFinder.s
+
+# target to generate assembly for a file
+MedianFinder.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MedianFinder.cpp.s
+.PHONY : MedianFinder.cpp.s
+
 MergeTwoLists.o: MergeTwoLists.cpp.o
 
 .PHONY : MergeTwoLists.o
@@ -1080,6 +1107,9 @@ help:
 	@echo "... Median.o"
 	@echo "... Median.i"
 	@echo "... Median.s"
+	@echo "... MedianFinder.o"
+	@echo "... MedianFinder.i"
+	@echo "... MedianFinder.s"
 	@echo "... MergeTwoLists.o"
 	@echo "... MergeTwoLists.i"
 	@echo "... MergeTwoLists.s"

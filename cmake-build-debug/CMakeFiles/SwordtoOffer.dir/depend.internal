@@ -65,6 +65,9 @@ CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o
 CMakeFiles/SwordtoOffer.dir/Median.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.h
+CMakeFiles/SwordtoOffer.dir/MedianFinder.cpp.o
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.h
 CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/SingleNodeList.h
@@ -126,6 +129,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MovingCount.h

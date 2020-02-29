@@ -18,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/Median.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/MedianFinder.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MinStack.cpp.o"

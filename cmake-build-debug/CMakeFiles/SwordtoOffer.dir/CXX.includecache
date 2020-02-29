@@ -38,14 +38,6 @@ vector
 vector
 -
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.cpp
-algorithm
--
-queue
--
-GetLeastNumbers.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.h
 vector
 -
@@ -67,6 +59,18 @@ vector
 -
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.h
+vector
+-
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.cpp
+algorithm
+-
+cassert
+-
+MedianFinder.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.h
 vector
 -
 
@@ -167,4 +171,6 @@ MajorityElement.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
 GetLeastNumbers.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.h
+MedianFinder.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.h
 

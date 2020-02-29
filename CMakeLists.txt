@@ -61,4 +61,5 @@ add_executable(SwordtoOffer
         Permutation.cpp Permutation.h
         MinStack.cpp MinStack.h
         MajorityElement.cpp MajorityElement.h
-        GetLeastNumbers.cpp GetLeastNumbers.h)
+        GetLeastNumbers.cpp GetLeastNumbers.h
+        MedianFinder.cpp MedianFinder.h)
