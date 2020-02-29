@@ -53,8 +53,12 @@ int Solution39::majority(std::vector<int> &nums, int left, int right) {
     }
 
     // 计算它们的个数，并返回相应的数
-    return std::count(nums.begin() + left, nums.begin() + right + 1, leftmaj) >
-           std::count(nums.begin() + 1, nums.begin() + right + 1, rightmaj) ? leftmaj : rightmaj;
+    if(std::count(nums.begin() + left, nums.begin() + right + 1, leftmaj) >
+       std::count(nums.begin() + 1, nums.begin() + right + 1, rightmaj)){
+        return leftmaj;
+    } else{
+        return rightmaj;
+    }
 }
 
 

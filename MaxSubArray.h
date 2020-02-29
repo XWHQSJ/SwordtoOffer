@@ -32,7 +32,7 @@
 class Solution42 {
 public:
     /*
-     * 方法一 规律法
+     * 方法一 贪心法 O(n)
      *
      * 当叠加的和小于0时，就从下一个数重新开始，
      * 同时更新最大和的值(最大值可能为其中某个值)，
@@ -50,12 +50,29 @@ public:
     int maxSubArray(std::vector<int>& nums);
 
     /*
-     * 方法二 动态规划
+     * 方法二 分治法 O(nlogn)
      *
+     * 分治法模板：
+     * 1. 定义基本情况
+     * 2. 将问题分解为子问题并递归解决子问题
+     * 3. 合并子问题的解以获得原始问题的解
      *
+     * 将nums由中点mid分为三种情况：
+     * 1. 最大子串在左边
+     * 2. 最大子串在右边
+     * 3. 最大子串跨中点，左右都有
      *
+     * 当子串在左边或右边时，继续分中点递归分解到一个数为止，
+     * 对于递归后横跨的子串，再分治为左侧和右侧求最大子串，
+     * 可使用贪心算法求最大子串值，再合并为原始的最大子串值
+     *
+     * 图 连续子数组的最大和.png
      * */
     int maxSubArray2(std::vector<int>& nums);
+
+    int helper(std::vector<int> &nums, int left, int right);
+
+    int crossSum(std::vector<int> &nums, int left, int right, int mid);
 };
 
 

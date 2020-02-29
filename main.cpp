@@ -408,6 +408,8 @@ int main() {
     std::vector<int> nums1 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
     int res2 = solution42.maxSubArray(nums1);
     std::cout << "res2 is " << res2 << std::endl;
+    res2 = solution42.maxSubArray2(nums1);
+    std::cout << "res2 is " << res2 << std::endl;
 
 
     // NthUglyNumber.cpp test
