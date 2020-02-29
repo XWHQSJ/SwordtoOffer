@@ -80,6 +80,7 @@ public:
     Solution41();
 
     void addNum(int num);
+
     double findMedian();
 
 
@@ -91,6 +92,7 @@ public:
      * 二份查找时间O(logn)，插入时间为O(n)
      * */
     void addNum2(int num);
+
     double findMedian2();
 
 
@@ -150,6 +152,7 @@ public:
      * 最坏情况下，从顶部有三个堆插入两个堆删除，每个需要O(logn)
      * */
     void addNum3(int num);
+
     double findMedian3();
 
 
@@ -167,6 +170,7 @@ public:
      * 平衡二叉搜索树的构建是O(logn)
      * */
     void addNum4(int num);
+
     double findMedian4();
 };
 

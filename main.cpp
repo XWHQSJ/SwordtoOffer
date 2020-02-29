@@ -395,12 +395,11 @@ int main() {
 
     // MedianFinder.cpp test
     Solution41 solution41;
-    std::cout << "findMedian is " << solution41.findMedian() << std::endl;
-    solution41.addNum(1);
-    solution41.addNum(2);
-    std::cout << "findMedian is " << solution41.findMedian() << std::endl;
-    solution41.addNum(3);
-    std::cout << "findMedian is " << solution41.findMedian() << std::endl;
+    solution41.addNum4(1);
+    solution41.addNum4(2);
+    std::cout << "findMedian is " << solution41.findMedian4() << std::endl;
+    solution41.addNum4(3);
+    std::cout << "findMedian is " << solution41.findMedian4() << std::endl;
 
 
     // NthUglyNumber.cpp test

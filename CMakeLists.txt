@@ -8,7 +8,7 @@ include_directories(cmake-build-debug)
 
 add_executable(SwordtoOffer
 
-#                ArrayPartition.cpp
+        #                ArrayPartition.cpp
 
         # 数据结构 —— 链表
         DataStruct/BiNode.h
@@ -18,10 +18,10 @@ add_executable(SwordtoOffer
         #        DataStruct/test.cpp
 
         # 数据结构 —— 二叉树
-#                DataStruct/BinaryTree.h
+        #                DataStruct/BinaryTree.h
 
         # 算法 —— 二分搜索
-#                Algorithm/BinarySearch.h
+        #                Algorithm/BinarySearch.h
 
         main.cpp
 
