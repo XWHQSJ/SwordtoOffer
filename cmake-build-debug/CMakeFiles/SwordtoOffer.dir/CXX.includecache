@@ -14,17 +14,29 @@ vector
 stack
 -
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/CuttingRopeI.cpp
-cmath
+/home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.cpp
+map
 -
-vector
--
-CuttingRopeI.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/CuttingRopeI.h
+CopyRandomList.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.h
+DataStruct/Node.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/CuttingRopeI.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/CuttingRopeII.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DeleteNode.cpp
+DeleteNode.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DeleteNode.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DeleteNode.h
+DataStruct/Node.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/Exchange.h
 vector
@@ -46,6 +58,18 @@ vector
 vector
 -
 
+/home/Wanhui/Workspace/Clion/SwordtoOffer/GetIntersectionNode.cpp
+GetIntersectionNode.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/GetIntersectionNode.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/GetIntersectionNode.h
+DataStruct/Node.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/GetKthFromEnd.h
+DataStruct/Node.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.h
 vector
 -
@@ -62,29 +86,9 @@ string
 string
 -
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.cpp
-cassert
--
-map
--
-unordered_map
--
-algorithm
--
-MajorityElement.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
 vector
 -
-
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.cpp
-cassert
--
-climits
--
-MaxSubArray.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.h
 vector
@@ -101,6 +105,16 @@ queue
 -
 set
 -
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MergeTwoLists.cpp
+cstdlib
+-
+MergeTwoLists.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MergeTwoLists.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MergeTwoLists.h
+DataStruct/Node.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.h
 vector
@@ -140,14 +154,26 @@ vector
 string
 -
 
+/home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.cpp
+ReverseList.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.h
+DataStruct/Node.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.h
+vector
+-
+DataStruct/Node.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/ValidateStackSequences.h
 vector
 -
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/main.cpp
 iostream
--
-cassert
 -
 FindNumberIn2DArray.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/FindNumberIn2DArray.h
@@ -157,6 +183,8 @@ ReplaceSpace.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/ReplaceSpace.h
 FindRepeatNumber.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/FindRepeatNumber.h
+ReversePrint.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.h
 NthUglyNumber.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/NthUglyNumber.h
 BuildTree.h
@@ -175,6 +203,8 @@ HammingWeight.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.h
 PrintNumbers.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/PrintNumbers.h
+DeleteNode.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DeleteNode.h
 MovingCount.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MovingCount.h
 CuttingRopeI.h
@@ -185,6 +215,8 @@ MyPow.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MyPow.h
 Exchange.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/Exchange.h
+GetKthFromEnd.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/GetKthFromEnd.h
 IsMatch.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/IsMatch.h
 IsNumber.h
@@ -203,4 +235,12 @@ MedianFinder.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.h
 MaxSubArray.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.h
+ReverseList.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.h
+MergeTwoLists.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MergeTwoLists.h
+GetIntersectionNode.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/GetIntersectionNode.h
+CopyRandomList.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.h
 

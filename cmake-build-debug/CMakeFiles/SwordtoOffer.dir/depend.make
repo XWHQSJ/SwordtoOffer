@@ -10,7 +10,6 @@ CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o: ../CQueue.h
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../CopyRandomList.cpp
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../CopyRandomList.h
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../DataStruct/Node.h
-CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../DataStruct/SingleNodeList.h
 
 CMakeFiles/SwordtoOffer.dir/CuttingRopeI.cpp.o: ../CuttingRopeI.cpp
 CMakeFiles/SwordtoOffer.dir/CuttingRopeI.cpp.o: ../CuttingRopeI.h
@@ -19,7 +18,6 @@ CMakeFiles/SwordtoOffer.dir/CuttingRopeII.cpp.o: ../CuttingRopeII.cpp
 CMakeFiles/SwordtoOffer.dir/CuttingRopeII.cpp.o: ../CuttingRopeII.h
 
 CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o: ../DataStruct/Node.h
-CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o: ../DataStruct/SingleNodeList.h
 CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o: ../DeleteNode.cpp
 CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o: ../DeleteNode.h
 
@@ -40,10 +38,10 @@ CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o: ../FindRepeatNumber.h
 CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o: ../QuadSort.h
 
 CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o: ../DataStruct/Node.h
-CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o: ../DataStruct/SingleNodeList.h
 CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o: ../GetIntersectionNode.cpp
 CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o: ../GetIntersectionNode.h
 
+CMakeFiles/SwordtoOffer.dir/GetKthFromEnd.cpp.o: ../DataStruct/Node.h
 CMakeFiles/SwordtoOffer.dir/GetKthFromEnd.cpp.o: ../GetKthFromEnd.cpp
 CMakeFiles/SwordtoOffer.dir/GetKthFromEnd.cpp.o: ../GetKthFromEnd.h
 
@@ -72,7 +70,6 @@ CMakeFiles/SwordtoOffer.dir/MedianFinder.cpp.o: ../MedianFinder.cpp
 CMakeFiles/SwordtoOffer.dir/MedianFinder.cpp.o: ../MedianFinder.h
 
 CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../DataStruct/Node.h
-CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../DataStruct/SingleNodeList.h
 CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../MergeTwoLists.cpp
 CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../MergeTwoLists.h
 
@@ -104,12 +101,10 @@ CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o: ../ReplaceSpace.cpp
 CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o: ../ReplaceSpace.h
 
 CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../DataStruct/Node.h
-CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../DataStruct/SingleNodeList.h
 CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../ReverseList.cpp
 CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../ReverseList.h
 
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../DataStruct/Node.h
-CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../DataStruct/SingleNodeList.h
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.cpp
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.h
 
@@ -118,13 +113,18 @@ CMakeFiles/SwordtoOffer.dir/ValidateStackSequences.cpp.o: ../ValidateStackSequen
 
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../BuildTree.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CQueue.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CopyRandomList.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CuttingRopeI.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CuttingRopeII.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../DataStruct/Node.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../DeleteNode.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Exchange.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Exist.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Fibonacci.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../FindNumberIn2DArray.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../FindRepeatNumber.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../GetIntersectionNode.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../GetKthFromEnd.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../GetLeastNumbers.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../HammingWeight.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsMatch.h
@@ -133,6 +133,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MajorityElement.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MaxSubArray.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Median.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MedianFinder.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MergeTwoLists.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinArray.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinStack.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MovingCount.h
@@ -142,6 +143,8 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../NumWays.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Permutation.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../PrintNumbers.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReplaceSpace.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReverseList.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReversePrint.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ValidateStackSequences.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../main.cpp
 

@@ -7,12 +7,11 @@
  * */
 
 #include <iostream>
-#include <cassert>
 #include "FindNumberIn2DArray.h"
 #include "Median.h"
 #include "ReplaceSpace.h"
 #include "FindRepeatNumber.h"
-//#include "ReversePrint.h"
+#include "ReversePrint.h"
 #include "NthUglyNumber.h"
 #include "BuildTree.h"
 #include "CQueue.h"
@@ -22,13 +21,13 @@
 #include "Exist.h"
 #include "HammingWeight.h"
 #include "PrintNumbers.h"
-//#include "DeleteNode.h"
+#include "DeleteNode.h"
 #include "MovingCount.h"
 #include "CuttingRopeI.h"
 #include "CuttingRopeII.h"
 #include "MyPow.h"
 #include "Exchange.h"
-//#include "GetKthFromEnd.h"
+#include "GetKthFromEnd.h"
 #include "IsMatch.h"
 #include "IsNumber.h"
 #include "ValidateStackSequences.h"
@@ -38,10 +37,10 @@
 #include "GetLeastNumbers.h"
 #include "MedianFinder.h"
 #include "MaxSubArray.h"
-//#include "ReverseList.h"
-//#include "MergeTwoLists.h"
-//#include "GetIntersectionNode.h"
-//#include "CopyRandomList.h"
+#include "ReverseList.h"
+#include "MergeTwoLists.h"
+#include "GetIntersectionNode.h"
+#include "CopyRandomList.h"
 
 using namespace std;
 
@@ -107,7 +106,8 @@ int main() {
 
 
     // ReversePrint.cpp test
-//    Solution06 solution06;
+    Solution06 solution06;
+
 
 
     // BuildTree.cpp test
@@ -276,7 +276,7 @@ int main() {
 
 
     // DeleteNode.cpp test
-//    Solution18 solution18;
+    Solution18 solution18;
 
 
     // IsMatch.cpp test
@@ -319,15 +319,15 @@ int main() {
 
 
     // GetKthFromEnd.cpp test
-//    Solution22 solution22;
+    Solution22 solution22;
 
 
     // ReverseList.cpp test
-//    Solution24 solution24;
+    Solution24 solution24;
 
 
     // MergeTwoLists.cpp test
-//    Solution25 solution25;
+    Solution25 solution25;
 
 
     // MinStack.cpp test
@@ -350,7 +350,7 @@ int main() {
 
 
     // CopyRandomList.cpp test
-//    Solution35 solution35;
+    Solution35 solution35;
 
 
     // Permutation.cpp test
@@ -422,7 +422,7 @@ int main() {
     std::cout << m << std::endl;
 
     // GetIntersectionNode.cpp test
-//    Solution52 solution52;
+    Solution52 solution52;
 
     return 0;
 }

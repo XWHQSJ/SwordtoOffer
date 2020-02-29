@@ -20,7 +20,7 @@
  * */
 
 #include <vector>
-#include "DataStruct/SingleNodeList.h"
+#include "DataStruct/Node.h"
 
 class Solution06 {
 public:

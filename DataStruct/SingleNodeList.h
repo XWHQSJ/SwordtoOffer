@@ -7,11 +7,11 @@
 
 #include "Node.h"
 
-class SingleListNodeList {
+class SingleNodeList {
 public:
-    SingleListNodeList();
+    SingleNodeList();
 
-    ~SingleListNodeList();
+    ~SingleNodeList();
 
     // 清除所有节点
     void clear();
@@ -49,18 +49,18 @@ private:
     int mSize;
 };
 
-SingleListNodeList::SingleListNodeList() {
+SingleNodeList::SingleNodeList() {
     mListNode = new ListNode(0);
     mSize = 0;
 }
 
-SingleListNodeList::~SingleListNodeList() {
+SingleNodeList::~SingleNodeList() {
     clear();
     delete mListNode;
     mSize = 0;
 }
 
-void SingleListNodeList::clear() {
+void SingleNodeList::clear() {
     ListNode *curListNode = mListNode->next;
     while (curListNode != nullptr) {
         ListNode *tempListNode = curListNode;
@@ -71,15 +71,15 @@ void SingleListNodeList::clear() {
     mListNode->next = nullptr;
 }
 
-bool SingleListNodeList::empty() {
+bool SingleNodeList::empty() {
     return 0 == mSize;
 }
 
-int SingleListNodeList::size() {
+int SingleNodeList::size() {
     return mSize;
 }
 
-int SingleListNodeList::getElem(int index) {
+int SingleNodeList::getElem(int index) {
     if (index < 0 || index > mSize) {
         return -1;
     }
@@ -92,7 +92,7 @@ int SingleListNodeList::getElem(int index) {
     return curNode->val;
 }
 
-int SingleListNodeList::locateElem(ListNode *node) {
+int SingleNodeList::locateElem(ListNode *node) {
     ListNode *curNode = mListNode;
     int index = 0;
     while (curNode->next != nullptr) {
@@ -106,7 +106,7 @@ int SingleListNodeList::locateElem(ListNode *node) {
     return -1;
 }
 
-void SingleListNodeList::traverse() {
+void SingleNodeList::traverse() {
     ListNode *curNode = mListNode;
 
     while (curNode->next != nullptr) {
@@ -114,7 +114,7 @@ void SingleListNodeList::traverse() {
     }
 }
 
-void SingleListNodeList::insert(int index, ListNode *node) {
+void SingleNodeList::insert(int index, ListNode *node) {
     if (index < 0 || index > mSize) {
         return;
     }
@@ -130,7 +130,7 @@ void SingleListNodeList::insert(int index, ListNode *node) {
     curNode->next = newNode;
 }
 
-void SingleListNodeList::remove(int index, ListNode *node) {
+void SingleNodeList::remove(int index, ListNode *node) {
     if (index < 0 || index > mSize) {
         return;
     }
@@ -140,7 +140,7 @@ void SingleListNodeList::remove(int index, ListNode *node) {
     mSize--;
 }
 
-void SingleListNodeList::insertHead(ListNode *node) {
+void SingleNodeList::insertHead(ListNode *node) {
     auto *newNode = new ListNode(0);
 
     ListNode *temp = mListNode->next;
@@ -150,7 +150,7 @@ void SingleListNodeList::insertHead(ListNode *node) {
     mSize++;
 }
 
-void SingleListNodeList::insertTail(ListNode *node) {
+void SingleNodeList::insertTail(ListNode *node) {
     ListNode *curNode = mListNode;
     while (curNode->next != nullptr) {
         curNode = curNode->next;
