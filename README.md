@@ -83,6 +83,8 @@
 └── Permutation.h    剑指offer 38 字符串的排列
 ├── MinStack.cpp
 └── MinStack.h    剑指offer 30 包含min函数的栈
+├── MaxSubArray.cpp
+└── MaxSubArray.h    剑指offer 42 连续子数组的最大和
 ├── MedianFinder.cpp
 └── MedianFinder.h    剑指offer 41 数据流中的中位数
 ├── GetLeastNumbers.cpp

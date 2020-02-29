@@ -62,4 +62,4 @@ add_executable(SwordtoOffer
         MinStack.cpp MinStack.h
         MajorityElement.cpp MajorityElement.h
         GetLeastNumbers.cpp GetLeastNumbers.h
-        MedianFinder.cpp MedianFinder.h)
+        MedianFinder.cpp MedianFinder.h MaxSubArray.cpp MaxSubArray.h)

@@ -212,6 +212,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/Median.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

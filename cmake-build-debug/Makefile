@@ -609,6 +609,33 @@ MajorityElement.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.s
 .PHONY : MajorityElement.cpp.s
 
+MaxSubArray.o: MaxSubArray.cpp.o
+
+.PHONY : MaxSubArray.o
+
+# target to build an object file
+MaxSubArray.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxSubArray.cpp.o
+.PHONY : MaxSubArray.cpp.o
+
+MaxSubArray.i: MaxSubArray.cpp.i
+
+.PHONY : MaxSubArray.i
+
+# target to preprocess a source file
+MaxSubArray.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxSubArray.cpp.i
+.PHONY : MaxSubArray.cpp.i
+
+MaxSubArray.s: MaxSubArray.cpp.s
+
+.PHONY : MaxSubArray.s
+
+# target to generate assembly for a file
+MaxSubArray.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxSubArray.cpp.s
+.PHONY : MaxSubArray.cpp.s
+
 Median.o: Median.cpp.o
 
 .PHONY : Median.o
@@ -1104,6 +1131,9 @@ help:
 	@echo "... MajorityElement.o"
 	@echo "... MajorityElement.i"
 	@echo "... MajorityElement.s"
+	@echo "... MaxSubArray.o"
+	@echo "... MaxSubArray.i"
+	@echo "... MaxSubArray.s"
 	@echo "... Median.o"
 	@echo "... Median.i"
 	@echo "... Median.s"
