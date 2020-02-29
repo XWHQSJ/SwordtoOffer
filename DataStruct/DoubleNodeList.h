@@ -231,8 +231,8 @@ void DoubleNodeList<T>::clear() {
     BiNode<T>* p = mHeadSentinel->mNetx;
     while (p != mTailSentinel){
         BiNode<T> *temp = p;
-        p = p->mNetx;
-        delete temp;
+        delete p;
+        p = temp->mNetx;
     }
 
     mHeadSentinel->mNetx = mTailSentinel;
