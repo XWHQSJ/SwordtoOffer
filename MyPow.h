@@ -38,6 +38,7 @@ class Solution16 {
 public:
     /*
      * 快速幂方法
+     *
      * 求x=base^a，base是底数，a为指数幂
      * 对base^a进行分治，即：
      *

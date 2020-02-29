@@ -29,6 +29,7 @@ class Solution11 {
 public:
     /*
      * 方法1 直接遍历 O(n)
+     *
      * 设置第一个数为数组最小值min，
      * 从数组第二个数开始遍历数组，
      * 将v[i]与min进行比较，
@@ -39,6 +40,7 @@ public:
 
     /*
      * 方法2 二分法 O(logn)
+     *
      * 1. 使用mid = left + (rigth - left) / 2 防止数值过大溢出，
      * [特别好用的二分查找法模板]
      * (https://www.liwei.party/2019/06/19/leetcode-solution-new/search-insert-position/)

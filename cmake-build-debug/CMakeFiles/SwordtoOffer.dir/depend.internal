@@ -62,6 +62,9 @@ CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o
 CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
+CMakeFiles/SwordtoOffer.dir/MaxSubArray.cpp.o
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.h
 CMakeFiles/SwordtoOffer.dir/Median.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.h
@@ -128,6 +131,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsMatch.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.h

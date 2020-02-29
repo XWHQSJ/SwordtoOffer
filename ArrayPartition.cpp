@@ -44,6 +44,7 @@ using namespace std;
 
 /*
  * 方法1
+ *
  * 双指针lo为交换指针，cur是遍历指针，
  * 他们从同一侧开始移动，
  * 当为偶数时，双指针同时移动，并做交换操作
@@ -68,6 +69,7 @@ void partition(int *arr, int size) {
 
 /*
  * 方法2
+ *
  * 双指针low为左侧指针，high为右侧指针，
  * 两指针分别从左右两侧开始遍历，
  * 当左侧指针指向偶数时，low指针向右移动，
@@ -94,7 +96,9 @@ void partition1(int *arr, int size) {
     }
 }
 
-/* 方法3
+/*
+ * 方法3
+ *
  * 增加数组oarr，使用空间换时间
  * 先遍历数组arr将偶数取出存入oarr中，
  * 再遍历一遍数据arr将奇数取出存入oarr中,

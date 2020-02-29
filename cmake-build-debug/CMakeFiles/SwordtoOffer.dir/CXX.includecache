@@ -58,9 +58,25 @@ string
 vector
 -
 
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.cpp
+cassert
+-
+MaxSubArray.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.h
+vector
+-
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.h
 vector
 -
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.cpp
+algorithm
+-
+MedianFinder.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.h
 vector
@@ -169,4 +185,6 @@ GetLeastNumbers.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/GetLeastNumbers.h
 MedianFinder.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.h
+MaxSubArray.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.h
 

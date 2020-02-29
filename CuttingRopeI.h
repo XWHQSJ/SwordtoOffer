@@ -37,6 +37,7 @@ class Solution14_1 {
 public:
     /*
      * 方法1 贪心算法
+     *
      * 该方法偏向于数学题法，需要多组计算后进行规律总结。
      * 个人觉得该博主讲的最好，非常容易理解：整数拆分 --
      * https://leetcode-cn.com/problems/integer-break/solution/343-zheng-shu-chai-fen-tan-xin-by-jyd/
@@ -52,6 +53,7 @@ public:
 
     /*
      * 方法2 动态规划
+     *
      * 要知道某个数，比如5拆分为哪几个整数的和，
      * 并且整数的乘积最大，那么我们只要知道4,3,2拆分后的乘积，
      * 并从中选出最大值即可，以此类推。

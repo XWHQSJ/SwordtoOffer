@@ -37,6 +37,7 @@
 #include "MajorityElement.h"
 #include "GetLeastNumbers.h"
 #include "MedianFinder.h"
+#include "MaxSubArray.h"
 //#include "ReverseList.h"
 //#include "MergeTwoLists.h"
 //#include "GetIntersectionNode.h"
@@ -400,6 +401,13 @@ int main() {
     std::cout << "findMedian is " << solution41.findMedian4() << std::endl;
     solution41.addNum4(3);
     std::cout << "findMedian is " << solution41.findMedian4() << std::endl;
+
+
+    // MaxSubArray.cpp test
+    Solution42 solution42;
+    std::vector<int> nums1 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+    int res2 = solution42.maxSubArray(nums1);
+    std::cout << "res2 is " << res2 << std::endl;
 
 
     // NthUglyNumber.cpp test

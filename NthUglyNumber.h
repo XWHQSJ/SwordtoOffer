@@ -7,7 +7,9 @@
 
 /*
  * 剑指offer 49 丑数
- * 我们把只包含因子 2、3 和 5 的数称作丑数（Ugly Number）。求按从小到大的顺序的第 n 个丑数。
+ *
+ * 我们把只包含因子 2、3 和 5 的数称作丑数（Ugly Number）。
+ * 求按从小到大的顺序的第 n 个丑数。
  *
  * 示例:
  * 输入: n = 10
@@ -23,6 +25,7 @@ class Solution49 {
 public:
     /*
      * 方法 动态规划（Dynamic Program）
+     *
      * 丑数的生成公式是：uglyNum = 2^x * 3^y * 5^z
      * 即x=y=z=0时，uglyNum = 1，
      * x = y = z = 1时，生成2,3,5等
