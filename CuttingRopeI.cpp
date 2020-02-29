@@ -39,7 +39,7 @@ int Solution14_1::cuttingRope2(int n) {
     // 存储上一轮的最优结果
     std::vector<int> dp(n + 1, 0);
     //初始化为1
-    dp[1]=1;
+    dp[1] = 1;
 
     int i, j;
     for (i = 4; i <= n; i++) {
@@ -49,7 +49,7 @@ int Solution14_1::cuttingRope2(int n) {
             // dp[i]为上一轮最优结果
             // 里面实际上是比较: dp[i-j]*j 和 (i-j)*j 的大小
             // 即比较 dp[i-j] 和 i-j 的大小
-            dp[i] = std::max(dp[i], std::max(dp[i-j],i-j)*j);
+            dp[i] = std::max(dp[i], std::max(dp[i - j], i - j) * j);
         }
     }
 

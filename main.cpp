@@ -410,6 +410,8 @@ int main() {
     std::cout << "res2 is " << res2 << std::endl;
     res2 = solution42.maxSubArray2(nums1);
     std::cout << "res2 is " << res2 << std::endl;
+    res2 = solution42.maxSubArray3(nums1);
+    std::cout << "res2 is " << res2 << std::endl;
 
 
     // NthUglyNumber.cpp test
