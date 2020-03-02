@@ -30,12 +30,12 @@
 #include <vector>
 
 // Definition for a binary tree node.
-struct TreeNode {
+struct BiTreeNode {
     int val;
-    TreeNode *left;
-    TreeNode *right;
+    BiTreeNode *left;
+    BiTreeNode *right;
 
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    BiTreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
 
 
@@ -55,7 +55,7 @@ public:
      * 右子树结点的前序遍历，右子树结点的中序遍历分别存到四个数组中，
      * 再将此四个数组两两配对后进行递归，即可构建二叉树
      * */
-    TreeNode *buildTree(std::vector<int> &preorder, std::vector<int> &inorder);
+    BiTreeNode *buildTree(std::vector<int> &preorder, std::vector<int> &inorder);
 
     /*
      * 方法2
@@ -64,9 +64,9 @@ public:
      * 但方法2的效率高于方法1，
      * 方法1由于数组存储消耗时间
      * */
-    TreeNode *buildTree2(std::vector<int> &preorder, std::vector<int> &inorder);
+    BiTreeNode *buildTree2(std::vector<int> &preorder, std::vector<int> &inorder);
 
-    static TreeNode *
+    static BiTreeNode *
     build(std::vector<int> &preorder, int prestart, int preend, std::vector<int> &inorder, int instart, int inend);
 };
 

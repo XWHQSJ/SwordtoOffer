@@ -4,7 +4,7 @@
 
 #include "BuildTree.h"
 
-TreeNode *Solution07::buildTree(std::vector<int> &preorder, std::vector<int> &inorder) {
+BiTreeNode *Solution07::buildTree(std::vector<int> &preorder, std::vector<int> &inorder) {
 
     // WARNing : 注意边界情况！
     if (preorder.empty() || inorder.empty()) {
@@ -12,7 +12,7 @@ TreeNode *Solution07::buildTree(std::vector<int> &preorder, std::vector<int> &in
     }
 
     // struct TreeNode有构造函数可以直接使用
-    auto *root = new TreeNode(preorder[0]);
+    auto *root = new BiTreeNode(preorder[0]);
 
     int n = preorder.size();
     // WARNing : 注意边界情况！
@@ -48,7 +48,7 @@ TreeNode *Solution07::buildTree(std::vector<int> &preorder, std::vector<int> &in
     return root;
 }
 
-TreeNode *Solution07::buildTree2(std::vector<int> &preorder, std::vector<int> &inorder) {
+BiTreeNode *Solution07::buildTree2(std::vector<int> &preorder, std::vector<int> &inorder) {
     if (preorder.empty() || inorder.empty()) {
         return nullptr;
     }
@@ -56,10 +56,10 @@ TreeNode *Solution07::buildTree2(std::vector<int> &preorder, std::vector<int> &i
     return build(preorder, 0, preorder.size() - 1, inorder, 0, inorder.size() - 1);
 }
 
-TreeNode *
+BiTreeNode *
 Solution07::build(std::vector<int> &preorder, int prestart, int preend, std::vector<int> &inorder, int instart,
                   int inend) {
-    auto *root = new TreeNode(preorder[prestart]);
+    auto *root = new BiTreeNode(preorder[prestart]);
 
     int n = preorder.size();
     if (n == 1) {

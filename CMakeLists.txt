@@ -63,4 +63,4 @@ add_executable(SwordtoOffer
         MajorityElement.cpp MajorityElement.h
         GetLeastNumbers.cpp GetLeastNumbers.h
         MedianFinder.cpp MedianFinder.h
-        MaxSubArray.cpp MaxSubArray.h)
+        MaxSubArray.cpp MaxSubArray.h IsSubStructure.cpp IsSubStructure.h DataStruct/BiTreeNode.h)

@@ -21,6 +21,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/IsMatch.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/IsMatch.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o"
+  "/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSubStructure.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/MaxSubArray.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/Median.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/Median.cpp.o"

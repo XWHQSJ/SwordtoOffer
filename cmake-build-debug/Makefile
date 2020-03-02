@@ -582,6 +582,33 @@ IsNumber.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.s
 .PHONY : IsNumber.cpp.s
 
+IsSubStructure.o: IsSubStructure.cpp.o
+
+.PHONY : IsSubStructure.o
+
+# target to build an object file
+IsSubStructure.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o
+.PHONY : IsSubStructure.cpp.o
+
+IsSubStructure.i: IsSubStructure.cpp.i
+
+.PHONY : IsSubStructure.i
+
+# target to preprocess a source file
+IsSubStructure.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.i
+.PHONY : IsSubStructure.cpp.i
+
+IsSubStructure.s: IsSubStructure.cpp.s
+
+.PHONY : IsSubStructure.s
+
+# target to generate assembly for a file
+IsSubStructure.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.s
+.PHONY : IsSubStructure.cpp.s
+
 MajorityElement.o: MajorityElement.cpp.o
 
 .PHONY : MajorityElement.o
@@ -1128,6 +1155,9 @@ help:
 	@echo "... IsNumber.o"
 	@echo "... IsNumber.i"
 	@echo "... IsNumber.s"
+	@echo "... IsSubStructure.o"
+	@echo "... IsSubStructure.i"
+	@echo "... IsSubStructure.s"
 	@echo "... MajorityElement.o"
 	@echo "... MajorityElement.i"
 	@echo "... MajorityElement.s"
