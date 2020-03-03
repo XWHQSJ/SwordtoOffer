@@ -57,191 +57,9 @@ include CMakeFiles/SwordtoOffer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SwordtoOffer.dir/flags.make
 
-CMakeFiles/SwordtoOffer.dir/main.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SwordtoOffer.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/main.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/main.cpp
-
-CMakeFiles/SwordtoOffer.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/main.cpp > CMakeFiles/SwordtoOffer.dir/main.cpp.i
-
-CMakeFiles/SwordtoOffer.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/main.cpp -o CMakeFiles/SwordtoOffer.dir/main.cpp.s
-
-CMakeFiles/SwordtoOffer.dir/Median.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/Median.cpp.o: ../Median.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SwordtoOffer.dir/Median.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/Median.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.cpp
-
-CMakeFiles/SwordtoOffer.dir/Median.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/Median.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.cpp > CMakeFiles/SwordtoOffer.dir/Median.cpp.i
-
-CMakeFiles/SwordtoOffer.dir/Median.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/Median.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.cpp -o CMakeFiles/SwordtoOffer.dir/Median.cpp.s
-
-CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.o: ../FindNumberIn2DArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/FindNumberIn2DArray.cpp
-
-CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/FindNumberIn2DArray.cpp > CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.i
-
-CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/FindNumberIn2DArray.cpp -o CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.s
-
-CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o: ../ReplaceSpace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/ReplaceSpace.cpp
-
-CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/ReplaceSpace.cpp > CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.i
-
-CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/ReplaceSpace.cpp -o CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.s
-
-CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o: ../FindRepeatNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/FindRepeatNumber.cpp
-
-CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/FindRepeatNumber.cpp > CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.i
-
-CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/FindRepeatNumber.cpp -o CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.s
-
-CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.o: ../NthUglyNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/NthUglyNumber.cpp
-
-CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/NthUglyNumber.cpp > CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.i
-
-CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/NthUglyNumber.cpp -o CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.s
-
-CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o: ../BuildTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.cpp
-
-CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.cpp > CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.i
-
-CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.cpp -o CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.s
-
-CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o: ../CQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/CQueue.cpp
-
-CMakeFiles/SwordtoOffer.dir/CQueue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/CQueue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/CQueue.cpp > CMakeFiles/SwordtoOffer.dir/CQueue.cpp.i
-
-CMakeFiles/SwordtoOffer.dir/CQueue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/CQueue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/CQueue.cpp -o CMakeFiles/SwordtoOffer.dir/CQueue.cpp.s
-
-CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.o: ../Fibonacci.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/Fibonacci.cpp
-
-CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/Fibonacci.cpp > CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.i
-
-CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/Fibonacci.cpp -o CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.s
-
-CMakeFiles/SwordtoOffer.dir/NumWays.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/NumWays.cpp.o: ../NumWays.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SwordtoOffer.dir/NumWays.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/NumWays.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/NumWays.cpp
-
-CMakeFiles/SwordtoOffer.dir/NumWays.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/NumWays.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/NumWays.cpp > CMakeFiles/SwordtoOffer.dir/NumWays.cpp.i
-
-CMakeFiles/SwordtoOffer.dir/NumWays.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/NumWays.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/NumWays.cpp -o CMakeFiles/SwordtoOffer.dir/NumWays.cpp.s
-
-CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o: ../MinArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.cpp
-
-CMakeFiles/SwordtoOffer.dir/MinArray.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/MinArray.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.cpp > CMakeFiles/SwordtoOffer.dir/MinArray.cpp.i
-
-CMakeFiles/SwordtoOffer.dir/MinArray.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/MinArray.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.cpp -o CMakeFiles/SwordtoOffer.dir/MinArray.cpp.s
-
-CMakeFiles/SwordtoOffer.dir/Exist.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/Exist.cpp.o: ../Exist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SwordtoOffer.dir/Exist.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/Exist.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/Exist.cpp
-
-CMakeFiles/SwordtoOffer.dir/Exist.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/Exist.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/Exist.cpp > CMakeFiles/SwordtoOffer.dir/Exist.cpp.i
-
-CMakeFiles/SwordtoOffer.dir/Exist.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/Exist.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/Exist.cpp -o CMakeFiles/SwordtoOffer.dir/Exist.cpp.s
-
-CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o: ../HammingWeight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.cpp
-
-CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.cpp > CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.i
-
-CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.cpp -o CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.s
-
-CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o: ../PrintNumbers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/PrintNumbers.cpp
-
-CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/PrintNumbers.cpp > CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.i
-
-CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/PrintNumbers.cpp -o CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.s
-
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.cpp
 
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.i: cmake_force
@@ -254,7 +72,7 @@ CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.s: cmake_force
 
 CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
 CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o: ../DeleteNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/DeleteNode.cpp
 
 CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.i: cmake_force
@@ -267,7 +85,7 @@ CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.s: cmake_force
 
 CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
 CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../ReverseList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.cpp
 
 CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.i: cmake_force
@@ -280,7 +98,7 @@ CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.s: cmake_force
 
 CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
 CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../MergeTwoLists.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/MergeTwoLists.cpp
 
 CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.i: cmake_force
@@ -293,7 +111,7 @@ CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.s: cmake_force
 
 CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
 CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o: ../GetIntersectionNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/GetIntersectionNode.cpp
 
 CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.i: cmake_force
@@ -306,7 +124,7 @@ CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.s: cmake_force
 
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../CopyRandomList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.cpp
 
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.i: cmake_force
@@ -316,6 +134,188 @@ CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.i: cmake_force
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.cpp -o CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SwordtoOffer.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/main.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/main.cpp
+
+CMakeFiles/SwordtoOffer.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/main.cpp > CMakeFiles/SwordtoOffer.dir/main.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/main.cpp -o CMakeFiles/SwordtoOffer.dir/main.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/Median.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/Median.cpp.o: ../Median.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SwordtoOffer.dir/Median.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/Median.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.cpp
+
+CMakeFiles/SwordtoOffer.dir/Median.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/Median.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.cpp > CMakeFiles/SwordtoOffer.dir/Median.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/Median.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/Median.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.cpp -o CMakeFiles/SwordtoOffer.dir/Median.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.o: ../FindNumberIn2DArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/FindNumberIn2DArray.cpp
+
+CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/FindNumberIn2DArray.cpp > CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/FindNumberIn2DArray.cpp -o CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o: ../ReplaceSpace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/ReplaceSpace.cpp
+
+CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/ReplaceSpace.cpp > CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/ReplaceSpace.cpp -o CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o: ../FindRepeatNumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/FindRepeatNumber.cpp
+
+CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/FindRepeatNumber.cpp > CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/FindRepeatNumber.cpp -o CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.o: ../NthUglyNumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/NthUglyNumber.cpp
+
+CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/NthUglyNumber.cpp > CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/NthUglyNumber.cpp -o CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o: ../BuildTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.cpp
+
+CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.cpp > CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.cpp -o CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o: ../CQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/CQueue.cpp
+
+CMakeFiles/SwordtoOffer.dir/CQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/CQueue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/CQueue.cpp > CMakeFiles/SwordtoOffer.dir/CQueue.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/CQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/CQueue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/CQueue.cpp -o CMakeFiles/SwordtoOffer.dir/CQueue.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.o: ../Fibonacci.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/Fibonacci.cpp
+
+CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/Fibonacci.cpp > CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/Fibonacci.cpp -o CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/NumWays.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/NumWays.cpp.o: ../NumWays.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SwordtoOffer.dir/NumWays.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/NumWays.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/NumWays.cpp
+
+CMakeFiles/SwordtoOffer.dir/NumWays.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/NumWays.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/NumWays.cpp > CMakeFiles/SwordtoOffer.dir/NumWays.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/NumWays.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/NumWays.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/NumWays.cpp -o CMakeFiles/SwordtoOffer.dir/NumWays.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o: ../MinArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.cpp
+
+CMakeFiles/SwordtoOffer.dir/MinArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/MinArray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.cpp > CMakeFiles/SwordtoOffer.dir/MinArray.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/MinArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/MinArray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.cpp -o CMakeFiles/SwordtoOffer.dir/MinArray.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/Exist.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/Exist.cpp.o: ../Exist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/SwordtoOffer.dir/Exist.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/Exist.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/Exist.cpp
+
+CMakeFiles/SwordtoOffer.dir/Exist.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/Exist.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/Exist.cpp > CMakeFiles/SwordtoOffer.dir/Exist.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/Exist.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/Exist.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/Exist.cpp -o CMakeFiles/SwordtoOffer.dir/Exist.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o: ../HammingWeight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.cpp
+
+CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.cpp > CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.cpp -o CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o: ../PrintNumbers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/PrintNumbers.cpp
+
+CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/PrintNumbers.cpp > CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/PrintNumbers.cpp -o CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.s
 
 CMakeFiles/SwordtoOffer.dir/MovingCount.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
 CMakeFiles/SwordtoOffer.dir/MovingCount.cpp.o: ../MovingCount.cpp
@@ -527,6 +527,12 @@ CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.s: cmake_force
 
 # Object files for target SwordtoOffer
 SwordtoOffer_OBJECTS = \
+"CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o" \
+"CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o" \
+"CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o" \
+"CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o" \
+"CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o" \
+"CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/main.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/Median.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.o" \
@@ -541,12 +547,6 @@ SwordtoOffer_OBJECTS = \
 "CMakeFiles/SwordtoOffer.dir/Exist.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o" \
-"CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o" \
-"CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o" \
-"CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o" \
-"CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o" \
-"CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o" \
-"CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/MovingCount.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/CuttingRopeI.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/CuttingRopeII.cpp.o" \
@@ -567,6 +567,12 @@ SwordtoOffer_OBJECTS = \
 # External object files for target SwordtoOffer
 SwordtoOffer_EXTERNAL_OBJECTS =
 
+SwordtoOffer: CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o
+SwordtoOffer: CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o
+SwordtoOffer: CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o
+SwordtoOffer: CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o
+SwordtoOffer: CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o
+SwordtoOffer: CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/main.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/Median.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.o
@@ -581,12 +587,6 @@ SwordtoOffer: CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/Exist.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o
-SwordtoOffer: CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o
-SwordtoOffer: CMakeFiles/SwordtoOffer.dir/DeleteNode.cpp.o
-SwordtoOffer: CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o
-SwordtoOffer: CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o
-SwordtoOffer: CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o
-SwordtoOffer: CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/MovingCount.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/CuttingRopeI.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/CuttingRopeII.cpp.o

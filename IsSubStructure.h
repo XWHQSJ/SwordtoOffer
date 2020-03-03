@@ -58,7 +58,7 @@ public:
      *
      *
      * */
-    bool isSubStructure(BiTreeNode* A, BiTreeNode* B);
+    bool isSubStructure(BiTreeNode<int>* A, BiTreeNode<int>* B);
 };
 
 

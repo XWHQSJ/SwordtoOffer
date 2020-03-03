@@ -57,6 +57,10 @@ CMakeFiles/SwordtoOffer.dir/IsMatch.cpp.o
 CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.h
+CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/BiTreeNode.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/IsSubStructure.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/IsSubStructure.h
 CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h

@@ -128,6 +128,9 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/BiTreeNode.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/BinaryTree.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/DoubleNodeList.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>

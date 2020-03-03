@@ -4,7 +4,7 @@
 
 #include "IsSubStructure.h"
 
-bool Solution26::isSubStructure(BiTreeNode *A, BiTreeNode *B) {
+bool Solution26::isSubStructure(BiTreeNode<int> *A, BiTreeNode<int> *B) {
 
 
     return false;
