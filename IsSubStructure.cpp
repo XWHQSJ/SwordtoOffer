@@ -5,7 +5,7 @@
 #include "IsSubStructure.h"
 
 bool Solution26::isSubStructure(BiTreeNode<int> *A, BiTreeNode<int> *B) {
-    if(!A || !B){
+    if (!A || !B) {
         return false;
     }
 
@@ -13,15 +13,13 @@ bool Solution26::isSubStructure(BiTreeNode<int> *A, BiTreeNode<int> *B) {
 }
 
 bool Solution26::dfs(BiTreeNode<int> *A, BiTreeNode<int> *B) {
-    if(!A) {
-        return false;
-    }
-
-    if(!B){
+    if (!B) {
         return true;
     }
 
-    if(A->data == B->data){
-        return dfs(A->leftChild, B->leftChild) && dfs(A->rightChild, B->rightChild);
+    if (!A) {
+        return false;
     }
+
+    return A->data == B->data && dfs(A->leftChild, B->leftChild) && dfs(A->rightChild, B->rightChild);
 }
