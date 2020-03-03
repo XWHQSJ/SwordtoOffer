@@ -59,6 +59,8 @@ public:
      *
      * */
     bool isSubStructure(BiTreeNode<int>* A, BiTreeNode<int>* B);
+
+    bool dfs(BiTreeNode<int>* A, BiTreeNode<int>* B);
 };
 
 
