@@ -67,12 +67,19 @@ void Solution13::bfs(int m, int n, int k, int &count, std::vector<std::vector<bo
         que.pop();
         // 将计数+1
         count++;
+
+        // 机器人向右边移动，
+        // 判断右边的点是否符合条件
         if (p.first + 1 >= 0 && p.first + 1 < m && p.second >= 0 && p.second < n &&
             sum(p.first + 1) + sum(p.second) <= k && !visited[p.first + 1][p.second]) {
+            // 符合条件的点push到队列中，等待下一轮的遍历
+            // 同时设置该符合的点可访问
             que.push({p.first + 1, p.second});
             visited[p.first + 1][p.second] = true;
         }
 
+        // 机器人向下移动，
+        // 判断下边的点是否符合条件
         if (p.first >= 0 && p.first < m && p.second + 1 >= 0 && p.second + 1 < n &&
             sum(p.first) + sum(p.second + 1) <= k && !visited[p.first][p.second + 1]) {
             que.push({p.first, p.second + 1});
