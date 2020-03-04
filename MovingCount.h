@@ -68,10 +68,10 @@ public:
 private:
     int sum(int n);
 
-    void dfs(int m, int n, int k, int i, int j, int &count, std::vector<std::vector<bool>> &visit);
+    void dfs(int m, int n, int k, int i, int j, int &count, std::vector<std::vector<bool>> &visited);
 
     void
-    bfs(int m, int n, int k, int &count, std::vector<std::vector<bool>> &visit, std::queue<std::pair<int, int>> &que);
+    bfs(int m, int n, int k, int &count, std::vector<std::vector<bool>> &visited, std::queue<std::pair<int, int>> &que);
 };
 
 

@@ -18,28 +18,28 @@ int Solution13::sum(int n) {
 
 int Solution13::movingCount(int m, int n, int k) {
     // 初始化标志数组
-    std::vector<std::vector<bool>> visit(m, std::vector<bool>(n, false));
+    std::vector<std::vector<bool>> visited(m, std::vector<bool>(n, false));
     // 计数符
     int c = 0;
-    dfs(m, n, k, 0, 0, c, visit);
+    dfs(m, n, k, 0, 0, c, visited);
     return c;
 }
 
-void Solution13::dfs(int m, int n, int k, int i, int j, int &count, std::vector<std::vector<bool>> &visit) {
+void Solution13::dfs(int m, int n, int k, int i, int j, int &count, std::vector<std::vector<bool>> &visited) {
     // 满足位数和小于k
     if (sum(i) + sum(j) <= k) {
         // 满足条件的数量+1
         count++;
         // 该格子被访问过
-        visit[i][j] = true;
+        visited[i][j] = true;
 
         // 判断向右+1：(i+1, j)，在矩阵内，且未被访问过
-        if (i + 1 >= 0 && i + 1 < m && j >= 0 && j < n && !visit[i + 1][j]) {
-            dfs(m, n, k, i + 1, j, count, visit);
+        if (i + 1 >= 0 && i + 1 < m && j >= 0 && j < n && !visited[i + 1][j]) {
+            dfs(m, n, k, i + 1, j, count, visited);
         }
         // 判断向下+1：(i, j+1)，在矩阵内，且未被访问过
-        if (i >= 0 && i < m && j + 1 >= 0 && j + 1 < n && !visit[i][j + 1]) {
-            dfs(m, n, k, i, j + 1, count, visit);
+        if (i >= 0 && i < m && j + 1 >= 0 && j + 1 < n && !visited[i][j + 1]) {
+            dfs(m, n, k, i, j + 1, count, visited);
         }
     }
 }
