@@ -798,6 +798,33 @@ MinStack.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MinStack.cpp.s
 .PHONY : MinStack.cpp.s
 
+MirrorTree.o: MirrorTree.cpp.o
+
+.PHONY : MirrorTree.o
+
+# target to build an object file
+MirrorTree.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MirrorTree.cpp.o
+.PHONY : MirrorTree.cpp.o
+
+MirrorTree.i: MirrorTree.cpp.i
+
+.PHONY : MirrorTree.i
+
+# target to preprocess a source file
+MirrorTree.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MirrorTree.cpp.i
+.PHONY : MirrorTree.cpp.i
+
+MirrorTree.s: MirrorTree.cpp.s
+
+.PHONY : MirrorTree.s
+
+# target to generate assembly for a file
+MirrorTree.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MirrorTree.cpp.s
+.PHONY : MirrorTree.cpp.s
+
 MovingCount.o: MovingCount.cpp.o
 
 .PHONY : MovingCount.o
@@ -1179,6 +1206,9 @@ help:
 	@echo "... MinStack.o"
 	@echo "... MinStack.i"
 	@echo "... MinStack.s"
+	@echo "... MirrorTree.o"
+	@echo "... MirrorTree.i"
+	@echo "... MirrorTree.s"
 	@echo "... MovingCount.o"
 	@echo "... MovingCount.i"
 	@echo "... MovingCount.s"

@@ -260,6 +260,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MirrorTree.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MirrorTree.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MovingCount.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

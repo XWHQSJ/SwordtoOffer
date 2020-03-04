@@ -24,6 +24,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MinStack.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/MirrorTree.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MovingCount.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MyPow.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.o"
