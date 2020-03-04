@@ -55,8 +55,13 @@
 class Solution26 {
 public:
     /*
+     * 递归遍历
      *
-     *
+     * 先需要确定树A中是否存在树B的根节点，
+     * 如果不存在则直接返回false，存在则继续判断该节点后的左右子树是否也完全相同，
+     * 遍历树B结束都相同则返回true，不同返回false。
+     * 这里需要有两次递归，第一次是递归从树A中找到等于树B根节点的节点，
+     * 第二次递归是从相同的节点开始，对树的左右子树判断是否树A完全包含树B。
      * */
     bool isSubStructure(BiTreeNode<int>* A, BiTreeNode<int>* B);
 
