@@ -42,6 +42,7 @@
 #include "MergeTwoLists.h"
 #include "GetIntersectionNode.h"
 #include "CopyRandomList.h"
+#include "IsSubStructure.h"
 
 using namespace std;
 
@@ -340,6 +341,10 @@ int main() {
 
     // MergeTwoLists.cpp test
     Solution25 solution25;
+
+
+    // IsSubStructure.cpp test
+    Solution26 solution26;
 
 
     // MinStack.cpp test

@@ -3,6 +3,7 @@
 
 CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o: ../BuildTree.cpp
 CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o: ../BuildTree.h
+CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o: ../DataStruct/BiTreeNode.h
 
 CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o: ../CQueue.cpp
 CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o: ../CQueue.h
@@ -120,6 +121,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CQueue.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CopyRandomList.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CuttingRopeI.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CuttingRopeII.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../DataStruct/BiTreeNode.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../DataStruct/Node.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../DataStruct/SingleNodeList.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../DeleteNode.h
@@ -134,6 +136,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../GetLeastNumbers.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../HammingWeight.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsMatch.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsNumber.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsSubStructure.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MajorityElement.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MaxSubArray.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Median.h

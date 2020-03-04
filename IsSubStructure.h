@@ -63,9 +63,9 @@ public:
      * 这里需要有两次递归，第一次是递归从树A中找到等于树B根节点的节点，
      * 第二次递归是从相同的节点开始，对树的左右子树判断是否树A完全包含树B。
      * */
-    bool isSubStructure(BiTreeNode<int>* A, BiTreeNode<int>* B);
+    bool isSubStructure(BiTreeNode* A, BiTreeNode* B);
 
-    bool dfs(BiTreeNode<int>* A, BiTreeNode<int>* B);
+    bool dfs(BiTreeNode* A, BiTreeNode* B);
 };
 
 

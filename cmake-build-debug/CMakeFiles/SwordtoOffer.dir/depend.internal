@@ -4,6 +4,7 @@
 CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/BiTreeNode.h
 CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/CQueue.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/CQueue.h
@@ -121,6 +122,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/CuttingRopeI.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/CuttingRopeII.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/BiTreeNode.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/SingleNodeList.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/DeleteNode.h
@@ -135,6 +137,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsMatch.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/IsSubStructure.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.h

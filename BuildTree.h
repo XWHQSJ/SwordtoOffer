@@ -29,15 +29,7 @@
 
 #include <vector>
 
-// Definition for a binary tree node.
-struct BiTreeNode {
-    int val;
-    BiTreeNode *left;
-    BiTreeNode *right;
-
-    BiTreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-};
-
+#include "DataStruct/BiTreeNode.h"
 
 class Solution07 {
 public:
