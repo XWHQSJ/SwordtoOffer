@@ -89,7 +89,7 @@ public:
      * 使用map<Node*,Node*>建立哈希表，
      * 将原节点与复制节点对应起来，
      *
-     * 1. 建立 map 。map<Node *, Node *> visited；
+     * 1. 建立 map ，map<Node *, Node *> visited；
      * 2. NULL 指针加入 map ，当指针为 NULL 时能对应visited[NULL] = NULL；
      * 3. 使用标准链表遍历方式： while (pNode != NULL) pNode = pNode->next；
      * 4. new 新的 Node ，并保存在 map 中；
