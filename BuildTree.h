@@ -58,8 +58,7 @@ public:
      * */
     BiTreeNode *buildTree2(std::vector<int> &preorder, std::vector<int> &inorder);
 
-    static BiTreeNode *
-    build(std::vector<int> &preorder, int prestart, int preend, std::vector<int> &inorder, int instart, int inend);
+    BiTreeNode *build(std::vector<int> &preorder, int prestart, int preend, std::vector<int> &inorder, int instart, int inend);
 };
 
 
