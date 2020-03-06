@@ -609,6 +609,33 @@ IsSubStructure.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.s
 .PHONY : IsSubStructure.cpp.s
 
+IsSymmetric.o: IsSymmetric.cpp.o
+
+.PHONY : IsSymmetric.o
+
+# target to build an object file
+IsSymmetric.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.o
+.PHONY : IsSymmetric.cpp.o
+
+IsSymmetric.i: IsSymmetric.cpp.i
+
+.PHONY : IsSymmetric.i
+
+# target to preprocess a source file
+IsSymmetric.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.i
+.PHONY : IsSymmetric.cpp.i
+
+IsSymmetric.s: IsSymmetric.cpp.s
+
+.PHONY : IsSymmetric.s
+
+# target to generate assembly for a file
+IsSymmetric.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.s
+.PHONY : IsSymmetric.cpp.s
+
 MajorityElement.o: MajorityElement.cpp.o
 
 .PHONY : MajorityElement.o
@@ -1212,6 +1239,9 @@ help:
 	@echo "... IsSubStructure.o"
 	@echo "... IsSubStructure.i"
 	@echo "... IsSubStructure.s"
+	@echo "... IsSymmetric.o"
+	@echo "... IsSymmetric.i"
+	@echo "... IsSymmetric.s"
 	@echo "... MajorityElement.o"
 	@echo "... MajorityElement.i"
 	@echo "... MajorityElement.s"

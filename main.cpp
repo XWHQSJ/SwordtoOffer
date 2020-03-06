@@ -45,6 +45,7 @@
 #include "IsSubStructure.h"
 #include "TwoSum.h"
 #include "MirrorTree.h"
+#include "IsSymmetric.h"
 
 using namespace std;
 
@@ -351,6 +352,10 @@ int main() {
 
     // MirrorTree.cpp test
     Solution27 solution27;
+
+
+    // IsSymmetric.cpp test
+    Solution28 solution28;
 
 
     // MinStack.cpp test

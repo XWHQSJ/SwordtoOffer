@@ -75,4 +75,6 @@ add_executable(SwordtoOffer
         MaxSubArray.cpp MaxSubArray.h
         IsSubStructure.cpp IsSubStructure.h
         MirrorTree.cpp MirrorTree.h
-        TwoSum.cpp TwoSum.h)
+        TwoSum.cpp TwoSum.h
+        IsSymmetric.cpp IsSymmetric.h
+        )

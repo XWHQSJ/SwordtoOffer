@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/IsMatch.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MaxSubArray.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/Median.cpp.o"

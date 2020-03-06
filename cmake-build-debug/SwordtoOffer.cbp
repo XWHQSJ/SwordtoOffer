@@ -218,6 +218,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSubStructure.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>
