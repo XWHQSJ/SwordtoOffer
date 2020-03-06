@@ -84,6 +84,10 @@ CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o: ../MinArray.h
 CMakeFiles/SwordtoOffer.dir/MinStack.cpp.o: ../MinStack.cpp
 CMakeFiles/SwordtoOffer.dir/MinStack.cpp.o: ../MinStack.h
 
+CMakeFiles/SwordtoOffer.dir/MirrorTree.cpp.o: ../DataStruct/BiTreeNode.h
+CMakeFiles/SwordtoOffer.dir/MirrorTree.cpp.o: ../MirrorTree.cpp
+CMakeFiles/SwordtoOffer.dir/MirrorTree.cpp.o: ../MirrorTree.h
+
 CMakeFiles/SwordtoOffer.dir/MovingCount.cpp.o: ../MovingCount.cpp
 CMakeFiles/SwordtoOffer.dir/MovingCount.cpp.o: ../MovingCount.h
 
@@ -112,6 +116,9 @@ CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../ReverseList.h
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../DataStruct/Node.h
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.cpp
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.h
+
+CMakeFiles/SwordtoOffer.dir/TwoSum.cpp.o: ../TwoSum.cpp
+CMakeFiles/SwordtoOffer.dir/TwoSum.cpp.o: ../TwoSum.h
 
 CMakeFiles/SwordtoOffer.dir/ValidateStackSequences.cpp.o: ../ValidateStackSequences.cpp
 CMakeFiles/SwordtoOffer.dir/ValidateStackSequences.cpp.o: ../ValidateStackSequences.h
@@ -153,6 +160,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../PrintNumbers.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReplaceSpace.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReverseList.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReversePrint.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../TwoSum.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ValidateStackSequences.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../main.cpp
 

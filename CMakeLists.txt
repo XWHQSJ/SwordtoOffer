@@ -73,4 +73,6 @@ add_executable(SwordtoOffer
         GetLeastNumbers.cpp GetLeastNumbers.h
         MedianFinder.cpp MedianFinder.h
         MaxSubArray.cpp MaxSubArray.h
-        IsSubStructure.cpp IsSubStructure.h MirrorTree.cpp MirrorTree.h)
+        IsSubStructure.cpp IsSubStructure.h
+        MirrorTree.cpp MirrorTree.h
+        TwoSum.cpp TwoSum.h)

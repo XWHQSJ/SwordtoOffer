@@ -43,6 +43,7 @@
 #include "GetIntersectionNode.h"
 #include "CopyRandomList.h"
 #include "IsSubStructure.h"
+#include "TwoSum.h"
 
 using namespace std;
 
@@ -109,16 +110,16 @@ int main() {
 
     // ReversePrint.cpp test
     Solution06 solution06;
-    ListNode* node1 = new ListNode(1);
-    ListNode* node2 = new ListNode(3);
-    ListNode* node3 = new ListNode(2);
-    SingleNodeList* singleNodeList = new SingleNodeList();
+    ListNode *node1 = new ListNode(1);
+    ListNode *node2 = new ListNode(3);
+    ListNode *node3 = new ListNode(2);
+    SingleNodeList *singleNodeList = new SingleNodeList();
     singleNodeList->insertTail(node1);
     singleNodeList->insertTail(node2);
     singleNodeList->insertTail(node3);
     std::vector<int> result = solution06.reversePrint(node2);
-    for(auto num : result){
-        std::cout << "result is " << num<< std::ends;
+    for (auto num : result) {
+        std::cout << "result is " << num << std::ends;
     }
     std::cout << std::endl;
 
@@ -440,6 +441,23 @@ int main() {
 
     // GetIntersectionNode.cpp test
     Solution52 solution52;
+
+
+    // TwoSum.cpp test
+    Solution57 solution57;
+    std::vector<int> nums7 = {14, 15, 16, 22, 53, 60};
+    int target1 = 76;
+    std::vector<int> ans = solution57.twoSum(nums7, target1);
+    for (auto a : ans) {
+        std::cout << "ans = " << a << std::ends;
+    }
+    std::cout << std::endl;
+    ans = solution57.twoSum2(nums7, target1);
+    for (auto a : ans) {
+        std::cout << "ans = " << a << std::ends;
+    }
+    std::cout << std::endl;
+
 
     return 0;
 }

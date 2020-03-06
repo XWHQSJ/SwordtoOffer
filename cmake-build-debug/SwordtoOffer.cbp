@@ -323,6 +323,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/ValidateStackSequences.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>
