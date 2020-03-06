@@ -151,6 +151,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MedianFinder.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MergeTwoLists.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinArray.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinStack.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MirrorTree.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MovingCount.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MyPow.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../NthUglyNumber.h

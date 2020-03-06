@@ -44,6 +44,7 @@
 #include "CopyRandomList.h"
 #include "IsSubStructure.h"
 #include "TwoSum.h"
+#include "MirrorTree.h"
 
 using namespace std;
 
@@ -346,6 +347,10 @@ int main() {
 
     // IsSubStructure.cpp test
     Solution26 solution26;
+
+
+    // MirrorTree.cpp test
+    Solution27 solution27;
 
 
     // MinStack.cpp test
