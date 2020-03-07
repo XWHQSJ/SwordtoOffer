@@ -663,6 +663,33 @@ MajorityElement.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.s
 .PHONY : MajorityElement.cpp.s
 
+MaxSlidingWindow.o: MaxSlidingWindow.cpp.o
+
+.PHONY : MaxSlidingWindow.o
+
+# target to build an object file
+MaxSlidingWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxSlidingWindow.cpp.o
+.PHONY : MaxSlidingWindow.cpp.o
+
+MaxSlidingWindow.i: MaxSlidingWindow.cpp.i
+
+.PHONY : MaxSlidingWindow.i
+
+# target to preprocess a source file
+MaxSlidingWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxSlidingWindow.cpp.i
+.PHONY : MaxSlidingWindow.cpp.i
+
+MaxSlidingWindow.s: MaxSlidingWindow.cpp.s
+
+.PHONY : MaxSlidingWindow.s
+
+# target to generate assembly for a file
+MaxSlidingWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxSlidingWindow.cpp.s
+.PHONY : MaxSlidingWindow.cpp.s
+
 MaxSubArray.o: MaxSubArray.cpp.o
 
 .PHONY : MaxSubArray.o
@@ -1245,6 +1272,9 @@ help:
 	@echo "... MajorityElement.o"
 	@echo "... MajorityElement.i"
 	@echo "... MajorityElement.s"
+	@echo "... MaxSlidingWindow.o"
+	@echo "... MaxSlidingWindow.i"
+	@echo "... MaxSlidingWindow.s"
 	@echo "... MaxSubArray.o"
 	@echo "... MaxSubArray.i"
 	@echo "... MaxSubArray.s"

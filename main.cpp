@@ -46,6 +46,7 @@
 #include "TwoSum.h"
 #include "MirrorTree.h"
 #include "IsSymmetric.h"
+#include "MaxSlidingWindow.h"
 
 using namespace std;
 
@@ -465,6 +466,18 @@ int main() {
     ans = solution57.twoSum2(nums7, target1);
     for (auto a : ans) {
         std::cout << "ans = " << a << std::ends;
+    }
+    std::cout << std::endl;
+
+
+
+    // MaxSlidingWindow.cpp test
+    Solution59_1 solution591;
+    std::vector<int> nums5 = {1, 3, -1, -3, 5, 3, 6, 7};
+    int k4 = 3;
+    std::vector<int> ans1 = solution591.maxSlidingWindow(nums5, k4);
+    for(auto a : ans1){
+        std::cout << "a = " << a << std::ends;
     }
     std::cout << std::endl;
 

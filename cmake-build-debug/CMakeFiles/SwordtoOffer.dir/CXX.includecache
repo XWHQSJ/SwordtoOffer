@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../DataStruct/BiTreeNode.h
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.h
 vector
 -
@@ -84,7 +86,25 @@ string
 DataStruct/BiTreeNode.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/BiTreeNode.h
 
+/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.cpp
+queue
+-
+IsSymmetric.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.h
+DataStruct/BiTreeNode.h
+-
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
+vector
+-
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.cpp
+MaxSlidingWindow.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.h
 vector
 -
 
@@ -163,12 +183,6 @@ vector
 -
 DataStruct/Node.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
-
-/home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum.cpp
-unordered_map
--
-TwoSum.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum.h
 vector
@@ -257,4 +271,8 @@ TwoSum.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum.h
 MirrorTree.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MirrorTree.h
+IsSymmetric.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.h
+MaxSlidingWindow.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.h
 

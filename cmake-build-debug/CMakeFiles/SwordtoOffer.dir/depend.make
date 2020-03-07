@@ -62,8 +62,15 @@ CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o: ../DataStruct/BiTreeNode.h
 CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o: ../IsSubStructure.cpp
 CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o: ../IsSubStructure.h
 
+CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.o: ../DataStruct/BiTreeNode.h
+CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.o: ../IsSymmetric.cpp
+CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.o: ../IsSymmetric.h
+
 CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o: ../MajorityElement.cpp
 CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o: ../MajorityElement.h
+
+CMakeFiles/SwordtoOffer.dir/MaxSlidingWindow.cpp.o: ../MaxSlidingWindow.cpp
+CMakeFiles/SwordtoOffer.dir/MaxSlidingWindow.cpp.o: ../MaxSlidingWindow.h
 
 CMakeFiles/SwordtoOffer.dir/MaxSubArray.cpp.o: ../MaxSubArray.cpp
 CMakeFiles/SwordtoOffer.dir/MaxSubArray.cpp.o: ../MaxSubArray.h
@@ -144,7 +151,9 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../HammingWeight.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsMatch.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsNumber.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsSubStructure.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsSymmetric.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MajorityElement.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MaxSlidingWindow.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MaxSubArray.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Median.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MedianFinder.h
