@@ -50,6 +50,7 @@
 #include "MaxDepth.h"
 #include "SumNums.h"
 #include "SpiralOrder.h"
+#include "MaxQueue.h"
 
 using namespace std;
 
@@ -500,6 +501,20 @@ int main() {
         std::cout << "a = " << a << std::ends;
     }
     std::cout << std::endl;
+
+
+    // MaxQueue.cpp test
+    Solution59_2 solution592;
+    int mq = solution592.max_value();
+    std::cout << "mq is " << mq << std::endl;
+    solution592.push_back(1);
+    solution592.push_back(2);
+    mq = solution592.max_value();
+    std::cout << "mq is " << mq << std::endl;
+    int pq = solution592.pop_front();
+    std::cout << "pq is " << pq << std::endl;
+    mq = solution592.max_value();
+    std::cout << "mq is " << mq << std::endl;
 
 
     // SumNums.cpp test
