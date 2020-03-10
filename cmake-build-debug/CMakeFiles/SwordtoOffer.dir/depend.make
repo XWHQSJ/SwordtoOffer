@@ -69,6 +69,10 @@ CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.o: ../IsSymmetric.h
 CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o: ../MajorityElement.cpp
 CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o: ../MajorityElement.h
 
+CMakeFiles/SwordtoOffer.dir/MaxDepth.cpp.o: ../DataStruct/BiTreeNode.h
+CMakeFiles/SwordtoOffer.dir/MaxDepth.cpp.o: ../MaxDepth.cpp
+CMakeFiles/SwordtoOffer.dir/MaxDepth.cpp.o: ../MaxDepth.h
+
 CMakeFiles/SwordtoOffer.dir/MaxSlidingWindow.cpp.o: ../MaxSlidingWindow.cpp
 CMakeFiles/SwordtoOffer.dir/MaxSlidingWindow.cpp.o: ../MaxSlidingWindow.h
 
@@ -124,6 +128,9 @@ CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../DataStruct/Node.h
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.cpp
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.h
 
+CMakeFiles/SwordtoOffer.dir/SumNums.cpp.o: ../SumNums.cpp
+CMakeFiles/SwordtoOffer.dir/SumNums.cpp.o: ../SumNums.h
+
 CMakeFiles/SwordtoOffer.dir/TwoSum.cpp.o: ../TwoSum.cpp
 CMakeFiles/SwordtoOffer.dir/TwoSum.cpp.o: ../TwoSum.h
 
@@ -153,6 +160,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsNumber.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsSubStructure.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsSymmetric.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MajorityElement.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MaxDepth.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MaxSlidingWindow.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MaxSubArray.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Median.h
@@ -170,6 +178,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../PrintNumbers.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReplaceSpace.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReverseList.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReversePrint.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../SumNums.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../TwoSum.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ValidateStackSequences.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../main.cpp

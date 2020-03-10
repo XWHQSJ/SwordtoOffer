@@ -79,4 +79,4 @@ add_executable(SwordtoOffer
         IsSymmetric.cpp IsSymmetric.h
         MaxSlidingWindow.cpp MaxSlidingWindow.h
         MaxDepth.cpp MaxDepth.h
-        )
+        SumNums.cpp SumNums.h)

@@ -69,6 +69,10 @@ CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.o
 CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
+CMakeFiles/SwordtoOffer.dir/MaxDepth.cpp.o
+ ../DataStruct/BiTreeNode.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxDepth.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxDepth.h
 CMakeFiles/SwordtoOffer.dir/MaxSlidingWindow.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.h
@@ -124,6 +128,9 @@ CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.h
+CMakeFiles/SwordtoOffer.dir/SumNums.cpp.o
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.h
 CMakeFiles/SwordtoOffer.dir/TwoSum.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum.h
@@ -154,6 +161,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsSubStructure.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxDepth.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Median.h
@@ -171,6 +179,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReplaceSpace.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ValidateStackSequences.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/main.cpp

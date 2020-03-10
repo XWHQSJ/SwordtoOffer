@@ -37,6 +37,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/SumNums.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/TwoSum.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/ValidateStackSequences.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/main.cpp.o"

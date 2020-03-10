@@ -6,8 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../DataStruct/BiTreeNode.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.h
 vector
 -
@@ -86,12 +84,6 @@ string
 DataStruct/BiTreeNode.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/BiTreeNode.h
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.cpp
-queue
--
-IsSymmetric.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.h
 DataStruct/BiTreeNode.h
 -
@@ -100,9 +92,9 @@ DataStruct/BiTreeNode.h
 vector
 -
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.cpp
-MaxSlidingWindow.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxDepth.h
+DataStruct/BiTreeNode.h
+-
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.h
 vector
@@ -135,10 +127,6 @@ vector
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.h
 vector
 -
-
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MirrorTree.cpp
-MirrorTree.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MirrorTree.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MirrorTree.h
 DataStruct/BiTreeNode.h
@@ -183,6 +171,14 @@ vector
 -
 DataStruct/Node.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.cpp
+cmath
+-
+SumNums.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum.h
 vector
@@ -275,4 +271,8 @@ IsSymmetric.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.h
 MaxSlidingWindow.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.h
+MaxDepth.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxDepth.h
+SumNums.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.h
 

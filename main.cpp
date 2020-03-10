@@ -48,6 +48,7 @@
 #include "IsSymmetric.h"
 #include "MaxSlidingWindow.h"
 #include "MaxDepth.h"
+#include "SumNums.h"
 
 using namespace std;
 
@@ -487,6 +488,20 @@ int main() {
     }
     std::cout << std::endl;
 
+
+    // SumNums.cpp test
+    Solution64 solution64;
+    n = 9;
+    int ans2 = solution64.sumNums(n);
+    std::cout << "ans2 = " << ans2 << std::endl;
+    ans2 = solution64.sumNums2(n);
+    std::cout << "ans2 = " << ans2 << std::endl;
+    ans2 = solution64.sumNums3(n);
+    std::cout << "ans2 = " << ans2 << std::endl;
+    ans2 = Solution64::sumNums4(n);
+    std::cout << "ans2 = " << ans2 << std::endl;
+    ans2 = sumNums5<9>::N;
+    std::cout << "ans2 = " << ans2 << std::endl;
 
     return 0;
 }
