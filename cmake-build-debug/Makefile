@@ -690,6 +690,33 @@ MaxDepth.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxDepth.cpp.s
 .PHONY : MaxDepth.cpp.s
 
+MaxQueue.o: MaxQueue.cpp.o
+
+.PHONY : MaxQueue.o
+
+# target to build an object file
+MaxQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxQueue.cpp.o
+.PHONY : MaxQueue.cpp.o
+
+MaxQueue.i: MaxQueue.cpp.i
+
+.PHONY : MaxQueue.i
+
+# target to preprocess a source file
+MaxQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxQueue.cpp.i
+.PHONY : MaxQueue.cpp.i
+
+MaxQueue.s: MaxQueue.cpp.s
+
+.PHONY : MaxQueue.s
+
+# target to generate assembly for a file
+MaxQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxQueue.cpp.s
+.PHONY : MaxQueue.cpp.s
+
 MaxSlidingWindow.o: MaxSlidingWindow.cpp.o
 
 .PHONY : MaxSlidingWindow.o
@@ -1356,6 +1383,9 @@ help:
 	@echo "... MaxDepth.o"
 	@echo "... MaxDepth.i"
 	@echo "... MaxDepth.s"
+	@echo "... MaxQueue.o"
+	@echo "... MaxQueue.i"
+	@echo "... MaxQueue.s"
 	@echo "... MaxSlidingWindow.o"
 	@echo "... MaxSlidingWindow.i"
 	@echo "... MaxSlidingWindow.s"

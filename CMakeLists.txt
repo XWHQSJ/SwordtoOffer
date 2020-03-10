@@ -81,4 +81,4 @@ add_executable(SwordtoOffer
         MaxDepth.cpp MaxDepth.h
         SumNums.cpp SumNums.h
         SpiralOrder.cpp SpiralOrder.h
-        )
+        MaxQueue.cpp MaxQueue.h)

@@ -236,6 +236,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxDepth.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxQueue.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxQueue.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>
