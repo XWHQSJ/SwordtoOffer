@@ -43,7 +43,7 @@ public:
      * 二叉树的深度通过递归遍历取得，当递归到叶子节点后，
      * 递归栈开始弹出，每弹出一个节点，则深度加1。
      * */
-    int maxDepth(BiTreeNode* root);
+    int maxDepth(BiTreeNode *root);
 };
 
 

@@ -77,4 +77,6 @@ add_executable(SwordtoOffer
         MirrorTree.cpp MirrorTree.h
         TwoSum.cpp TwoSum.h
         IsSymmetric.cpp IsSymmetric.h
-        MaxSlidingWindow.cpp MaxSlidingWindow.h MaxDepth.cpp MaxDepth.h)
+        MaxSlidingWindow.cpp MaxSlidingWindow.h
+        MaxDepth.cpp MaxDepth.h
+        )

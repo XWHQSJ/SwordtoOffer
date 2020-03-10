@@ -6,7 +6,7 @@
 #include "MaxDepth.h"
 
 int Solution55_1::maxDepth(BiTreeNode *root) {
-    if(root == nullptr){
+    if (root == nullptr) {
         return 0;
     }
 

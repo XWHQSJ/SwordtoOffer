@@ -47,6 +47,7 @@
 #include "MirrorTree.h"
 #include "IsSymmetric.h"
 #include "MaxSlidingWindow.h"
+#include "MaxDepth.h"
 
 using namespace std;
 
@@ -452,6 +453,11 @@ int main() {
 
     // GetIntersectionNode.cpp test
     Solution52 solution52;
+
+
+    // MaxDepth.cpp test
+    Solution55_1 solution551;
+
 
 
     // TwoSum.cpp test

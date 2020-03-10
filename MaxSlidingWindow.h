@@ -39,7 +39,7 @@ public:
      *
      * 遍历滑动窗口，再求每个滑动窗口的最大值。
      * */
-    std::vector<int> maxSlidingWindow(std::vector<int>& nums, int k);
+    std::vector<int> maxSlidingWindow(std::vector<int> &nums, int k);
 
     int retMax(std::vector<int> &nums, int small, int big);
 
@@ -49,7 +49,7 @@ public:
      *
      *
      * */
-    std::vector<int> maxSlidingWindow2(std::vector<int>& nums, int k);
+    std::vector<int> maxSlidingWindow2(std::vector<int> &nums, int k);
 };
 
 
