@@ -483,7 +483,7 @@ int main() {
     std::vector<int> nums5 = {1, 3, -1, -3, 5, 3, 6, 7};
     int k4 = 3;
     std::vector<int> ans1 = solution591.maxSlidingWindow(nums5, k4);
-    for(auto a : ans1){
+    for (auto a : ans1) {
         std::cout << "a = " << a << std::ends;
     }
     std::cout << std::endl;

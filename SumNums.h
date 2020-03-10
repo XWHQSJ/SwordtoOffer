@@ -63,8 +63,10 @@ public:
 
     // 累加n和sum的构造函数
     Solution64();
+
     // 置0静态函数
     static void reset();
+
     // 获取全局静态变量sum值的静态函数
     static int getSum();
 
@@ -94,20 +96,26 @@ public:
 };
 
 /*
- * 方法4 模板类型法
+ * 方法5 模板类型法
  *
  * 使用模板类型的方法，递归计算：N = n+(n-1)+...+1
  * 当递归到参数为1的类型时，递归结束。
  *
  * 由于此过程是在编译过程中完成的，因此需要n为确定的常量。
  * */
-template <int n> struct sumNums5{
-    enum VALUE{N=sumNums5<n-1>::N+n};
+template<int n>
+struct sumNums5 {
+    enum VALUE {
+        N = sumNums5<n - 1>::N + n
+    };
 };
 
 // 终止类型
-template <> struct sumNums5<1>{
-    enum VALUE{N=1};
+template<>
+struct sumNums5<1> {
+    enum VALUE {
+        N = 1
+    };
 };
 
 
