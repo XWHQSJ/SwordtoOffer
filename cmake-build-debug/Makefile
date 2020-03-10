@@ -663,6 +663,33 @@ MajorityElement.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.s
 .PHONY : MajorityElement.cpp.s
 
+MaxDepth.o: MaxDepth.cpp.o
+
+.PHONY : MaxDepth.o
+
+# target to build an object file
+MaxDepth.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxDepth.cpp.o
+.PHONY : MaxDepth.cpp.o
+
+MaxDepth.i: MaxDepth.cpp.i
+
+.PHONY : MaxDepth.i
+
+# target to preprocess a source file
+MaxDepth.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxDepth.cpp.i
+.PHONY : MaxDepth.cpp.i
+
+MaxDepth.s: MaxDepth.cpp.s
+
+.PHONY : MaxDepth.s
+
+# target to generate assembly for a file
+MaxDepth.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxDepth.cpp.s
+.PHONY : MaxDepth.cpp.s
+
 MaxSlidingWindow.o: MaxSlidingWindow.cpp.o
 
 .PHONY : MaxSlidingWindow.o
@@ -1272,6 +1299,9 @@ help:
 	@echo "... MajorityElement.o"
 	@echo "... MajorityElement.i"
 	@echo "... MajorityElement.s"
+	@echo "... MaxDepth.o"
+	@echo "... MaxDepth.i"
+	@echo "... MaxDepth.s"
 	@echo "... MaxSlidingWindow.o"
 	@echo "... MaxSlidingWindow.i"
 	@echo "... MaxSlidingWindow.s"

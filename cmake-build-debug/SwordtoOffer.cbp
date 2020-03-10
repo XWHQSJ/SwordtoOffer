@@ -230,6 +230,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxDepth.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxDepth.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>
