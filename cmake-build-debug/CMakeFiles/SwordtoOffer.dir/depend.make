@@ -128,6 +128,9 @@ CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../DataStruct/Node.h
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.cpp
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.h
 
+CMakeFiles/SwordtoOffer.dir/SpiralOrder.cpp.o: ../SpiralOrder.cpp
+CMakeFiles/SwordtoOffer.dir/SpiralOrder.cpp.o: ../SpiralOrder.h
+
 CMakeFiles/SwordtoOffer.dir/SumNums.cpp.o: ../SumNums.cpp
 CMakeFiles/SwordtoOffer.dir/SumNums.cpp.o: ../SumNums.h
 
@@ -178,6 +181,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../PrintNumbers.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReplaceSpace.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReverseList.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReversePrint.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../SpiralOrder.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../SumNums.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../TwoSum.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ValidateStackSequences.h

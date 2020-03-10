@@ -49,6 +49,7 @@
 #include "MaxSlidingWindow.h"
 #include "MaxDepth.h"
 #include "SumNums.h"
+#include "SpiralOrder.h"
 
 using namespace std;
 
@@ -361,6 +362,18 @@ int main() {
     Solution28 solution28;
 
 
+    // SpiralOrder.cpp test
+    Solution29 solution29;
+    std::vector<std::vector<int>> matrix = {{1, 2, 3},
+                                            {4, 5, 6},
+                                            {7, 8, 9}};
+    std::vector<int> ans = solution29.spiralOrder(matrix);
+    for (auto a : ans) {
+        std::cout << "a is " << a << std::ends;
+    }
+    std::cout << std::endl;
+
+
     // MinStack.cpp test
     Solution30 solution30;
     solution30.push(-2);
@@ -465,7 +478,7 @@ int main() {
     Solution57 solution57;
     std::vector<int> nums7 = {14, 15, 16, 22, 53, 60};
     int target1 = 76;
-    std::vector<int> ans = solution57.twoSum(nums7, target1);
+    ans = solution57.twoSum(nums7, target1);
     for (auto a : ans) {
         std::cout << "ans = " << a << std::ends;
     }

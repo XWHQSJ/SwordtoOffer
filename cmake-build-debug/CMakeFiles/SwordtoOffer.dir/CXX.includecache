@@ -172,6 +172,14 @@ vector
 DataStruct/Node.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
 
+/home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.cpp
+SpiralOrder.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.h
+vector
+-
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.cpp
 cmath
 -
@@ -275,4 +283,6 @@ MaxDepth.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxDepth.h
 SumNums.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.h
+SpiralOrder.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.h
 
