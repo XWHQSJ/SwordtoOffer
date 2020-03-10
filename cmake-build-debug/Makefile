@@ -1149,6 +1149,33 @@ ReversePrint.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.s
 .PHONY : ReversePrint.cpp.s
 
+SpiralOrder.o: SpiralOrder.cpp.o
+
+.PHONY : SpiralOrder.o
+
+# target to build an object file
+SpiralOrder.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/SpiralOrder.cpp.o
+.PHONY : SpiralOrder.cpp.o
+
+SpiralOrder.i: SpiralOrder.cpp.i
+
+.PHONY : SpiralOrder.i
+
+# target to preprocess a source file
+SpiralOrder.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/SpiralOrder.cpp.i
+.PHONY : SpiralOrder.cpp.i
+
+SpiralOrder.s: SpiralOrder.cpp.s
+
+.PHONY : SpiralOrder.s
+
+# target to generate assembly for a file
+SpiralOrder.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/SpiralOrder.cpp.s
+.PHONY : SpiralOrder.cpp.s
+
 SumNums.o: SumNums.cpp.o
 
 .PHONY : SumNums.o
@@ -1380,6 +1407,9 @@ help:
 	@echo "... ReversePrint.o"
 	@echo "... ReversePrint.i"
 	@echo "... ReversePrint.s"
+	@echo "... SpiralOrder.o"
+	@echo "... SpiralOrder.i"
+	@echo "... SpiralOrder.s"
 	@echo "... SumNums.o"
 	@echo "... SumNums.i"
 	@echo "... SumNums.s"
