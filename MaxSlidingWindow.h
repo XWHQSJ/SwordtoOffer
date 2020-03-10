@@ -35,13 +35,9 @@
 class Solution59_1 {
 public:
     /*
-     * 方法1 暴力法 O(nk)
-     *
-     * 遍历滑动窗口，再求每个滑动窗口的最大值。
+     * 方法1
      * */
     std::vector<int> maxSlidingWindow(std::vector<int> &nums, int k);
-
-    int retMax(std::vector<int> &nums, int small, int big);
 
 
     /*
