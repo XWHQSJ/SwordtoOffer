@@ -20,6 +20,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/LevelOrder.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/LevelOrderII.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/LevelOrderIII.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MaxDepth.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/MaxQueue.cpp.o"
