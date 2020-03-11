@@ -23,8 +23,6 @@ std::vector<int> Solution32_1::levelOrder(BiTreeNode *root) {
     while (!deq.empty()) {
         // 取队首元素
         BiTreeNode *popNode = deq.front();
-        // 队首元素出队
-        deq.pop_front();
         // 将队首元素加入结果数组
         ans.push_back(popNode->val);
 
@@ -39,6 +37,9 @@ std::vector<int> Solution32_1::levelOrder(BiTreeNode *root) {
         if (popNode->right != nullptr) {
             deq.push_back(popNode->right);
         }
+
+        // 队首元素出队
+        deq.pop_front();
     }
 
     return ans;

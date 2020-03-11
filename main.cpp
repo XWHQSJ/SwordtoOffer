@@ -52,6 +52,7 @@
 #include "SpiralOrder.h"
 #include "MaxQueue.h"
 #include "LevelOrder.h"
+#include "LevelOrderII.h"
 
 using namespace std;
 
@@ -399,7 +400,8 @@ int main() {
     Solution32_1 solution321;
 
 
-
+    // LevelOrderII.cpp test
+    Solution32_2 solution322;
 
 
     // CopyRandomList.cpp test
