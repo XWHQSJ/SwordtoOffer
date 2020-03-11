@@ -636,6 +636,33 @@ IsSymmetric.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.s
 .PHONY : IsSymmetric.cpp.s
 
+LevelOrder.o: LevelOrder.cpp.o
+
+.PHONY : LevelOrder.o
+
+# target to build an object file
+LevelOrder.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LevelOrder.cpp.o
+.PHONY : LevelOrder.cpp.o
+
+LevelOrder.i: LevelOrder.cpp.i
+
+.PHONY : LevelOrder.i
+
+# target to preprocess a source file
+LevelOrder.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LevelOrder.cpp.i
+.PHONY : LevelOrder.cpp.i
+
+LevelOrder.s: LevelOrder.cpp.s
+
+.PHONY : LevelOrder.s
+
+# target to generate assembly for a file
+LevelOrder.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LevelOrder.cpp.s
+.PHONY : LevelOrder.cpp.s
+
 MajorityElement.o: MajorityElement.cpp.o
 
 .PHONY : MajorityElement.o
@@ -1377,6 +1404,9 @@ help:
 	@echo "... IsSymmetric.o"
 	@echo "... IsSymmetric.i"
 	@echo "... IsSymmetric.s"
+	@echo "... LevelOrder.o"
+	@echo "... LevelOrder.i"
+	@echo "... LevelOrder.s"
 	@echo "... MajorityElement.o"
 	@echo "... MajorityElement.i"
 	@echo "... MajorityElement.s"

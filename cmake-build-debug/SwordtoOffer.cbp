@@ -224,6 +224,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrder.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrder.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>
