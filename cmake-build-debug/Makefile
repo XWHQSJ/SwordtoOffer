@@ -663,6 +663,33 @@ LevelOrder.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LevelOrder.cpp.s
 .PHONY : LevelOrder.cpp.s
 
+LevelOrderII.o: LevelOrderII.cpp.o
+
+.PHONY : LevelOrderII.o
+
+# target to build an object file
+LevelOrderII.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LevelOrderII.cpp.o
+.PHONY : LevelOrderII.cpp.o
+
+LevelOrderII.i: LevelOrderII.cpp.i
+
+.PHONY : LevelOrderII.i
+
+# target to preprocess a source file
+LevelOrderII.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LevelOrderII.cpp.i
+.PHONY : LevelOrderII.cpp.i
+
+LevelOrderII.s: LevelOrderII.cpp.s
+
+.PHONY : LevelOrderII.s
+
+# target to generate assembly for a file
+LevelOrderII.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LevelOrderII.cpp.s
+.PHONY : LevelOrderII.cpp.s
+
 MajorityElement.o: MajorityElement.cpp.o
 
 .PHONY : MajorityElement.o
@@ -1407,6 +1434,9 @@ help:
 	@echo "... LevelOrder.o"
 	@echo "... LevelOrder.i"
 	@echo "... LevelOrder.s"
+	@echo "... LevelOrderII.o"
+	@echo "... LevelOrderII.i"
+	@echo "... LevelOrderII.s"
 	@echo "... MajorityElement.o"
 	@echo "... MajorityElement.i"
 	@echo "... MajorityElement.s"
