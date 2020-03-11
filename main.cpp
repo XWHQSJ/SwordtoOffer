@@ -53,6 +53,7 @@
 #include "MaxQueue.h"
 #include "LevelOrder.h"
 #include "LevelOrderII.h"
+#include "LevelOrderIII.h"
 
 using namespace std;
 
@@ -402,6 +403,9 @@ int main() {
 
     // LevelOrderII.cpp test
     Solution32_2 solution322;
+
+    // LevelOrderIII.cpp test
+    Solution32_3 solution323;
 
 
     // CopyRandomList.cpp test

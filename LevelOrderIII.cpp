@@ -51,7 +51,7 @@ std::vector<std::vector<int>> Solution32_3::levelOrder(BiTreeNode *root) {
         if (levelCount == 0) {
             // 如果当前层是奇数时，
             // 对该层的数组元素进行反转
-            if(level&1){
+            if (level & 1) {
                 // 对本层节点反转
                 std::reverse(std::begin(levelAns), std::end(levelAns));
             }
