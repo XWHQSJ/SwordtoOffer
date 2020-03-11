@@ -51,6 +51,7 @@
 #include "SumNums.h"
 #include "SpiralOrder.h"
 #include "MaxQueue.h"
+#include "LevelOrder.h"
 
 using namespace std;
 
@@ -392,6 +393,13 @@ int main() {
     std::vector<int> popped = {4, 5, 3, 2, 1};
     bool b4 = solution31.validateStackSequences(pushed, popped);
     std::cout << "b4 = " << b4 << std::endl;
+
+
+    // LevelOrder.cpp test
+    Solution32_1 solution321;
+
+
+
 
 
     // CopyRandomList.cpp test
