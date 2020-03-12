@@ -45,6 +45,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/SpiralOrder.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/StrToInt.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/SumNums.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/TreeToDoublyList.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/TwoSum.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/ValidateStackSequences.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/VerifyPostorder.cpp.o"

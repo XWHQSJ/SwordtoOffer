@@ -1365,6 +1365,33 @@ SumNums.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/SumNums.cpp.s
 .PHONY : SumNums.cpp.s
 
+TreeToDoublyList.o: TreeToDoublyList.cpp.o
+
+.PHONY : TreeToDoublyList.o
+
+# target to build an object file
+TreeToDoublyList.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/TreeToDoublyList.cpp.o
+.PHONY : TreeToDoublyList.cpp.o
+
+TreeToDoublyList.i: TreeToDoublyList.cpp.i
+
+.PHONY : TreeToDoublyList.i
+
+# target to preprocess a source file
+TreeToDoublyList.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/TreeToDoublyList.cpp.i
+.PHONY : TreeToDoublyList.cpp.i
+
+TreeToDoublyList.s: TreeToDoublyList.cpp.s
+
+.PHONY : TreeToDoublyList.s
+
+# target to generate assembly for a file
+TreeToDoublyList.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/TreeToDoublyList.cpp.s
+.PHONY : TreeToDoublyList.cpp.s
+
 TwoSum.o: TwoSum.cpp.o
 
 .PHONY : TwoSum.o
@@ -1620,6 +1647,9 @@ help:
 	@echo "... SumNums.o"
 	@echo "... SumNums.i"
 	@echo "... SumNums.s"
+	@echo "... TreeToDoublyList.o"
+	@echo "... TreeToDoublyList.i"
+	@echo "... TreeToDoublyList.s"
 	@echo "... TwoSum.o"
 	@echo "... TwoSum.i"
 	@echo "... TwoSum.s"

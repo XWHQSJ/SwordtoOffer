@@ -88,4 +88,5 @@ add_executable(SwordtoOffer
         StrToInt.cpp StrToInt.h
         VerifyPostorder.cpp VerifyPostorder.h
         PathSum.cpp PathSum.h
+        TreeToDoublyList.cpp TreeToDoublyList.h
         )

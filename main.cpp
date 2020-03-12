@@ -56,6 +56,7 @@
 #include "LevelOrderIII.h"
 #include "VerifyPostorder.h"
 #include "PathSum.h"
+#include "TreeToDoublyList.h"
 
 using namespace std;
 
@@ -420,6 +421,10 @@ int main() {
 
     // CopyRandomList.cpp test
     Solution35 solution35;
+
+
+    // TreeToDoublyList.cpp test
+    Solution36 solution36;
 
 
     // Permutation.cpp test
