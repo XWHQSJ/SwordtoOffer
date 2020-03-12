@@ -1392,6 +1392,33 @@ ValidateStackSequences.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ValidateStackSequences.cpp.s
 .PHONY : ValidateStackSequences.cpp.s
 
+VerifyPostorder.o: VerifyPostorder.cpp.o
+
+.PHONY : VerifyPostorder.o
+
+# target to build an object file
+VerifyPostorder.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/VerifyPostorder.cpp.o
+.PHONY : VerifyPostorder.cpp.o
+
+VerifyPostorder.i: VerifyPostorder.cpp.i
+
+.PHONY : VerifyPostorder.i
+
+# target to preprocess a source file
+VerifyPostorder.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/VerifyPostorder.cpp.i
+.PHONY : VerifyPostorder.cpp.i
+
+VerifyPostorder.s: VerifyPostorder.cpp.s
+
+.PHONY : VerifyPostorder.s
+
+# target to generate assembly for a file
+VerifyPostorder.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/VerifyPostorder.cpp.s
+.PHONY : VerifyPostorder.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -1569,6 +1596,9 @@ help:
 	@echo "... ValidateStackSequences.o"
 	@echo "... ValidateStackSequences.i"
 	@echo "... ValidateStackSequences.s"
+	@echo "... VerifyPostorder.o"
+	@echo "... VerifyPostorder.i"
+	@echo "... VerifyPostorder.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

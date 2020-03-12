@@ -107,6 +107,8 @@
 ├── LevelOrderII.h    剑指offer 32-II 从上到下打印二叉树II
 ├── LevelOrderIII.cpp
 ├── LevelOrderIII.h    剑指offer 32-III 从上到下打印二叉树III
+├── VerifyPostorder.cpp
+├── VerifyPostorder.h    剑指offer 33 二叉搜索树的后序遍历序列
 ├── MaxSlidingWindow.cpp
 ├── MaxSlidingWindow.h    剑指offer 59-I 滑动窗口的最大值
 ├── MaxQueue.cpp

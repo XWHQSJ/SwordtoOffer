@@ -395,6 +395,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/ValidateStackSequences.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/VerifyPostorder.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/VerifyPostorder.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/main.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>
