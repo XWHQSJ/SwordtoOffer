@@ -55,6 +55,7 @@
 #include "LevelOrderII.h"
 #include "LevelOrderIII.h"
 #include "VerifyPostorder.h"
+#include "PathSum.h"
 
 using namespace std;
 
@@ -411,6 +412,10 @@ int main() {
 
     // VerifyPostorder.cpp test
     Solution33 solution33;
+
+
+    // PathSum.cpp test
+    Solution34 solution34;
 
 
     // CopyRandomList.cpp test
