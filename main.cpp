@@ -54,6 +54,7 @@
 #include "LevelOrder.h"
 #include "LevelOrderII.h"
 #include "LevelOrderIII.h"
+#include "VerifyPostorder.h"
 
 using namespace std;
 
@@ -406,6 +407,10 @@ int main() {
 
     // LevelOrderIII.cpp test
     Solution32_3 solution323;
+
+
+    // VerifyPostorder.cpp test
+    Solution33 solution33;
 
 
     // CopyRandomList.cpp test
