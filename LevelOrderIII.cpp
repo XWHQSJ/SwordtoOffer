@@ -4,6 +4,7 @@
 
 #include <deque>
 #include <algorithm>
+#include <stack>
 #include "LevelOrderIII.h"
 
 std::vector<std::vector<int>> Solution32_3::levelOrder(BiTreeNode *root) {
@@ -73,4 +74,67 @@ std::vector<std::vector<int>> Solution32_3::levelOrder(BiTreeNode *root) {
     }
 
     return ans;
+}
+
+std::vector<std::vector<int>> Solution32_3::levelOrder2(BiTreeNode *root) {
+    if(root == nullptr){
+        return {};
+    }
+
+    // 存放数组的数组
+    std::vector<std::vector<int>> ans;
+    // 存放每一层的节点数组
+    std::vector<int> levelAns;
+    // 存放节点的栈，
+    // 0是偶数层，1是奇数层
+    std::stack<BiTreeNode *> levels[2];
+    // 标志当前层是奇数层还是偶数层
+    int cur = 0;
+    // 标志下一层是奇数层还是偶数层
+    int next = 1;
+
+    // 将根节点入栈偶数层
+    levels[cur].push(root);
+
+    while (!levels[0].empty() && !levels[1].empty()){
+        // 取当前层的栈顶元素
+        BiTreeNode* popNode = levels[cur].top();
+        levels[cur].pop();
+
+        // 将栈顶元素存入当前层的结果数组中
+        levelAns.push_back(popNode->val);
+
+        // 如果是偶数层，则按照左子节点右子节点入栈，
+        // 这样出栈就是右子节点左子节点的反序打印
+        if(cur == 0){
+            if(popNode->left != nullptr){
+                levels[next].push(popNode->left);
+            }
+
+            if(popNode->right != nullptr){
+                levels[next].push(popNode->right);
+            }
+        } else{
+            // 如果是偶数层，则按照右子节点左子节点入栈，
+            // 这样出栈就是左子节点右子节点的正序打印
+            if(popNode->right != nullptr){
+                levels[next].push(popNode->right);
+            }
+
+            if(popNode->left != nullptr){
+                levels[next].push(popNode->left);
+            }
+        }
+
+        // 当前层遍历结束
+        if(levels[cur].empty()){
+            // 将当前层数组存入结果数组中
+            ans.push_back(levelAns);
+
+            // 对标志层数的标志进行更新
+            cur = 1-cur;
+            next = 1-next;
+        }
+    }
+
 }

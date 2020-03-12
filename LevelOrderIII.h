@@ -38,13 +38,22 @@
 class Solution32_3 {
 public:
     /*
-     * 队列+计数+层数
+     * 方法1 队列+计数+层数
      *
      * 与32-II相同，使用队列存储节点，计数进行层序遍历。
      * 本题不同的是在奇数层进行反序打印，那么只需要判断该层是奇数层，
      * 并将该层元素反转在存入结果数组即可。
      * */
     std::vector<std::vector<int>> levelOrder(BiTreeNode *root);
+
+    /*
+     * 方法2 栈+计数
+     *
+     * 因为奇数层的节点要反序打印，而偶数层的节点正序打印，
+     * 可以将节点储存在栈中，奇数层时先存左节点再存右节点；
+     * 偶数层时，先存右节点再存左节点。
+     * */
+    std::vector<std::vector<int>> levelOrder2(BiTreeNode *root);
 };
 
 

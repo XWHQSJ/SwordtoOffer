@@ -5,5 +5,7 @@
 #include "StrToInt.h"
 
 int Solution67::strToInt(std::string str) {
+
+
     return 0;
 }
