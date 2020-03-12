@@ -41,6 +41,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/MyPow.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/MyPow.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/NthUglyNumber.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/NumWays.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/NumWays.cpp.o"
+  "/home/Wanhui/Workspace/Clion/SwordtoOffer/PathSum.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/PathSum.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/Permutation.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/Permutation.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/PrintNumbers.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/ReplaceSpace.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o"

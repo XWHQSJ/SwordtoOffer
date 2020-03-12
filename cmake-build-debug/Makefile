@@ -1122,6 +1122,33 @@ NumWays.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/NumWays.cpp.s
 .PHONY : NumWays.cpp.s
 
+PathSum.o: PathSum.cpp.o
+
+.PHONY : PathSum.o
+
+# target to build an object file
+PathSum.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/PathSum.cpp.o
+.PHONY : PathSum.cpp.o
+
+PathSum.i: PathSum.cpp.i
+
+.PHONY : PathSum.i
+
+# target to preprocess a source file
+PathSum.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/PathSum.cpp.i
+.PHONY : PathSum.cpp.i
+
+PathSum.s: PathSum.cpp.s
+
+.PHONY : PathSum.s
+
+# target to generate assembly for a file
+PathSum.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/PathSum.cpp.s
+.PHONY : PathSum.cpp.s
+
 Permutation.o: Permutation.cpp.o
 
 .PHONY : Permutation.o
@@ -1566,6 +1593,9 @@ help:
 	@echo "... NumWays.o"
 	@echo "... NumWays.i"
 	@echo "... NumWays.s"
+	@echo "... PathSum.o"
+	@echo "... PathSum.i"
+	@echo "... PathSum.s"
 	@echo "... Permutation.o"
 	@echo "... Permutation.i"
 	@echo "... Permutation.s"

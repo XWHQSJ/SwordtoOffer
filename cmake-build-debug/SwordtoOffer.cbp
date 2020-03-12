@@ -332,6 +332,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/NumWays.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/PathSum.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/PathSum.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/Permutation.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

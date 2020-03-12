@@ -86,4 +86,6 @@ add_executable(SwordtoOffer
         LevelOrderII.cpp LevelOrderII.h
         LevelOrderIII.cpp LevelOrderIII.h
         StrToInt.cpp StrToInt.h
-        VerifyPostorder.cpp VerifyPostorder.h)
+        VerifyPostorder.cpp VerifyPostorder.h
+        PathSum.cpp PathSum.h
+        )

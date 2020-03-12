@@ -109,6 +109,8 @@
 ├── LevelOrderIII.h    剑指offer 32-III 从上到下打印二叉树III
 ├── VerifyPostorder.cpp
 ├── VerifyPostorder.h    剑指offer 33 二叉搜索树的后序遍历序列
+├── PathSum.cpp
+├── PathSum.h    剑指offer 34 二叉树中和为某一值的路径
 ├── MaxSlidingWindow.cpp
 ├── MaxSlidingWindow.h    剑指offer 59-I 滑动窗口的最大值
 ├── MaxQueue.cpp

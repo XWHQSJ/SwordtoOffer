@@ -36,6 +36,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/MyPow.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/NthUglyNumber.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/NumWays.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/PathSum.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/Permutation.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o"
