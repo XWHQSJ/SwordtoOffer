@@ -35,13 +35,13 @@
 class Solution59_1 {
 public:
     /*
-     * 方法1
+     * 方法1 双端队列法
      * */
     std::vector<int> maxSlidingWindow(std::vector<int> &nums, int k);
 
 
     /*
-     * 方法2 队列法
+     * 方法2 动态规划
      *
      *
      * */
