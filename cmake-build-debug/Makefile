@@ -1284,6 +1284,33 @@ SpiralOrder.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/SpiralOrder.cpp.s
 .PHONY : SpiralOrder.cpp.s
 
+StrToInt.o: StrToInt.cpp.o
+
+.PHONY : StrToInt.o
+
+# target to build an object file
+StrToInt.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/StrToInt.cpp.o
+.PHONY : StrToInt.cpp.o
+
+StrToInt.i: StrToInt.cpp.i
+
+.PHONY : StrToInt.i
+
+# target to preprocess a source file
+StrToInt.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/StrToInt.cpp.i
+.PHONY : StrToInt.cpp.i
+
+StrToInt.s: StrToInt.cpp.s
+
+.PHONY : StrToInt.s
+
+# target to generate assembly for a file
+StrToInt.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/StrToInt.cpp.s
+.PHONY : StrToInt.cpp.s
+
 SumNums.o: SumNums.cpp.o
 
 .PHONY : SumNums.o
@@ -1530,6 +1557,9 @@ help:
 	@echo "... SpiralOrder.o"
 	@echo "... SpiralOrder.i"
 	@echo "... SpiralOrder.s"
+	@echo "... StrToInt.o"
+	@echo "... StrToInt.i"
+	@echo "... StrToInt.s"
 	@echo "... SumNums.o"
 	@echo "... SumNums.i"
 	@echo "... SumNums.s"

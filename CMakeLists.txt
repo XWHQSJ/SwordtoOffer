@@ -85,4 +85,5 @@ add_executable(SwordtoOffer
         LevelOrder.cpp LevelOrder.h
         LevelOrderII.cpp LevelOrderII.h
         LevelOrderIII.cpp LevelOrderIII.h
+        StrToInt.cpp StrToInt.h
         )
