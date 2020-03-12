@@ -77,7 +77,7 @@ std::vector<std::vector<int>> Solution32_3::levelOrder(BiTreeNode *root) {
 }
 
 std::vector<std::vector<int>> Solution32_3::levelOrder2(BiTreeNode *root) {
-    if(root == nullptr){
+    if (root == nullptr) {
         return {};
     }
 
@@ -96,9 +96,9 @@ std::vector<std::vector<int>> Solution32_3::levelOrder2(BiTreeNode *root) {
     // 将根节点入栈偶数层
     levels[cur].push(root);
 
-    while (!levels[0].empty() && !levels[1].empty()){
+    while (!levels[0].empty() && !levels[1].empty()) {
         // 取当前层的栈顶元素
-        BiTreeNode* popNode = levels[cur].top();
+        BiTreeNode *popNode = levels[cur].top();
         levels[cur].pop();
 
         // 将栈顶元素存入当前层的结果数组中
@@ -106,35 +106,34 @@ std::vector<std::vector<int>> Solution32_3::levelOrder2(BiTreeNode *root) {
 
         // 如果是偶数层，则按照左子节点右子节点入栈，
         // 这样出栈就是右子节点左子节点的反序打印
-        if(cur == 0){
-            if(popNode->left != nullptr){
+        if (cur == 0) {
+            if (popNode->left != nullptr) {
                 levels[next].push(popNode->left);
             }
 
-            if(popNode->right != nullptr){
+            if (popNode->right != nullptr) {
                 levels[next].push(popNode->right);
             }
-        } else{
+        } else {
             // 如果是偶数层，则按照右子节点左子节点入栈，
             // 这样出栈就是左子节点右子节点的正序打印
-            if(popNode->right != nullptr){
+            if (popNode->right != nullptr) {
                 levels[next].push(popNode->right);
             }
 
-            if(popNode->left != nullptr){
+            if (popNode->left != nullptr) {
                 levels[next].push(popNode->left);
             }
         }
 
         // 当前层遍历结束
-        if(levels[cur].empty()){
+        if (levels[cur].empty()) {
             // 将当前层数组存入结果数组中
             ans.push_back(levelAns);
 
             // 对标志层数的标志进行更新
-            cur = 1-cur;
-            next = 1-next;
+            cur = 1 - cur;
+            next = 1 - next;
         }
     }
-
 }
