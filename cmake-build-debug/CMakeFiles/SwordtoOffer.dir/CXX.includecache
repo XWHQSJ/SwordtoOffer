@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../DataStruct/BiTreeNode.h
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.h
 vector
 -
@@ -88,6 +90,46 @@ DataStruct/BiTreeNode.h
 DataStruct/BiTreeNode.h
 -
 
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrder.cpp
+deque
+-
+LevelOrder.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrder.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrder.h
+DataStruct/BiTreeNode.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/BiTreeNode.h
+vector
+-
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderII.cpp
+deque
+-
+LevelOrderII.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderII.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderII.h
+DataStruct/BiTreeNode.h
+-
+vector
+-
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderIII.cpp
+deque
+-
+algorithm
+-
+stack
+-
+LevelOrderIII.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderIII.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderIII.h
+DataStruct/BiTreeNode.h
+-
+vector
+-
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
 vector
 -
@@ -95,6 +137,18 @@ vector
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxDepth.h
 DataStruct/BiTreeNode.h
 -
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxQueue.cpp
+MaxQueue.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxQueue.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxQueue.h
+queue
+-
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.cpp
+MaxSlidingWindow.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.h
 vector
@@ -172,19 +226,17 @@ vector
 DataStruct/Node.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.cpp
-SpiralOrder.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.h
 vector
 -
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.cpp
-cmath
+/home/Wanhui/Workspace/Clion/SwordtoOffer/StrToInt.cpp
+StrToInt.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/StrToInt.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/StrToInt.h
+string
 -
-SumNums.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.h
 
@@ -285,4 +337,12 @@ SumNums.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.h
 SpiralOrder.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.h
+MaxQueue.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxQueue.h
+LevelOrder.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrder.h
+LevelOrderII.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderII.h
+LevelOrderIII.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderIII.h
 
