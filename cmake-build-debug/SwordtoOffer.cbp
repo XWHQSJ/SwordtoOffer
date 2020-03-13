@@ -389,6 +389,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/TranslateNum.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/TranslateNum.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/TreeToDoublyList.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

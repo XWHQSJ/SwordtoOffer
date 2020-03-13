@@ -121,6 +121,8 @@
 ├── TwoSum.h    剑指offer 57 和为s的两个数字
 ├── StrToInt.cpp
 ├── StrToInt.h    剑指offer 67 把字符串转换为整数
+├── TranslateNum.cpp
+├── TranslateNum.h    剑指offer 46 把数字翻译成字符串
 ├── MajorityElement.cpp
 ├── MajorityElement.h    剑指offer 39 数组中出现次数超过一半的数字
 ├── ReversePrint.cpp
