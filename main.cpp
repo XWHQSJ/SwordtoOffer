@@ -57,6 +57,7 @@
 #include "VerifyPostorder.h"
 #include "PathSum.h"
 #include "TreeToDoublyList.h"
+#include "StrToInt.h"
 
 using namespace std;
 
@@ -559,6 +560,14 @@ int main() {
     std::cout << "ans2 = " << ans2 << std::endl;
     ans2 = sumNums5<9>::N;
     std::cout << "ans2 = " << ans2 << std::endl;
+
+
+    // StrToInt.cpp test
+    Solution67 solution67;
+    std::string numStr = "42";
+    num = solution67.strToInt(numStr);
+    std::cout << "num is " << num << std::endl;
+
 
     return 0;
 }

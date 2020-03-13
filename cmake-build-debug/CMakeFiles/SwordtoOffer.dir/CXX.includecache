@@ -6,8 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../DataStruct/BiTreeNode.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.h
 vector
 -
@@ -90,39 +88,17 @@ DataStruct/BiTreeNode.h
 DataStruct/BiTreeNode.h
 -
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrder.cpp
-deque
--
-LevelOrder.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrder.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrder.h
 DataStruct/BiTreeNode.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/BiTreeNode.h
 vector
 -
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderII.cpp
-deque
--
-LevelOrderII.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderII.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderII.h
 DataStruct/BiTreeNode.h
 -
 vector
 -
-
-/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderIII.cpp
-deque
--
-algorithm
--
-stack
--
-LevelOrderIII.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderIII.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderIII.h
 DataStruct/BiTreeNode.h
@@ -138,17 +114,9 @@ vector
 DataStruct/BiTreeNode.h
 -
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxQueue.cpp
-MaxQueue.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxQueue.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxQueue.h
 queue
 -
-
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.cpp
-MaxSlidingWindow.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSlidingWindow.h
 vector
@@ -200,6 +168,12 @@ queue
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/NumWays.h
 
+/home/Wanhui/Workspace/Clion/SwordtoOffer/PathSum.h
+DataStruct/BiTreeNode.h
+-
+vector
+-
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/Permutation.h
 string
 -
@@ -231,6 +205,10 @@ vector
 -
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/StrToInt.cpp
+vector
+-
+climits
+-
 StrToInt.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/StrToInt.h
 
@@ -240,11 +218,19 @@ string
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.h
 
+/home/Wanhui/Workspace/Clion/SwordtoOffer/TreeToDoublyList.h
+DataStruct/Node.h
+-
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum.h
 vector
 -
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/ValidateStackSequences.h
+vector
+-
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/VerifyPostorder.h
 vector
 -
 
@@ -345,4 +331,12 @@ LevelOrderII.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderII.h
 LevelOrderIII.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderIII.h
+VerifyPostorder.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/VerifyPostorder.h
+PathSum.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/PathSum.h
+TreeToDoublyList.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/TreeToDoublyList.h
+StrToInt.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/StrToInt.h
 
