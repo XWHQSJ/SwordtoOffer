@@ -204,19 +204,19 @@ DataStruct/Node.h
 vector
 -
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/StrToInt.cpp
-vector
--
-climits
--
-StrToInt.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/StrToInt.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/StrToInt.h
 string
 -
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/TranslateNum.cpp
+string
+-
+TranslateNum.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/TranslateNum.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/TranslateNum.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/TreeToDoublyList.h
 DataStruct/Node.h
@@ -339,4 +339,6 @@ TreeToDoublyList.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/TreeToDoublyList.h
 StrToInt.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/StrToInt.h
+TranslateNum.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/TranslateNum.h
 

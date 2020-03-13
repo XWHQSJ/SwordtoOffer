@@ -156,6 +156,9 @@ CMakeFiles/SwordtoOffer.dir/StrToInt.cpp.o: ../StrToInt.h
 CMakeFiles/SwordtoOffer.dir/SumNums.cpp.o: ../SumNums.cpp
 CMakeFiles/SwordtoOffer.dir/SumNums.cpp.o: ../SumNums.h
 
+CMakeFiles/SwordtoOffer.dir/TranslateNum.cpp.o: ../TranslateNum.cpp
+CMakeFiles/SwordtoOffer.dir/TranslateNum.cpp.o: ../TranslateNum.h
+
 CMakeFiles/SwordtoOffer.dir/TreeToDoublyList.cpp.o: ../DataStruct/Node.h
 CMakeFiles/SwordtoOffer.dir/TreeToDoublyList.cpp.o: ../TreeToDoublyList.cpp
 CMakeFiles/SwordtoOffer.dir/TreeToDoublyList.cpp.o: ../TreeToDoublyList.h
@@ -218,6 +221,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReversePrint.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../SpiralOrder.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../StrToInt.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../SumNums.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../TranslateNum.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../TreeToDoublyList.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../TwoSum.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ValidateStackSequences.h

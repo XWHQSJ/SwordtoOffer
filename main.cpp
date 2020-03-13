@@ -58,6 +58,7 @@
 #include "PathSum.h"
 #include "TreeToDoublyList.h"
 #include "StrToInt.h"
+#include "TranslateNum.h"
 
 using namespace std;
 
@@ -487,6 +488,14 @@ int main() {
     std::cout << "res2 is " << res2 << std::endl;
     res2 = solution42.maxSubArray3(nums1);
     std::cout << "res2 is " << res2 << std::endl;
+
+
+
+    // TranslateNum.cpp test
+    Solution46 solution46;
+    num = 1;
+    int count = solution46.translateNum(num);
+    std::cout << "count is " << count << std::endl;
 
 
     // NthUglyNumber.cpp test
