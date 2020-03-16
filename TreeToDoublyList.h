@@ -33,9 +33,20 @@
 
 class Solution36 {
 public:
-    BiTreeNode* treeToDoublyList(BiTreeNode* root);
+    /*
+     * 转换后的链表是有序的双向循环链表，而二叉树有左右两指针与双向链表的前后驱相对应。
+     * 又由二叉搜索树左节点<根节点<右节点的特性，可以使用中序遍历二叉树的每个节点。
+     * 因为中序遍历算法的特点是按照从小到大的顺序遍历二叉树的每个节点。
+     * 当遍历到根节点时，将二叉搜索树分为3个部分：根节点，左子树，右子树。
+     * 根绝有序循环链表的定义，根节点将链接在左子树中值最大的节点后，同时在右子树值最小的节点前。
+     * 按照中序遍历的顺序，当遍历转换到根节点时，它的左子树已经转换为一个有序的双向链表了，
+     * 并且处在链表中最后一个节点是当前值最大的节点。当将根节点链接在该节点后，根节点成为最大节点。
+     * 接着遍历转换右子树的节点，最后将根节点作为右子树中值最小的节点的前驱。
+     * */
+    BiTreeNode *treeToDoublyList(BiTreeNode *root);
 
-    void convertNode(BiTreeNode* node, BiTreeNode** lastNodeInList);
+    // 中序遍历二叉搜索树
+    void convertNode(BiTreeNode *node, BiTreeNode **lastNodeInList);
 };
 
 
