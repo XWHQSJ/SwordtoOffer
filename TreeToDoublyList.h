@@ -29,11 +29,13 @@
  * */
 
 
-#include <DataStruct/Node.h>
+#include <DataStruct/BiTreeNode.h>
 
 class Solution36 {
 public:
-    Node* treeToDoublyList(Node* root);
+    BiTreeNode* treeToDoublyList(BiTreeNode* root);
+
+    void convertNode(BiTreeNode* node, BiTreeNode** lastNodeInList);
 };
 
 
