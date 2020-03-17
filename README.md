@@ -113,6 +113,8 @@
 ├── PathSum.h    剑指offer 34 二叉树中和为某一值的路径
 ├── TreeToDoublyList.cpp
 ├── TreeToDoublyList.h    剑指offer 36 二叉搜索树与双向链表
+├── Codec.cpp
+├── Codec.h    剑指offer 37 序列化二叉树
 ├── MaxSlidingWindow.cpp
 ├── MaxSlidingWindow.h    剑指offer 59-I 滑动窗口的最大值
 ├── MaxQueue.cpp

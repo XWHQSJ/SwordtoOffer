@@ -90,4 +90,5 @@ add_executable(SwordtoOffer
         PathSum.cpp PathSum.h
         TreeToDoublyList.cpp TreeToDoublyList.h
         TranslateNum.cpp TranslateNum.h
+        Codec.cpp Codec.h
         )

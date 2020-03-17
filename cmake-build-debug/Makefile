@@ -177,6 +177,33 @@ CQueue.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/CQueue.cpp.s
 .PHONY : CQueue.cpp.s
 
+Codec.o: Codec.cpp.o
+
+.PHONY : Codec.o
+
+# target to build an object file
+Codec.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/Codec.cpp.o
+.PHONY : Codec.cpp.o
+
+Codec.i: Codec.cpp.i
+
+.PHONY : Codec.i
+
+# target to preprocess a source file
+Codec.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/Codec.cpp.i
+.PHONY : Codec.cpp.i
+
+Codec.s: Codec.cpp.s
+
+.PHONY : Codec.s
+
+# target to generate assembly for a file
+Codec.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/Codec.cpp.s
+.PHONY : Codec.cpp.s
+
 CopyRandomList.o: CopyRandomList.cpp.o
 
 .PHONY : CopyRandomList.o
@@ -1542,6 +1569,9 @@ help:
 	@echo "... CQueue.o"
 	@echo "... CQueue.i"
 	@echo "... CQueue.s"
+	@echo "... Codec.o"
+	@echo "... Codec.i"
+	@echo "... Codec.s"
 	@echo "... CopyRandomList.o"
 	@echo "... CopyRandomList.i"
 	@echo "... CopyRandomList.s"

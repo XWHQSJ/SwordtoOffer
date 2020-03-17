@@ -59,6 +59,7 @@
 #include "TreeToDoublyList.h"
 #include "StrToInt.h"
 #include "TranslateNum.h"
+#include "Codec.h"
 
 using namespace std;
 
@@ -427,6 +428,10 @@ int main() {
 
     // TreeToDoublyList.cpp test
     Solution36 solution36;
+
+
+    // Codec.cpp test
+    Solution37 solution37;
 
 
     // Permutation.cpp test
