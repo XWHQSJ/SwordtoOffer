@@ -1527,6 +1527,33 @@ VerifyPostorder.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/VerifyPostorder.cpp.s
 .PHONY : VerifyPostorder.cpp.s
 
+firstUniqChar.o: firstUniqChar.cpp.o
+
+.PHONY : firstUniqChar.o
+
+# target to build an object file
+firstUniqChar.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o
+.PHONY : firstUniqChar.cpp.o
+
+firstUniqChar.i: firstUniqChar.cpp.i
+
+.PHONY : firstUniqChar.i
+
+# target to preprocess a source file
+firstUniqChar.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.i
+.PHONY : firstUniqChar.cpp.i
+
+firstUniqChar.s: firstUniqChar.cpp.s
+
+.PHONY : firstUniqChar.s
+
+# target to generate assembly for a file
+firstUniqChar.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.s
+.PHONY : firstUniqChar.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -1719,6 +1746,9 @@ help:
 	@echo "... VerifyPostorder.o"
 	@echo "... VerifyPostorder.i"
 	@echo "... VerifyPostorder.s"
+	@echo "... firstUniqChar.o"
+	@echo "... firstUniqChar.i"
+	@echo "... firstUniqChar.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

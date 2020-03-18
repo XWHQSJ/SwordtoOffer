@@ -60,6 +60,7 @@
 #include "StrToInt.h"
 #include "TranslateNum.h"
 #include "Codec.h"
+#include "firstUniqChar.h"
 
 using namespace std;
 
@@ -509,6 +510,14 @@ int main() {
     int m = 0;
     m = solution49.nthUglyNumber(n1);
     std::cout << m << std::endl;
+
+
+    // firstUniqChar.cpp test
+    Solution50 solution50;
+    s = "abaccdeff";
+    char ch = solution50.firstUniqChar(s);
+    std::cout << "first c is " << ch << std::endl;
+
 
     // GetIntersectionNode.cpp test
     Solution52 solution52;

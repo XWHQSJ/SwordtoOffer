@@ -91,4 +91,4 @@ add_executable(SwordtoOffer
         TreeToDoublyList.cpp TreeToDoublyList.h
         TranslateNum.cpp TranslateNum.h
         Codec.cpp Codec.h
-        )
+        firstUniqChar.cpp firstUniqChar.h)

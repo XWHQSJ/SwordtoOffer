@@ -85,6 +85,8 @@
 ├── CopyRandomList.h    剑指offer 35 复杂链表的复制
 ├── Permutation.cpp
 ├── Permutation.h    剑指offer 38 字符串的排列
+├── firstUniqChar.cpp
+├── firstUniqChar.h    剑指offer 50 第一个只出现依次的字符
 ├── SumNums.cpp
 ├── SumNums.h    剑指offer 64 求1+2+...+n
 ├── SpiralOrder.cpp
