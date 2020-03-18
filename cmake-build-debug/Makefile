@@ -1527,6 +1527,33 @@ VerifyPostorder.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/VerifyPostorder.cpp.s
 .PHONY : VerifyPostorder.cpp.s
 
+countDigitOne.o: countDigitOne.cpp.o
+
+.PHONY : countDigitOne.o
+
+# target to build an object file
+countDigitOne.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.o
+.PHONY : countDigitOne.cpp.o
+
+countDigitOne.i: countDigitOne.cpp.i
+
+.PHONY : countDigitOne.i
+
+# target to preprocess a source file
+countDigitOne.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.i
+.PHONY : countDigitOne.cpp.i
+
+countDigitOne.s: countDigitOne.cpp.s
+
+.PHONY : countDigitOne.s
+
+# target to generate assembly for a file
+countDigitOne.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.s
+.PHONY : countDigitOne.cpp.s
+
 firstUniqChar.o: firstUniqChar.cpp.o
 
 .PHONY : firstUniqChar.o
@@ -1746,6 +1773,9 @@ help:
 	@echo "... VerifyPostorder.o"
 	@echo "... VerifyPostorder.i"
 	@echo "... VerifyPostorder.s"
+	@echo "... countDigitOne.o"
+	@echo "... countDigitOne.i"
+	@echo "... countDigitOne.s"
 	@echo "... firstUniqChar.o"
 	@echo "... firstUniqChar.i"
 	@echo "... firstUniqChar.s"

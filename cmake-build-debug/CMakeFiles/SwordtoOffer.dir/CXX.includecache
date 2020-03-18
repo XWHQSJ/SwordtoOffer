@@ -16,6 +16,14 @@ DataStruct/BiTreeNode.h
 stack
 -
 
+/home/Wanhui/Workspace/Clion/SwordtoOffer/Codec.h
+DataStruct/BiTreeNode.h
+-
+string
+-
+list
+-
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.h
 DataStruct/Node.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
@@ -210,16 +218,10 @@ string
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.h
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/TranslateNum.cpp
-string
--
-TranslateNum.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/TranslateNum.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/TranslateNum.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/TreeToDoublyList.h
-DataStruct/Node.h
+DataStruct/BiTreeNode.h
 -
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum.h
@@ -232,6 +234,12 @@ vector
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/VerifyPostorder.h
 vector
+-
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/countDigitOne.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/firstUniqChar.h
+string
 -
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/main.cpp
@@ -341,4 +349,10 @@ StrToInt.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/StrToInt.h
 TranslateNum.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/TranslateNum.h
+Codec.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/Codec.h
+firstUniqChar.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/firstUniqChar.h
+countDigitOne.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/countDigitOne.h
 

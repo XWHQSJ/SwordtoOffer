@@ -51,6 +51,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/TwoSum.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/ValidateStackSequences.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/VerifyPostorder.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/main.cpp.o"
   "SwordtoOffer"

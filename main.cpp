@@ -61,6 +61,7 @@
 #include "TranslateNum.h"
 #include "Codec.h"
 #include "firstUniqChar.h"
+#include "countDigitOne.h"
 
 using namespace std;
 
@@ -496,12 +497,18 @@ int main() {
     std::cout << "res2 is " << res2 << std::endl;
 
 
+    // countDigitOne.cpp test
+    Solution43 solution43;
+    n = 12;
+    int count = solution43.countDigitOne(n);
+    std::cout << "43 count is " << count << std::endl;
+
 
     // TranslateNum.cpp test
     Solution46 solution46;
     num = 1;
-    int count = solution46.translateNum(num);
-    std::cout << "count is " << count << std::endl;
+    count = solution46.translateNum(num);
+    std::cout << "46 count is " << count << std::endl;
 
 
     // NthUglyNumber.cpp test

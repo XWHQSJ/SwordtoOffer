@@ -425,6 +425,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/VerifyPostorder.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/countDigitOne.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/countDigitOne.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/firstUniqChar.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

@@ -8,6 +8,10 @@ CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o: ../DataStruct/BiTreeNode.h
 CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o: ../CQueue.cpp
 CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o: ../CQueue.h
 
+CMakeFiles/SwordtoOffer.dir/Codec.cpp.o: ../DataStruct/BiTreeNode.h
+CMakeFiles/SwordtoOffer.dir/Codec.cpp.o: ../Codec.cpp
+CMakeFiles/SwordtoOffer.dir/Codec.cpp.o: ../Codec.h
+
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../CopyRandomList.cpp
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../CopyRandomList.h
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../DataStruct/Node.h
@@ -159,7 +163,7 @@ CMakeFiles/SwordtoOffer.dir/SumNums.cpp.o: ../SumNums.h
 CMakeFiles/SwordtoOffer.dir/TranslateNum.cpp.o: ../TranslateNum.cpp
 CMakeFiles/SwordtoOffer.dir/TranslateNum.cpp.o: ../TranslateNum.h
 
-CMakeFiles/SwordtoOffer.dir/TreeToDoublyList.cpp.o: ../DataStruct/Node.h
+CMakeFiles/SwordtoOffer.dir/TreeToDoublyList.cpp.o: ../DataStruct/BiTreeNode.h
 CMakeFiles/SwordtoOffer.dir/TreeToDoublyList.cpp.o: ../TreeToDoublyList.cpp
 CMakeFiles/SwordtoOffer.dir/TreeToDoublyList.cpp.o: ../TreeToDoublyList.h
 
@@ -172,8 +176,15 @@ CMakeFiles/SwordtoOffer.dir/ValidateStackSequences.cpp.o: ../ValidateStackSequen
 CMakeFiles/SwordtoOffer.dir/VerifyPostorder.cpp.o: ../VerifyPostorder.cpp
 CMakeFiles/SwordtoOffer.dir/VerifyPostorder.cpp.o: ../VerifyPostorder.h
 
+CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.o: ../countDigitOne.cpp
+CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.o: ../countDigitOne.h
+
+CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o: ../firstUniqChar.cpp
+CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o: ../firstUniqChar.h
+
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../BuildTree.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CQueue.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Codec.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CopyRandomList.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CuttingRopeI.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CuttingRopeII.h
@@ -226,5 +237,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../TreeToDoublyList.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../TwoSum.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ValidateStackSequences.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../VerifyPostorder.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../countDigitOne.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../firstUniqChar.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../main.cpp
 
