@@ -231,6 +231,33 @@ CopyRandomList.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.s
 .PHONY : CopyRandomList.cpp.s
 
+CountDigitOne.o: CountDigitOne.cpp.o
+
+.PHONY : CountDigitOne.o
+
+# target to build an object file
+CountDigitOne.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.o
+.PHONY : CountDigitOne.cpp.o
+
+CountDigitOne.i: CountDigitOne.cpp.i
+
+.PHONY : CountDigitOne.i
+
+# target to preprocess a source file
+CountDigitOne.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.i
+.PHONY : CountDigitOne.cpp.i
+
+CountDigitOne.s: CountDigitOne.cpp.s
+
+.PHONY : CountDigitOne.s
+
+# target to generate assembly for a file
+CountDigitOne.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.s
+.PHONY : CountDigitOne.cpp.s
+
 CuttingRopeI.o: CuttingRopeI.cpp.o
 
 .PHONY : CuttingRopeI.o
@@ -1554,33 +1581,6 @@ VerifyPostorder.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/VerifyPostorder.cpp.s
 .PHONY : VerifyPostorder.cpp.s
 
-countDigitOne.o: countDigitOne.cpp.o
-
-.PHONY : countDigitOne.o
-
-# target to build an object file
-countDigitOne.cpp.o:
-	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.o
-.PHONY : countDigitOne.cpp.o
-
-countDigitOne.i: countDigitOne.cpp.i
-
-.PHONY : countDigitOne.i
-
-# target to preprocess a source file
-countDigitOne.cpp.i:
-	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.i
-.PHONY : countDigitOne.cpp.i
-
-countDigitOne.s: countDigitOne.cpp.s
-
-.PHONY : countDigitOne.s
-
-# target to generate assembly for a file
-countDigitOne.cpp.s:
-	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.s
-.PHONY : countDigitOne.cpp.s
-
 firstUniqChar.o: firstUniqChar.cpp.o
 
 .PHONY : firstUniqChar.o
@@ -1656,6 +1656,9 @@ help:
 	@echo "... CopyRandomList.o"
 	@echo "... CopyRandomList.i"
 	@echo "... CopyRandomList.s"
+	@echo "... CountDigitOne.o"
+	@echo "... CountDigitOne.i"
+	@echo "... CountDigitOne.s"
 	@echo "... CuttingRopeI.o"
 	@echo "... CuttingRopeI.i"
 	@echo "... CuttingRopeI.s"
@@ -1803,9 +1806,6 @@ help:
 	@echo "... VerifyPostorder.o"
 	@echo "... VerifyPostorder.i"
 	@echo "... VerifyPostorder.s"
-	@echo "... countDigitOne.o"
-	@echo "... countDigitOne.i"
-	@echo "... countDigitOne.s"
 	@echo "... firstUniqChar.o"
 	@echo "... firstUniqChar.i"
 	@echo "... firstUniqChar.s"

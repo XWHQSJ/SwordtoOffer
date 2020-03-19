@@ -61,7 +61,8 @@
 #include "TranslateNum.h"
 #include "Codec.h"
 #include "firstUniqChar.h"
-#include "countDigitOne.h"
+#include "CountDigitOne.h"
+#include "FindNthDigit.h"
 
 using namespace std;
 
@@ -502,6 +503,19 @@ int main() {
     n = 12;
     int count = solution43.countDigitOne(n);
     std::cout << "43 count is " << count << std::endl;
+
+
+    // FindNthDigit.cpp test
+    Solution44 solution44;
+    n = 365;
+    int number = solution44.findNthDigit(n);
+    std::cout << "44 number is " << number << std::endl;
+    n = 11;
+    number = solution44.findNthDigit(n);
+    std::cout << "44 number is " << number << std::endl;
+    n = 3;
+    number = solution44.findNthDigit(n);
+    std::cout << "44 number is " << number << std::endl;
 
 
     // TranslateNum.cpp test

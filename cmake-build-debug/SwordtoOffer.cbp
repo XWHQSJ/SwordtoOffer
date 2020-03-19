@@ -116,6 +116,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/CountDigitOne.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/CountDigitOne.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/CuttingRopeI.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>
@@ -429,12 +435,6 @@
 			<Option target="SwordtoOffer"/>
 		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/VerifyPostorder.h">
-			<Option target="SwordtoOffer"/>
-		</Unit>
-		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/countDigitOne.cpp">
-			<Option target="SwordtoOffer"/>
-		</Unit>
-		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/countDigitOne.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/firstUniqChar.cpp">

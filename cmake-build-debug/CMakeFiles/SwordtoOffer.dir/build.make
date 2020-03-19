@@ -759,18 +759,18 @@ CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/firstUniqChar.cpp -o CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.s
 
-CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.o: ../countDigitOne.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/countDigitOne.cpp
+CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.o: ../CountDigitOne.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/CountDigitOne.cpp
 
-CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/countDigitOne.cpp > CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.i
+CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/CountDigitOne.cpp > CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.i
 
-CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/countDigitOne.cpp -o CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.s
+CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/CountDigitOne.cpp -o CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.s
 
 CMakeFiles/SwordtoOffer.dir/FindNthDigit.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
 CMakeFiles/SwordtoOffer.dir/FindNthDigit.cpp.o: ../FindNthDigit.cpp
@@ -841,7 +841,7 @@ SwordtoOffer_OBJECTS = \
 "CMakeFiles/SwordtoOffer.dir/TranslateNum.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/Codec.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o" \
-"CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.o" \
+"CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/FindNthDigit.cpp.o"
 
 # External object files for target SwordtoOffer
@@ -901,7 +901,7 @@ SwordtoOffer: CMakeFiles/SwordtoOffer.dir/TreeToDoublyList.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/TranslateNum.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/Codec.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o
-SwordtoOffer: CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.o
+SwordtoOffer: CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/FindNthDigit.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/build.make
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/link.txt

@@ -92,6 +92,6 @@ add_executable(SwordtoOffer
         TranslateNum.cpp TranslateNum.h
         Codec.cpp Codec.h
         firstUniqChar.cpp firstUniqChar.h
-        countDigitOne.cpp countDigitOne.h
+        CountDigitOne.cpp CountDigitOne.h
         FindNthDigit.cpp FindNthDigit.h
         )
