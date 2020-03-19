@@ -38,6 +38,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/MedianFinder.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/MergeTwoLists.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o"
+  "/home/Wanhui/Workspace/Clion/SwordtoOffer/MinNumber.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/MinNumber.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/MinStack.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/MirrorTree.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/MirrorTree.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/MovingCount.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/MovingCount.cpp.o"

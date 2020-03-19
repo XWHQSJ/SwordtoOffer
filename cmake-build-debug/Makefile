@@ -1041,6 +1041,33 @@ MinArray.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MinArray.cpp.s
 .PHONY : MinArray.cpp.s
 
+MinNumber.o: MinNumber.cpp.o
+
+.PHONY : MinNumber.o
+
+# target to build an object file
+MinNumber.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MinNumber.cpp.o
+.PHONY : MinNumber.cpp.o
+
+MinNumber.i: MinNumber.cpp.i
+
+.PHONY : MinNumber.i
+
+# target to preprocess a source file
+MinNumber.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MinNumber.cpp.i
+.PHONY : MinNumber.cpp.i
+
+MinNumber.s: MinNumber.cpp.s
+
+.PHONY : MinNumber.s
+
+# target to generate assembly for a file
+MinNumber.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MinNumber.cpp.s
+.PHONY : MinNumber.cpp.s
+
 MinStack.o: MinStack.cpp.o
 
 .PHONY : MinStack.o
@@ -1746,6 +1773,9 @@ help:
 	@echo "... MinArray.o"
 	@echo "... MinArray.i"
 	@echo "... MinArray.s"
+	@echo "... MinNumber.o"
+	@echo "... MinNumber.i"
+	@echo "... MinNumber.s"
 	@echo "... MinStack.o"
 	@echo "... MinStack.i"
 	@echo "... MinStack.s"

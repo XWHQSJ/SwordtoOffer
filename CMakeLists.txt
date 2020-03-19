@@ -94,4 +94,4 @@ add_executable(SwordtoOffer
         firstUniqChar.cpp firstUniqChar.h
         CountDigitOne.cpp CountDigitOne.h
         FindNthDigit.cpp FindNthDigit.h
-        )
+        MinNumber.cpp MinNumber.h)

@@ -63,6 +63,7 @@
 #include "firstUniqChar.h"
 #include "CountDigitOne.h"
 #include "FindNthDigit.h"
+#include "MinNumber.h"
 
 using namespace std;
 
@@ -516,6 +517,16 @@ int main() {
     n = 3;
     number = solution44.findNthDigit(n);
     std::cout << "44 number is " << number << std::endl;
+
+
+    // MinNumber.cpp test
+    Solution45 solution45;
+    nums = {10, 2};
+    s = solution45.minNumber(nums);
+    std::cout << "45 s is " << s << std::endl;
+    nums = {3, 30, 34, 5, 9};
+    s = solution45.minNumber(nums);
+    std::cout << "45 s is " << s << std::endl;
 
 
     // TranslateNum.cpp test

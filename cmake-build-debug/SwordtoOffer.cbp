@@ -314,6 +314,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MinNumber.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MinNumber.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

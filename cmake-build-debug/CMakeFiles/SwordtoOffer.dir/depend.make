@@ -16,6 +16,9 @@ CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../CopyRandomList.cpp
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../CopyRandomList.h
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o: ../DataStruct/Node.h
 
+CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.o: ../CountDigitOne.cpp
+CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.o: ../CountDigitOne.h
+
 CMakeFiles/SwordtoOffer.dir/CuttingRopeI.cpp.o: ../CuttingRopeI.cpp
 CMakeFiles/SwordtoOffer.dir/CuttingRopeI.cpp.o: ../CuttingRopeI.h
 
@@ -34,6 +37,9 @@ CMakeFiles/SwordtoOffer.dir/Exist.cpp.o: ../Exist.h
 
 CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.o: ../Fibonacci.cpp
 CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.o: ../Fibonacci.h
+
+CMakeFiles/SwordtoOffer.dir/FindNthDigit.cpp.o: ../FindNthDigit.cpp
+CMakeFiles/SwordtoOffer.dir/FindNthDigit.cpp.o: ../FindNthDigit.h
 
 CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.o: ../FindNumberIn2DArray.cpp
 CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.o: ../FindNumberIn2DArray.h
@@ -176,9 +182,6 @@ CMakeFiles/SwordtoOffer.dir/ValidateStackSequences.cpp.o: ../ValidateStackSequen
 CMakeFiles/SwordtoOffer.dir/VerifyPostorder.cpp.o: ../VerifyPostorder.cpp
 CMakeFiles/SwordtoOffer.dir/VerifyPostorder.cpp.o: ../VerifyPostorder.h
 
-CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.o: ../countDigitOne.cpp
-CMakeFiles/SwordtoOffer.dir/countDigitOne.cpp.o: ../countDigitOne.h
-
 CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o: ../firstUniqChar.cpp
 CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o: ../firstUniqChar.h
 
@@ -186,6 +189,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../BuildTree.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CQueue.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Codec.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CopyRandomList.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CountDigitOne.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CuttingRopeI.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../CuttingRopeII.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../DataStruct/BiTreeNode.h
@@ -195,6 +199,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../DeleteNode.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Exchange.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Exist.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Fibonacci.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../FindNthDigit.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../FindNumberIn2DArray.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../FindRepeatNumber.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../GetIntersectionNode.h
@@ -237,7 +242,6 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../TreeToDoublyList.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../TwoSum.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ValidateStackSequences.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../VerifyPostorder.h
-CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../countDigitOne.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../firstUniqChar.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../main.cpp
 
