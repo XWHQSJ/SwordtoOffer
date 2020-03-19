@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/FindNthDigit.cpp
-cmath
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MinNumber.cpp
+algorithm
 -
-FindNthDigit.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/FindNthDigit.h
+MinNumber.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MinNumber.h
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/FindNthDigit.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MinNumber.h
+string
+-
+vector
+-
 

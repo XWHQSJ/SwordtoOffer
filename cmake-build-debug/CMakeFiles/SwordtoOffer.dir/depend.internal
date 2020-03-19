@@ -117,6 +117,9 @@ CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o
 CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.h
+CMakeFiles/SwordtoOffer.dir/MinNumber.cpp.o
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MinNumber.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MinNumber.h
 CMakeFiles/SwordtoOffer.dir/MinStack.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.h
@@ -223,6 +226,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MedianFinder.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MergeTwoLists.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinArray.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MinNumber.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MirrorTree.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MovingCount.h

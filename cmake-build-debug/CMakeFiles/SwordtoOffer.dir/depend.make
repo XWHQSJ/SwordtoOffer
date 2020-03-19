@@ -117,6 +117,9 @@ CMakeFiles/SwordtoOffer.dir/MergeTwoLists.cpp.o: ../MergeTwoLists.h
 CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o: ../MinArray.cpp
 CMakeFiles/SwordtoOffer.dir/MinArray.cpp.o: ../MinArray.h
 
+CMakeFiles/SwordtoOffer.dir/MinNumber.cpp.o: ../MinNumber.cpp
+CMakeFiles/SwordtoOffer.dir/MinNumber.cpp.o: ../MinNumber.h
+
 CMakeFiles/SwordtoOffer.dir/MinStack.cpp.o: ../MinStack.cpp
 CMakeFiles/SwordtoOffer.dir/MinStack.cpp.o: ../MinStack.h
 
@@ -222,6 +225,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Median.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MedianFinder.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MergeTwoLists.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinArray.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinNumber.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinStack.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MirrorTree.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MovingCount.h
