@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/Exchange.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/Exchange.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/Exist.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/Exist.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/Fibonacci.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.o"
+  "/home/Wanhui/Workspace/Clion/SwordtoOffer/FindNthDigit.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/FindNthDigit.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/FindNumberIn2DArray.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/FindRepeatNumber.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/GetIntersectionNode.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o"

@@ -91,6 +91,8 @@
 ├── SumNums.h    剑指offer 64 求1+2+...+n
 ├── countDigitOne.cpp
 ├── countDigitOne.h    剑指offer 43 1-n整数中1出现的次数
+├── FindNthDigit.cpp
+├── FindNthDigit.h    剑指offer 44 数字序列中某一位的数字
 ├── SpiralOrder.cpp
 ├── SpiralOrder.h    剑指offer 29 顺时针打印矩阵
 ├── MinStack.cpp

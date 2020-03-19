@@ -393,6 +393,33 @@ Fibonacci.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.s
 .PHONY : Fibonacci.cpp.s
 
+FindNthDigit.o: FindNthDigit.cpp.o
+
+.PHONY : FindNthDigit.o
+
+# target to build an object file
+FindNthDigit.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/FindNthDigit.cpp.o
+.PHONY : FindNthDigit.cpp.o
+
+FindNthDigit.i: FindNthDigit.cpp.i
+
+.PHONY : FindNthDigit.i
+
+# target to preprocess a source file
+FindNthDigit.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/FindNthDigit.cpp.i
+.PHONY : FindNthDigit.cpp.i
+
+FindNthDigit.s: FindNthDigit.cpp.s
+
+.PHONY : FindNthDigit.s
+
+# target to generate assembly for a file
+FindNthDigit.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/FindNthDigit.cpp.s
+.PHONY : FindNthDigit.cpp.s
+
 FindNumberIn2DArray.o: FindNumberIn2DArray.cpp.o
 
 .PHONY : FindNumberIn2DArray.o
@@ -1647,6 +1674,9 @@ help:
 	@echo "... Fibonacci.o"
 	@echo "... Fibonacci.i"
 	@echo "... Fibonacci.s"
+	@echo "... FindNthDigit.o"
+	@echo "... FindNthDigit.i"
+	@echo "... FindNthDigit.s"
 	@echo "... FindNumberIn2DArray.o"
 	@echo "... FindNumberIn2DArray.i"
 	@echo "... FindNumberIn2DArray.s"

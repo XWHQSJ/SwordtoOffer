@@ -170,6 +170,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/Fibonacci.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/FindNthDigit.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/FindNthDigit.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/FindNumberIn2DArray.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

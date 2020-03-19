@@ -93,4 +93,5 @@ add_executable(SwordtoOffer
         Codec.cpp Codec.h
         firstUniqChar.cpp firstUniqChar.h
         countDigitOne.cpp countDigitOne.h
+        FindNthDigit.cpp FindNthDigit.h
         )

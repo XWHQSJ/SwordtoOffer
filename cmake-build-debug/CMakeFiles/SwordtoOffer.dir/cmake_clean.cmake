@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/Exchange.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/Exist.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/Fibonacci.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/FindNthDigit.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/FindNumberIn2DArray.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/GetIntersectionNode.cpp.o"
