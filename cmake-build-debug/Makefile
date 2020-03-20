@@ -501,6 +501,33 @@ FindRepeatNumber.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/FindRepeatNumber.cpp.s
 .PHONY : FindRepeatNumber.cpp.s
 
+FirstUniqChar.o: FirstUniqChar.cpp.o
+
+.PHONY : FirstUniqChar.o
+
+# target to build an object file
+FirstUniqChar.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.o
+.PHONY : FirstUniqChar.cpp.o
+
+FirstUniqChar.i: FirstUniqChar.cpp.i
+
+.PHONY : FirstUniqChar.i
+
+# target to preprocess a source file
+FirstUniqChar.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.i
+.PHONY : FirstUniqChar.cpp.i
+
+FirstUniqChar.s: FirstUniqChar.cpp.s
+
+.PHONY : FirstUniqChar.s
+
+# target to generate assembly for a file
+FirstUniqChar.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.s
+.PHONY : FirstUniqChar.cpp.s
+
 GetIntersectionNode.o: GetIntersectionNode.cpp.o
 
 .PHONY : GetIntersectionNode.o
@@ -717,6 +744,33 @@ IsSymmetric.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.s
 .PHONY : IsSymmetric.cpp.s
 
+LengthOfLongestSubstring.o: LengthOfLongestSubstring.cpp.o
+
+.PHONY : LengthOfLongestSubstring.o
+
+# target to build an object file
+LengthOfLongestSubstring.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.o
+.PHONY : LengthOfLongestSubstring.cpp.o
+
+LengthOfLongestSubstring.i: LengthOfLongestSubstring.cpp.i
+
+.PHONY : LengthOfLongestSubstring.i
+
+# target to preprocess a source file
+LengthOfLongestSubstring.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.i
+.PHONY : LengthOfLongestSubstring.cpp.i
+
+LengthOfLongestSubstring.s: LengthOfLongestSubstring.cpp.s
+
+.PHONY : LengthOfLongestSubstring.s
+
+# target to generate assembly for a file
+LengthOfLongestSubstring.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.s
+.PHONY : LengthOfLongestSubstring.cpp.s
+
 LevelOrder.o: LevelOrder.cpp.o
 
 .PHONY : LevelOrder.o
@@ -932,6 +986,33 @@ MaxSubArray.s: MaxSubArray.cpp.s
 MaxSubArray.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxSubArray.cpp.s
 .PHONY : MaxSubArray.cpp.s
+
+MaxValue.o: MaxValue.cpp.o
+
+.PHONY : MaxValue.o
+
+# target to build an object file
+MaxValue.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.o
+.PHONY : MaxValue.cpp.o
+
+MaxValue.i: MaxValue.cpp.i
+
+.PHONY : MaxValue.i
+
+# target to preprocess a source file
+MaxValue.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.i
+.PHONY : MaxValue.cpp.i
+
+MaxValue.s: MaxValue.cpp.s
+
+.PHONY : MaxValue.s
+
+# target to generate assembly for a file
+MaxValue.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.s
+.PHONY : MaxValue.cpp.s
 
 Median.o: Median.cpp.o
 
@@ -1608,33 +1689,6 @@ VerifyPostorder.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/VerifyPostorder.cpp.s
 .PHONY : VerifyPostorder.cpp.s
 
-firstUniqChar.o: firstUniqChar.cpp.o
-
-.PHONY : firstUniqChar.o
-
-# target to build an object file
-firstUniqChar.cpp.o:
-	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o
-.PHONY : firstUniqChar.cpp.o
-
-firstUniqChar.i: firstUniqChar.cpp.i
-
-.PHONY : firstUniqChar.i
-
-# target to preprocess a source file
-firstUniqChar.cpp.i:
-	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.i
-.PHONY : firstUniqChar.cpp.i
-
-firstUniqChar.s: firstUniqChar.cpp.s
-
-.PHONY : firstUniqChar.s
-
-# target to generate assembly for a file
-firstUniqChar.cpp.s:
-	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.s
-.PHONY : firstUniqChar.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -1661,33 +1715,6 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-maxValue.o: maxValue.cpp.o
-
-.PHONY : maxValue.o
-
-# target to build an object file
-maxValue.cpp.o:
-	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/maxValue.cpp.o
-.PHONY : maxValue.cpp.o
-
-maxValue.i: maxValue.cpp.i
-
-.PHONY : maxValue.i
-
-# target to preprocess a source file
-maxValue.cpp.i:
-	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/maxValue.cpp.i
-.PHONY : maxValue.cpp.i
-
-maxValue.s: maxValue.cpp.s
-
-.PHONY : maxValue.s
-
-# target to generate assembly for a file
-maxValue.cpp.s:
-	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/maxValue.cpp.s
-.PHONY : maxValue.cpp.s
 
 # Help Target
 help:
@@ -1740,6 +1767,9 @@ help:
 	@echo "... FindRepeatNumber.o"
 	@echo "... FindRepeatNumber.i"
 	@echo "... FindRepeatNumber.s"
+	@echo "... FirstUniqChar.o"
+	@echo "... FirstUniqChar.i"
+	@echo "... FirstUniqChar.s"
 	@echo "... GetIntersectionNode.o"
 	@echo "... GetIntersectionNode.i"
 	@echo "... GetIntersectionNode.s"
@@ -1764,6 +1794,9 @@ help:
 	@echo "... IsSymmetric.o"
 	@echo "... IsSymmetric.i"
 	@echo "... IsSymmetric.s"
+	@echo "... LengthOfLongestSubstring.o"
+	@echo "... LengthOfLongestSubstring.i"
+	@echo "... LengthOfLongestSubstring.s"
 	@echo "... LevelOrder.o"
 	@echo "... LevelOrder.i"
 	@echo "... LevelOrder.s"
@@ -1788,6 +1821,9 @@ help:
 	@echo "... MaxSubArray.o"
 	@echo "... MaxSubArray.i"
 	@echo "... MaxSubArray.s"
+	@echo "... MaxValue.o"
+	@echo "... MaxValue.i"
+	@echo "... MaxValue.s"
 	@echo "... Median.o"
 	@echo "... Median.i"
 	@echo "... Median.s"
@@ -1863,15 +1899,9 @@ help:
 	@echo "... VerifyPostorder.o"
 	@echo "... VerifyPostorder.i"
 	@echo "... VerifyPostorder.s"
-	@echo "... firstUniqChar.o"
-	@echo "... firstUniqChar.i"
-	@echo "... firstUniqChar.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... maxValue.o"
-	@echo "... maxValue.i"
-	@echo "... maxValue.s"
 .PHONY : help
 
 

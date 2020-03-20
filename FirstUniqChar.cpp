@@ -3,7 +3,7 @@
 //
 
 #include <unordered_map>
-#include "firstUniqChar.h"
+#include "FirstUniqChar.h"
 
 char Solution50::firstUniqChar(std::string s) {
     if(s.empty()){

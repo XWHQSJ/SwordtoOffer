@@ -746,18 +746,18 @@ CMakeFiles/SwordtoOffer.dir/Codec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/Codec.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/Codec.cpp -o CMakeFiles/SwordtoOffer.dir/Codec.cpp.s
 
-CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o: ../firstUniqChar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/firstUniqChar.cpp
+CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.o: ../FirstUniqChar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/FirstUniqChar.cpp
 
-CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/firstUniqChar.cpp > CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.i
+CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/FirstUniqChar.cpp > CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.i
 
-CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/firstUniqChar.cpp -o CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.s
+CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/FirstUniqChar.cpp -o CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.s
 
 CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
 CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.o: ../CountDigitOne.cpp
@@ -798,18 +798,31 @@ CMakeFiles/SwordtoOffer.dir/MinNumber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/MinNumber.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/MinNumber.cpp -o CMakeFiles/SwordtoOffer.dir/MinNumber.cpp.s
 
-CMakeFiles/SwordtoOffer.dir/maxValue.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
-CMakeFiles/SwordtoOffer.dir/maxValue.cpp.o: ../maxValue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/SwordtoOffer.dir/maxValue.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/maxValue.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/maxValue.cpp
+CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.o: ../MaxValue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxValue.cpp
 
-CMakeFiles/SwordtoOffer.dir/maxValue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/maxValue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/maxValue.cpp > CMakeFiles/SwordtoOffer.dir/maxValue.cpp.i
+CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxValue.cpp > CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.i
 
-CMakeFiles/SwordtoOffer.dir/maxValue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/maxValue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/maxValue.cpp -o CMakeFiles/SwordtoOffer.dir/maxValue.cpp.s
+CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxValue.cpp -o CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.s
+
+CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.o: CMakeFiles/SwordtoOffer.dir/flags.make
+CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.o: ../LengthOfLongestSubstring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.o -c /home/Wanhui/Workspace/Clion/SwordtoOffer/LengthOfLongestSubstring.cpp
+
+CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Wanhui/Workspace/Clion/SwordtoOffer/LengthOfLongestSubstring.cpp > CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.i
+
+CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Wanhui/Workspace/Clion/SwordtoOffer/LengthOfLongestSubstring.cpp -o CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.s
 
 # Object files for target SwordtoOffer
 SwordtoOffer_OBJECTS = \
@@ -866,11 +879,12 @@ SwordtoOffer_OBJECTS = \
 "CMakeFiles/SwordtoOffer.dir/TreeToDoublyList.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/TranslateNum.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/Codec.cpp.o" \
-"CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o" \
+"CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/FindNthDigit.cpp.o" \
 "CMakeFiles/SwordtoOffer.dir/MinNumber.cpp.o" \
-"CMakeFiles/SwordtoOffer.dir/maxValue.cpp.o"
+"CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.o" \
+"CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.o"
 
 # External object files for target SwordtoOffer
 SwordtoOffer_EXTERNAL_OBJECTS =
@@ -928,14 +942,15 @@ SwordtoOffer: CMakeFiles/SwordtoOffer.dir/PathSum.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/TreeToDoublyList.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/TranslateNum.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/Codec.cpp.o
-SwordtoOffer: CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o
+SwordtoOffer: CMakeFiles/SwordtoOffer.dir/FirstUniqChar.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/FindNthDigit.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/MinNumber.cpp.o
-SwordtoOffer: CMakeFiles/SwordtoOffer.dir/maxValue.cpp.o
+SwordtoOffer: CMakeFiles/SwordtoOffer.dir/MaxValue.cpp.o
+SwordtoOffer: CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.o
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/build.make
 SwordtoOffer: CMakeFiles/SwordtoOffer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Linking CXX executable SwordtoOffer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Linking CXX executable SwordtoOffer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SwordtoOffer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

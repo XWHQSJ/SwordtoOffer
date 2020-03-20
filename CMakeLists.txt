@@ -91,9 +91,10 @@ add_executable(SwordtoOffer
         TreeToDoublyList.cpp TreeToDoublyList.h
         TranslateNum.cpp TranslateNum.h
         Codec.cpp Codec.h
-        firstUniqChar.cpp firstUniqChar.h
+        FirstUniqChar.cpp FirstUniqChar.h
         CountDigitOne.cpp CountDigitOne.h
         FindNthDigit.cpp FindNthDigit.h
         MinNumber.cpp MinNumber.h
-        maxValue.cpp maxValue.h
+        MaxValue.cpp MaxValue.h
+        LengthOfLongestSubstring.cpp LengthOfLongestSubstring.h
         )

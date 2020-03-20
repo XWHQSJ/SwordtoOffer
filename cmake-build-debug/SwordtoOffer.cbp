@@ -194,6 +194,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/FindRepeatNumber.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/FirstUniqChar.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/FirstUniqChar.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/GetIntersectionNode.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>
@@ -242,6 +248,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/LengthOfLongestSubstring.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/LengthOfLongestSubstring.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrder.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>
@@ -288,6 +300,12 @@
 			<Option target="SwordtoOffer"/>
 		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxSubArray.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxValue.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MaxValue.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/Median.cpp">
@@ -443,19 +461,7 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/VerifyPostorder.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
-		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/firstUniqChar.cpp">
-			<Option target="SwordtoOffer"/>
-		</Unit>
-		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/firstUniqChar.h">
-			<Option target="SwordtoOffer"/>
-		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/main.cpp">
-			<Option target="SwordtoOffer"/>
-		</Unit>
-		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/maxValue.cpp">
-			<Option target="SwordtoOffer"/>
-		</Unit>
-		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/maxValue.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/CMakeLists.txt">

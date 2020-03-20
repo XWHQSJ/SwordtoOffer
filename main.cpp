@@ -60,11 +60,12 @@
 #include "StrToInt.h"
 #include "TranslateNum.h"
 #include "Codec.h"
-#include "firstUniqChar.h"
+#include "FirstUniqChar.h"
 #include "CountDigitOne.h"
 #include "FindNthDigit.h"
 #include "MinNumber.h"
-#include "maxValue.h"
+#include "MaxValue.h"
+#include "LengthOfLongestSubstring.h"
 
 using namespace std;
 
@@ -500,7 +501,7 @@ int main() {
     std::cout << "res2 is " << res2 << std::endl;
 
 
-    // countDigitOne.cpp test
+    // CountDigitOne.cpp test
     Solution43 solution43;
     n = 12;
     int count = solution43.countDigitOne(n);
@@ -537,7 +538,7 @@ int main() {
     std::cout << "46 count is " << count << std::endl;
 
 
-    // maxValue.cpp test
+    // MaxValue.cpp test
     Solution47 solution47;
     std::vector<std::vector<int>> grid = {{1,  3, 1},
                                           {1,  5, 1},
@@ -546,6 +547,20 @@ int main() {
     std::cout << "47 max value is " << max << std::endl;
     max = solution47.maxValue2(grid);
     std::cout << "47 max value is " << max << std::endl;
+
+
+    // LengthOfLongestSubstring.cpp test
+    Solution48 solution48;
+    s = "abcabcbb";
+    int len = solution48.lengthOfLongestSubstring(s);
+    std::cout << "48 len is " << len << std::endl;
+    s = "bbbbb";
+    len = solution48.lengthOfLongestSubstring(s);
+    std::cout << "48 len is " << len << std::endl;
+    s = "pwwkew";
+    len = solution48.lengthOfLongestSubstring(s);
+    std::cout << "48 len is " << len << std::endl;
+
 
     // NthUglyNumber.cpp test
     Solution49 solution49;
