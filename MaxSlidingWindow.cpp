@@ -18,5 +18,3 @@ std::vector<int> Solution59_1::maxSlidingWindow2(std::vector<int> &nums, int k) 
 
     return std::vector<int>();
 }
-
-

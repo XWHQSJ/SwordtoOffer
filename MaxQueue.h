@@ -35,6 +35,12 @@
 
 class Solution59_2 {
 public:
+    /*
+     * 单调双端队列
+     *
+     *
+     * */
+
     Solution59_2();
     int max_value();
     void push_back(int value);
