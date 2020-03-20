@@ -552,7 +552,7 @@ int main() {
     // LengthOfLongestSubstring.cpp test
     Solution48 solution48;
     s = "abcabcbb";
-    int len = solution48.lengthOfLongestSubstring(s);
+    int len = solution48.lengthOfLongestSubstring3(s);
     std::cout << "48 len is " << len << std::endl;
     s = "bbbbb";
     len = solution48.lengthOfLongestSubstring(s);
