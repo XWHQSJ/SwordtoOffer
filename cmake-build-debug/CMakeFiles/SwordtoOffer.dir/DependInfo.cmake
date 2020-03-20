@@ -61,6 +61,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/VerifyPostorder.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/VerifyPostorder.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/firstUniqChar.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/firstUniqChar.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/main.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/main.cpp.o"
+  "/home/Wanhui/Workspace/Clion/SwordtoOffer/maxValue.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/maxValue.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

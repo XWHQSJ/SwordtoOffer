@@ -1662,6 +1662,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+maxValue.o: maxValue.cpp.o
+
+.PHONY : maxValue.o
+
+# target to build an object file
+maxValue.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/maxValue.cpp.o
+.PHONY : maxValue.cpp.o
+
+maxValue.i: maxValue.cpp.i
+
+.PHONY : maxValue.i
+
+# target to preprocess a source file
+maxValue.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/maxValue.cpp.i
+.PHONY : maxValue.cpp.i
+
+maxValue.s: maxValue.cpp.s
+
+.PHONY : maxValue.s
+
+# target to generate assembly for a file
+maxValue.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/maxValue.cpp.s
+.PHONY : maxValue.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1842,6 +1869,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... maxValue.o"
+	@echo "... maxValue.i"
+	@echo "... maxValue.s"
 .PHONY : help
 
 

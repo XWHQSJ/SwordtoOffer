@@ -64,6 +64,7 @@
 #include "CountDigitOne.h"
 #include "FindNthDigit.h"
 #include "MinNumber.h"
+#include "maxValue.h"
 
 using namespace std;
 
@@ -535,6 +536,12 @@ int main() {
     count = solution46.translateNum(num);
     std::cout << "46 count is " << count << std::endl;
 
+
+    // maxValue.cpp test
+    Solution47 solution47;
+    std::vector<std::vector<int>> grid = {{1,3,1},{1,5,1},{4,2,1}};
+    int max = solution47.maxValue(grid);
+    std::cout << "47 max value" << max << std::endl;
 
     // NthUglyNumber.cpp test
     Solution49 solution49;
