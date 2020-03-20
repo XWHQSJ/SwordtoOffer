@@ -539,9 +539,13 @@ int main() {
 
     // maxValue.cpp test
     Solution47 solution47;
-    std::vector<std::vector<int>> grid = {{1,3,1},{1,5,1},{4,2,1}};
+    std::vector<std::vector<int>> grid = {{1,  3, 1},
+                                          {1,  5, 1},
+                                          {10, 2, 1}};
     int max = solution47.maxValue(grid);
-    std::cout << "47 max value" << max << std::endl;
+    std::cout << "47 max value is " << max << std::endl;
+    max = solution47.maxValue2(grid);
+    std::cout << "47 max value is " << max << std::endl;
 
     // NthUglyNumber.cpp test
     Solution49 solution49;

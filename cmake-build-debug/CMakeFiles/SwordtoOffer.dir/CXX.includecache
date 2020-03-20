@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MinNumber.cpp
-algorithm
--
-MinNumber.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MinNumber.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/maxValue.cpp
+maxValue.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/maxValue.h
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/MinNumber.h
-string
--
+/home/Wanhui/Workspace/Clion/SwordtoOffer/maxValue.h
 vector
 -
 

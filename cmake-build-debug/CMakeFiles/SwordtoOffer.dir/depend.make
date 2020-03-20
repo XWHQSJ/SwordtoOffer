@@ -248,4 +248,8 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ValidateStackSequences.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../VerifyPostorder.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../firstUniqChar.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../main.cpp
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../maxValue.h
+
+CMakeFiles/SwordtoOffer.dir/maxValue.cpp.o: ../maxValue.cpp
+CMakeFiles/SwordtoOffer.dir/maxValue.cpp.o: ../maxValue.h
 
