@@ -30,7 +30,19 @@
 
 class Solution53_2 {
 public:
+    /*
+     * 桶排序 O(n) O(n)
+     *
+     *
+     * */
     int missingNumber(std::vector<int>& nums);
+
+    /*
+     * 二分查找
+     *
+     *
+     * */
+    int missingNumber2(std::vector<int>& nums);
 };
 
 
