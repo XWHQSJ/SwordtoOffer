@@ -52,7 +52,7 @@ public:
     int missingNumber2(std::vector<int> &nums);
 
     /*
-     * 数学规律
+     * 数学规律 O(n) O(1)
      *
      * 先使用公式计算 sum1 = (n * (n-1))/2，即n个数的和，再计算数组中所有数的和sum2，
      * 最后num = sum1 - sum2。
