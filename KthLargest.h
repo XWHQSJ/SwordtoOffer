@@ -41,7 +41,17 @@
 
 class Solution54 {
 public:
-    int kthLargest(BiTreeNode* root, int k);
+    /*
+     * 后序遍历
+     *
+     * 因为二叉搜索树左节点小于根节点小于右节点的特性，
+     * 可以使用后序遍历的方式将所有节点按照从大到小的方式排序。
+     * 在排序的过程中，因为是第k大，所以直接取第k个节点的值即可。
+     * */
+    int kthLargest(BiTreeNode *root, int k);
+
+    // 递归后序遍历
+    void dfs(BiTreeNode *root, int &k, int &ans);
 };
 
 
