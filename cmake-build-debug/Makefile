@@ -744,6 +744,33 @@ IsSymmetric.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.s
 .PHONY : IsSymmetric.cpp.s
 
+KthLargest.o: KthLargest.cpp.o
+
+.PHONY : KthLargest.o
+
+# target to build an object file
+KthLargest.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/KthLargest.cpp.o
+.PHONY : KthLargest.cpp.o
+
+KthLargest.i: KthLargest.cpp.i
+
+.PHONY : KthLargest.i
+
+# target to preprocess a source file
+KthLargest.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/KthLargest.cpp.i
+.PHONY : KthLargest.cpp.i
+
+KthLargest.s: KthLargest.cpp.s
+
+.PHONY : KthLargest.s
+
+# target to generate assembly for a file
+KthLargest.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/KthLargest.cpp.s
+.PHONY : KthLargest.cpp.s
+
 LengthOfLongestSubstring.o: LengthOfLongestSubstring.cpp.o
 
 .PHONY : LengthOfLongestSubstring.o
@@ -1848,6 +1875,9 @@ help:
 	@echo "... IsSymmetric.o"
 	@echo "... IsSymmetric.i"
 	@echo "... IsSymmetric.s"
+	@echo "... KthLargest.o"
+	@echo "... KthLargest.i"
+	@echo "... KthLargest.s"
 	@echo "... LengthOfLongestSubstring.o"
 	@echo "... LengthOfLongestSubstring.i"
 	@echo "... LengthOfLongestSubstring.s"

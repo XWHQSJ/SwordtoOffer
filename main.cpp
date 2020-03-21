@@ -68,6 +68,7 @@
 #include "LengthOfLongestSubstring.h"
 #include "Search.h"
 #include "MissingNumber.h"
+#include "KthLargest.h"
 
 using namespace std;
 
@@ -616,6 +617,10 @@ int main() {
     std::cout << "53-2 miss num is " << misAns << std::endl;
     misAns = solution532.missingNumber3(nums);
     std::cout << "53-2 miss num is " << misAns << std::endl;
+
+
+    // KthLargest.cpp test
+    Solution54 solution54;
 
 
     // MaxDepth.cpp test

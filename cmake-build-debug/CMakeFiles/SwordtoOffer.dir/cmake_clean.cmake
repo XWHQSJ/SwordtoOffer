@@ -22,6 +22,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/KthLargest.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/LevelOrder.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/LevelOrderII.cpp.o"

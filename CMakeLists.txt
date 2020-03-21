@@ -97,5 +97,7 @@ add_executable(SwordtoOffer
         MinNumber.cpp MinNumber.h
         MaxValue.cpp MaxValue.h
         LengthOfLongestSubstring.cpp LengthOfLongestSubstring.h
-        Search.cpp Search.h MissingNumber.cpp MissingNumber.h
+        Search.cpp Search.h
+        MissingNumber.cpp MissingNumber.h
+        KthLargest.cpp KthLargest.h
         )
