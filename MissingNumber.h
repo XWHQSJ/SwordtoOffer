@@ -33,16 +33,17 @@ public:
     /*
      * 桶排序 O(n) O(n)
      *
-     *
+     * 因为n-1个数是有序且不重复的，所以可以将n个数按照它们的大小存储在桶数组中，
+     * 桶数组中存放它们出现的次数，如果该次数为0，表示该数是缺失的。
      * */
-    int missingNumber(std::vector<int>& nums);
+    int missingNumber(std::vector<int> &nums);
 
     /*
-     * 二分查找
+     * 二分查找 O(logn) O(1)
      *
      *
      * */
-    int missingNumber2(std::vector<int>& nums);
+    int missingNumber2(std::vector<int> &nums);
 };
 
 
