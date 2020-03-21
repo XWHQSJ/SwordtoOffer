@@ -605,8 +605,16 @@ int main() {
     nums = {0, 1, 3};
     int misAns = solution532.missingNumber(nums);
     std::cout << "53-2 miss num is " << misAns << std::endl;
+    misAns = solution532.missingNumber2(nums);
+    std::cout << "53-2 miss num is " << misAns << std::endl;
+    misAns = solution532.missingNumber3(nums);
+    std::cout << "53-2 miss num is " << misAns << std::endl;
     nums = {0, 1, 2, 3, 4, 5, 6, 7, 9};
     misAns = solution532.missingNumber(nums);
+    std::cout << "53-2 miss num is " << misAns << std::endl;
+    misAns = solution532.missingNumber2(nums);
+    std::cout << "53-2 miss num is " << misAns << std::endl;
+    misAns = solution532.missingNumber3(nums);
     std::cout << "53-2 miss num is " << misAns << std::endl;
 
 

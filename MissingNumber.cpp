@@ -28,7 +28,32 @@ int Solution53_2::missingNumber(std::vector<int> &nums) {
 }
 
 int Solution53_2::missingNumber2(std::vector<int> &nums) {
+    if(nums.empty()){
+        return -1;
+    }
+
 
 
     return 0;
+}
+
+int Solution53_2::missingNumber3(std::vector<int> &nums) {
+    if(nums.empty()){
+        return -1;
+    }
+
+    // n个数
+    int n = nums.size() + 1;
+
+    // 计算n个数的和
+    int sum1 = (n * (n-1))/2;
+
+    // 计算数组中所有数的和
+    int sum2 = 0;
+    for(int num : nums){
+        sum2 += num;
+    }
+
+    // 返回差
+    return (sum1 - sum2);
 }
