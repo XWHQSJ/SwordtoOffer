@@ -350,6 +350,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MirrorTree.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MissingNumber.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MissingNumber.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MovingCount.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>
@@ -411,6 +417,12 @@
 			<Option target="SwordtoOffer"/>
 		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/Search.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/Search.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.cpp">

@@ -136,6 +136,9 @@ CMakeFiles/SwordtoOffer.dir/MirrorTree.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/BiTreeNode.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MirrorTree.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MirrorTree.h
+CMakeFiles/SwordtoOffer.dir/MissingNumber.cpp.o
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MissingNumber.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MissingNumber.h
 CMakeFiles/SwordtoOffer.dir/MovingCount.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MovingCount.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MovingCount.h
@@ -169,6 +172,9 @@ CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.h
+CMakeFiles/SwordtoOffer.dir/Search.cpp.o
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/Search.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/Search.h
 CMakeFiles/SwordtoOffer.dir/SpiralOrder.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.h
@@ -238,6 +244,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinNumber.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MinStack.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MirrorTree.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/MissingNumber.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MovingCount.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/MyPow.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/NthUglyNumber.h
@@ -248,6 +255,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReplaceSpace.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/Search.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/StrToInt.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/SumNums.h

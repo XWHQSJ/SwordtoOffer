@@ -136,6 +136,9 @@ CMakeFiles/SwordtoOffer.dir/MirrorTree.cpp.o: ../DataStruct/BiTreeNode.h
 CMakeFiles/SwordtoOffer.dir/MirrorTree.cpp.o: ../MirrorTree.cpp
 CMakeFiles/SwordtoOffer.dir/MirrorTree.cpp.o: ../MirrorTree.h
 
+CMakeFiles/SwordtoOffer.dir/MissingNumber.cpp.o: ../MissingNumber.cpp
+CMakeFiles/SwordtoOffer.dir/MissingNumber.cpp.o: ../MissingNumber.h
+
 CMakeFiles/SwordtoOffer.dir/MovingCount.cpp.o: ../MovingCount.cpp
 CMakeFiles/SwordtoOffer.dir/MovingCount.cpp.o: ../MovingCount.h
 
@@ -168,6 +171,9 @@ CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../ReverseList.h
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../DataStruct/Node.h
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.cpp
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.h
+
+CMakeFiles/SwordtoOffer.dir/Search.cpp.o: ../Search.cpp
+CMakeFiles/SwordtoOffer.dir/Search.cpp.o: ../Search.h
 
 CMakeFiles/SwordtoOffer.dir/SpiralOrder.cpp.o: ../SpiralOrder.cpp
 CMakeFiles/SwordtoOffer.dir/SpiralOrder.cpp.o: ../SpiralOrder.h
@@ -237,6 +243,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinArray.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinNumber.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MinStack.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MirrorTree.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MissingNumber.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MovingCount.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MyPow.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../NthUglyNumber.h
@@ -247,6 +254,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../PrintNumbers.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReplaceSpace.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReverseList.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReversePrint.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Search.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../SpiralOrder.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../StrToInt.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../SumNums.h

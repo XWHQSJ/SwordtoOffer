@@ -66,6 +66,8 @@
 #include "MinNumber.h"
 #include "MaxValue.h"
 #include "LengthOfLongestSubstring.h"
+#include "Search.h"
+#include "MissingNumber.h"
 
 using namespace std;
 
@@ -581,6 +583,33 @@ int main() {
     Solution52 solution52;
 
 
+    // Search.cpp test
+    Solution53_1 solution531;
+    nums = {5, 7, 7, 8, 8, 10};
+    target = 8;
+    int scrAns = solution531.search(nums, target);
+    std::cout << "53-1 search ans is " << scrAns << std::endl;
+    target = 6;
+    scrAns = solution531.search(nums, target);
+    std::cout << "53-1 search ans is " << scrAns << std::endl;
+    target = 8;
+    scrAns = solution531.search2(nums, target);
+    std::cout << "53-1 search ans is " << scrAns << std::endl;
+    target = 6;
+    scrAns = solution531.search2(nums, target);
+    std::cout << "53-1 search ans is " << scrAns << std::endl;
+
+
+    // MissingNumber.cpp test
+    Solution53_2 solution532;
+    nums = {0, 1, 3};
+    int misAns = solution532.missingNumber(nums);
+    std::cout << "53-2 miss num is " << misAns << std::endl;
+    nums = {0, 1, 2, 3, 4, 5, 6, 7, 9};
+    misAns = solution532.missingNumber(nums);
+    std::cout << "53-2 miss num is " << misAns << std::endl;
+
+
     // MaxDepth.cpp test
     Solution55_1 solution551;
 
@@ -599,7 +628,6 @@ int main() {
     for (auto a : ans) {
         std::cout << "ans = " << a << std::ends;
     }
-    std::cout << std::endl;
 
 
 

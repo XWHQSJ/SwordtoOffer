@@ -104,16 +104,6 @@ DataStruct/BiTreeNode.h
 DataStruct/BiTreeNode.h
 -
 
-/home/Wanhui/Workspace/Clion/SwordtoOffer/LengthOfLongestSubstring.cpp
-unordered_set
--
-unordered_map
--
-vector
--
-LengthOfLongestSubstring.h
-/home/Wanhui/Workspace/Clion/SwordtoOffer/LengthOfLongestSubstring.h
-
 /home/Wanhui/Workspace/Clion/SwordtoOffer/LengthOfLongestSubstring.h
 string
 -
@@ -194,6 +184,14 @@ vector
 DataStruct/BiTreeNode.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/BiTreeNode.h
 
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MissingNumber.cpp
+MissingNumber.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MissingNumber.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MissingNumber.h
+vector
+-
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MovingCount.h
 unordered_map
 -
@@ -239,6 +237,16 @@ vector
 -
 DataStruct/Node.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/Search.cpp
+unordered_map
+-
+Search.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/Search.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/Search.h
+vector
+-
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.h
 vector
@@ -389,4 +397,8 @@ MaxValue.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MaxValue.h
 LengthOfLongestSubstring.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/LengthOfLongestSubstring.h
+Search.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/Search.h
+MissingNumber.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/MissingNumber.h
 

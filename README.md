@@ -109,6 +109,10 @@
 ├── MedianFinder.h    剑指offer 41 数据流中的中位数
 ├── GetLeastNumbers.cpp
 ├── GetLeastNumbers.h    剑指offer 40 最小的k个数
+├── Search.cpp
+├── Search.h    剑指offer 53-I 在排序数组中查找数字I
+├── MissingNumber.cpp
+├── MissingNumber.h    剑指offer 53-II 0-n-1中缺失的数字
 ├── IsSymmetric.cpp
 ├── IsSymmetric.h    剑指offer 28 对称的二叉树
 ├── MaxDepth.cpp

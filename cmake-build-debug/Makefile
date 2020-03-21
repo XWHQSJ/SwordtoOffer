@@ -1203,6 +1203,33 @@ MirrorTree.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MirrorTree.cpp.s
 .PHONY : MirrorTree.cpp.s
 
+MissingNumber.o: MissingNumber.cpp.o
+
+.PHONY : MissingNumber.o
+
+# target to build an object file
+MissingNumber.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MissingNumber.cpp.o
+.PHONY : MissingNumber.cpp.o
+
+MissingNumber.i: MissingNumber.cpp.i
+
+.PHONY : MissingNumber.i
+
+# target to preprocess a source file
+MissingNumber.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MissingNumber.cpp.i
+.PHONY : MissingNumber.cpp.i
+
+MissingNumber.s: MissingNumber.cpp.s
+
+.PHONY : MissingNumber.s
+
+# target to generate assembly for a file
+MissingNumber.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/MissingNumber.cpp.s
+.PHONY : MissingNumber.cpp.s
+
 MovingCount.o: MovingCount.cpp.o
 
 .PHONY : MovingCount.o
@@ -1472,6 +1499,33 @@ ReversePrint.s: ReversePrint.cpp.s
 ReversePrint.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.s
 .PHONY : ReversePrint.cpp.s
+
+Search.o: Search.cpp.o
+
+.PHONY : Search.o
+
+# target to build an object file
+Search.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/Search.cpp.o
+.PHONY : Search.cpp.o
+
+Search.i: Search.cpp.i
+
+.PHONY : Search.i
+
+# target to preprocess a source file
+Search.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/Search.cpp.i
+.PHONY : Search.cpp.i
+
+Search.s: Search.cpp.s
+
+.PHONY : Search.s
+
+# target to generate assembly for a file
+Search.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/Search.cpp.s
+.PHONY : Search.cpp.s
 
 SpiralOrder.o: SpiralOrder.cpp.o
 
@@ -1845,6 +1899,9 @@ help:
 	@echo "... MirrorTree.o"
 	@echo "... MirrorTree.i"
 	@echo "... MirrorTree.s"
+	@echo "... MissingNumber.o"
+	@echo "... MissingNumber.i"
+	@echo "... MissingNumber.s"
 	@echo "... MovingCount.o"
 	@echo "... MovingCount.i"
 	@echo "... MovingCount.s"
@@ -1875,6 +1932,9 @@ help:
 	@echo "... ReversePrint.o"
 	@echo "... ReversePrint.i"
 	@echo "... ReversePrint.s"
+	@echo "... Search.o"
+	@echo "... Search.i"
+	@echo "... Search.s"
 	@echo "... SpiralOrder.o"
 	@echo "... SpiralOrder.i"
 	@echo "... SpiralOrder.s"
