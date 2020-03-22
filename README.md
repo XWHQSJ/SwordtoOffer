@@ -143,6 +143,8 @@
 ├── TwoSum.h    剑指offer 57 和为s的两个数字
 ├── SingleNumbers.cpp
 ├── SingleNumbers.h    剑指offer 56-I 数组中数字出现的次数
+├── SingleNumber.cpp
+├── SingleNumber.h    剑指offer 56-II 数组中数字出现的次数II
 ├── StrToInt.cpp
 ├── StrToInt.h    剑指offer 67 把字符串转换为整数
 ├── TranslateNum.cpp

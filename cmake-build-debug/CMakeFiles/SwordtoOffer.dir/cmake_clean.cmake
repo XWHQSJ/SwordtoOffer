@@ -53,6 +53,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/Search.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/SingleNumber.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/SingleNumbers.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/SpiralOrder.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/StrToInt.cpp.o"

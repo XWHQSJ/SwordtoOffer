@@ -58,6 +58,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/Search.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/Search.cpp.o"
+  "/home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumber.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/SingleNumber.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumbers.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/SingleNumbers.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/SpiralOrder.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/StrToInt.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/StrToInt.cpp.o"

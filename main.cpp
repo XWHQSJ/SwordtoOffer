@@ -71,6 +71,7 @@
 #include "KthLargest.h"
 #include "IsBalanced.h"
 #include "SingleNumbers.h"
+#include "SingleNumber.h"
 
 using namespace std;
 
@@ -647,6 +648,17 @@ int main() {
         std::cout << "56-1 times is " << time << std::ends;
     }
     std::cout << std::endl;
+
+
+
+    // SingleNumber.cpp test
+    Solution56_2 solution562;
+    nums = {3, 4, 3, 3};
+    num = solution562.singleNumber(nums);
+    std::cout << "56-2 num is " << num << std::endl;
+    nums = {9, 1, 7, 9, 7, 9, 7};
+    num = solution562.singleNumber(nums);
+    std::cout << "56-2 num is " << num << std::endl;
 
 
     // TwoSum.cpp test

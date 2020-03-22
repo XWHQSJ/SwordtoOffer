@@ -1581,6 +1581,33 @@ Search.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/Search.cpp.s
 .PHONY : Search.cpp.s
 
+SingleNumber.o: SingleNumber.cpp.o
+
+.PHONY : SingleNumber.o
+
+# target to build an object file
+SingleNumber.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/SingleNumber.cpp.o
+.PHONY : SingleNumber.cpp.o
+
+SingleNumber.i: SingleNumber.cpp.i
+
+.PHONY : SingleNumber.i
+
+# target to preprocess a source file
+SingleNumber.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/SingleNumber.cpp.i
+.PHONY : SingleNumber.cpp.i
+
+SingleNumber.s: SingleNumber.cpp.s
+
+.PHONY : SingleNumber.s
+
+# target to generate assembly for a file
+SingleNumber.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/SingleNumber.cpp.s
+.PHONY : SingleNumber.cpp.s
+
 SingleNumbers.o: SingleNumbers.cpp.o
 
 .PHONY : SingleNumbers.o
@@ -2022,6 +2049,9 @@ help:
 	@echo "... Search.o"
 	@echo "... Search.i"
 	@echo "... Search.s"
+	@echo "... SingleNumber.o"
+	@echo "... SingleNumber.i"
+	@echo "... SingleNumber.s"
 	@echo "... SingleNumbers.o"
 	@echo "... SingleNumbers.i"
 	@echo "... SingleNumbers.s"
