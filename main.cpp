@@ -72,6 +72,7 @@
 #include "IsBalanced.h"
 #include "SingleNumbers.h"
 #include "SingleNumber.h"
+#include "ReversePairs.h"
 
 using namespace std;
 
@@ -581,6 +582,13 @@ int main() {
     s = "abaccdeff";
     char ch = solution50.firstUniqChar(s);
     std::cout << "first c is " << ch << std::endl;
+
+
+    // ReversePairs.cpp test
+    Solution51 solution51;
+    nums = {7, 5, 6, 4};
+    num = solution51.reversePairs(nums);
+    std::cout << "51 num is " << num << std::endl;
 
 
     // GetIntersectionNode.cpp test
