@@ -437,6 +437,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/Search.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumbers.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumbers.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

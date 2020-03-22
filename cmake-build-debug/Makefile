@@ -1581,6 +1581,33 @@ Search.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/Search.cpp.s
 .PHONY : Search.cpp.s
 
+SingleNumbers.o: SingleNumbers.cpp.o
+
+.PHONY : SingleNumbers.o
+
+# target to build an object file
+SingleNumbers.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/SingleNumbers.cpp.o
+.PHONY : SingleNumbers.cpp.o
+
+SingleNumbers.i: SingleNumbers.cpp.i
+
+.PHONY : SingleNumbers.i
+
+# target to preprocess a source file
+SingleNumbers.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/SingleNumbers.cpp.i
+.PHONY : SingleNumbers.cpp.i
+
+SingleNumbers.s: SingleNumbers.cpp.s
+
+.PHONY : SingleNumbers.s
+
+# target to generate assembly for a file
+SingleNumbers.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/SingleNumbers.cpp.s
+.PHONY : SingleNumbers.cpp.s
+
 SpiralOrder.o: SpiralOrder.cpp.o
 
 .PHONY : SpiralOrder.o
@@ -1995,6 +2022,9 @@ help:
 	@echo "... Search.o"
 	@echo "... Search.i"
 	@echo "... Search.s"
+	@echo "... SingleNumbers.o"
+	@echo "... SingleNumbers.i"
+	@echo "... SingleNumbers.s"
 	@echo "... SpiralOrder.o"
 	@echo "... SpiralOrder.i"
 	@echo "... SpiralOrder.s"

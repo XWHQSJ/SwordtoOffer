@@ -141,6 +141,8 @@
 ├── MaxQueue.h    剑指offer 59-II 队列的最大值
 ├── TwoSum.cpp
 ├── TwoSum.h    剑指offer 57 和为s的两个数字
+├── SingleNumbers.cpp
+├── SingleNumbers.h    剑指offer 56-I 数组中数字出现的次数
 ├── StrToInt.cpp
 ├── StrToInt.h    剑指offer 67 把字符串转换为整数
 ├── TranslateNum.cpp
