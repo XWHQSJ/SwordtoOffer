@@ -18,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/GetKthFromEnd.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/GetLeastNumbers.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/IsBalanced.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsMatch.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o"

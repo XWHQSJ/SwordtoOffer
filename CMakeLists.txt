@@ -100,4 +100,5 @@ add_executable(SwordtoOffer
         Search.cpp Search.h
         MissingNumber.cpp MissingNumber.h
         KthLargest.cpp KthLargest.h
+        IsBalanced.cpp IsBalanced.h
         )

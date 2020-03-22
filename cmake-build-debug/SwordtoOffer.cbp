@@ -224,6 +224,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/HammingWeight.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/IsBalanced.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/IsBalanced.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/IsMatch.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

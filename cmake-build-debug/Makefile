@@ -636,6 +636,33 @@ HammingWeight.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.s
 .PHONY : HammingWeight.cpp.s
 
+IsBalanced.o: IsBalanced.cpp.o
+
+.PHONY : IsBalanced.o
+
+# target to build an object file
+IsBalanced.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsBalanced.cpp.o
+.PHONY : IsBalanced.cpp.o
+
+IsBalanced.i: IsBalanced.cpp.i
+
+.PHONY : IsBalanced.i
+
+# target to preprocess a source file
+IsBalanced.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsBalanced.cpp.i
+.PHONY : IsBalanced.cpp.i
+
+IsBalanced.s: IsBalanced.cpp.s
+
+.PHONY : IsBalanced.s
+
+# target to generate assembly for a file
+IsBalanced.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsBalanced.cpp.s
+.PHONY : IsBalanced.cpp.s
+
 IsMatch.o: IsMatch.cpp.o
 
 .PHONY : IsMatch.o
@@ -1863,6 +1890,9 @@ help:
 	@echo "... HammingWeight.o"
 	@echo "... HammingWeight.i"
 	@echo "... HammingWeight.s"
+	@echo "... IsBalanced.o"
+	@echo "... IsBalanced.i"
+	@echo "... IsBalanced.s"
 	@echo "... IsMatch.o"
 	@echo "... IsMatch.i"
 	@echo "... IsMatch.s"
