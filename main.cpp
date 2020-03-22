@@ -69,6 +69,7 @@
 #include "Search.h"
 #include "MissingNumber.h"
 #include "KthLargest.h"
+#include "IsBalanced.h"
 
 using namespace std;
 
@@ -626,6 +627,9 @@ int main() {
     // MaxDepth.cpp test
     Solution55_1 solution551;
 
+
+    // IsBalanced.cpp test
+    Solution55_2 solution552;
 
 
     // TwoSum.cpp test
