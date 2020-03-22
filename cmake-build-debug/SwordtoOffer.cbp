@@ -425,6 +425,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePairs.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePairs.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

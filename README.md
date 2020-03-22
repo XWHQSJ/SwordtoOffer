@@ -145,6 +145,8 @@
 ├── SingleNumbers.h    剑指offer 56-I 数组中数字出现的次数
 ├── SingleNumber.cpp
 ├── SingleNumber.h    剑指offer 56-II 数组中数字出现的次数II
+├── ReversePairs.cpp
+├── ReversePairs.h    剑指offer 51 数组中的逆序对
 ├── StrToInt.cpp
 ├── StrToInt.h    剑指offer 67 把字符串转换为整数
 ├── TranslateNum.cpp

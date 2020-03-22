@@ -1527,6 +1527,33 @@ ReverseList.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.s
 .PHONY : ReverseList.cpp.s
 
+ReversePairs.o: ReversePairs.cpp.o
+
+.PHONY : ReversePairs.o
+
+# target to build an object file
+ReversePairs.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ReversePairs.cpp.o
+.PHONY : ReversePairs.cpp.o
+
+ReversePairs.i: ReversePairs.cpp.i
+
+.PHONY : ReversePairs.i
+
+# target to preprocess a source file
+ReversePairs.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ReversePairs.cpp.i
+.PHONY : ReversePairs.cpp.i
+
+ReversePairs.s: ReversePairs.cpp.s
+
+.PHONY : ReversePairs.s
+
+# target to generate assembly for a file
+ReversePairs.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ReversePairs.cpp.s
+.PHONY : ReversePairs.cpp.s
+
 ReversePrint.o: ReversePrint.cpp.o
 
 .PHONY : ReversePrint.o
@@ -2043,6 +2070,9 @@ help:
 	@echo "... ReverseList.o"
 	@echo "... ReverseList.i"
 	@echo "... ReverseList.s"
+	@echo "... ReversePairs.o"
+	@echo "... ReversePairs.i"
+	@echo "... ReversePairs.s"
 	@echo "... ReversePrint.o"
 	@echo "... ReversePrint.i"
 	@echo "... ReversePrint.s"

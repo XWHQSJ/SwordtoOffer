@@ -103,4 +103,5 @@ add_executable(SwordtoOffer
         IsBalanced.cpp IsBalanced.h
         SingleNumbers.cpp SingleNumbers.h
         SingleNumber.cpp SingleNumber.h
+        ReversePairs.cpp ReversePairs.h
         )
