@@ -65,6 +65,10 @@ CMakeFiles/SwordtoOffer.dir/GetLeastNumbers.cpp.o: ../GetLeastNumbers.h
 CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o: ../HammingWeight.cpp
 CMakeFiles/SwordtoOffer.dir/HammingWeight.cpp.o: ../HammingWeight.h
 
+CMakeFiles/SwordtoOffer.dir/IsBalanced.cpp.o: ../DataStruct/BiTreeNode.h
+CMakeFiles/SwordtoOffer.dir/IsBalanced.cpp.o: ../IsBalanced.cpp
+CMakeFiles/SwordtoOffer.dir/IsBalanced.cpp.o: ../IsBalanced.h
+
 CMakeFiles/SwordtoOffer.dir/IsMatch.cpp.o: ../IsMatch.cpp
 CMakeFiles/SwordtoOffer.dir/IsMatch.cpp.o: ../IsMatch.h
 
@@ -78,6 +82,10 @@ CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o: ../IsSubStructure.h
 CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.o: ../DataStruct/BiTreeNode.h
 CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.o: ../IsSymmetric.cpp
 CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.o: ../IsSymmetric.h
+
+CMakeFiles/SwordtoOffer.dir/KthLargest.cpp.o: ../DataStruct/BiTreeNode.h
+CMakeFiles/SwordtoOffer.dir/KthLargest.cpp.o: ../KthLargest.cpp
+CMakeFiles/SwordtoOffer.dir/KthLargest.cpp.o: ../KthLargest.h
 
 CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.o: ../LengthOfLongestSubstring.cpp
 CMakeFiles/SwordtoOffer.dir/LengthOfLongestSubstring.cpp.o: ../LengthOfLongestSubstring.h
@@ -175,6 +183,9 @@ CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.h
 CMakeFiles/SwordtoOffer.dir/Search.cpp.o: ../Search.cpp
 CMakeFiles/SwordtoOffer.dir/Search.cpp.o: ../Search.h
 
+CMakeFiles/SwordtoOffer.dir/SingleNumbers.cpp.o: ../SingleNumbers.cpp
+CMakeFiles/SwordtoOffer.dir/SingleNumbers.cpp.o: ../SingleNumbers.h
+
 CMakeFiles/SwordtoOffer.dir/SpiralOrder.cpp.o: ../SpiralOrder.cpp
 CMakeFiles/SwordtoOffer.dir/SpiralOrder.cpp.o: ../SpiralOrder.h
 
@@ -222,10 +233,12 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../GetIntersectionNode.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../GetKthFromEnd.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../GetLeastNumbers.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../HammingWeight.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsBalanced.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsMatch.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsNumber.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsSubStructure.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsSymmetric.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../KthLargest.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../LengthOfLongestSubstring.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../LevelOrder.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../LevelOrderII.h
@@ -255,6 +268,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReplaceSpace.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReverseList.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReversePrint.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Search.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../SingleNumbers.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../SpiralOrder.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../StrToInt.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../SumNums.h

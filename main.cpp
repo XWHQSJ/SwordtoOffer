@@ -646,6 +646,7 @@ int main() {
     for (int time : times) {
         std::cout << "56-1 times is " << time << std::ends;
     }
+    std::cout << std::endl;
 
 
     // TwoSum.cpp test
@@ -654,14 +655,13 @@ int main() {
     int target1 = 76;
     ans = solution57.twoSum(nums7, target1);
     for (auto a : ans) {
-        std::cout << "ans = " << a << std::ends;
+        std::cout << "57 ans = " << a << std::ends;
     }
     std::cout << std::endl;
     ans = solution57.twoSum2(nums7, target1);
     for (auto a : ans) {
-        std::cout << "ans = " << a << std::ends;
+        std::cout << "57 ans = " << a << std::ends;
     }
-
 
 
     // MaxSlidingWindow.cpp test
