@@ -659,6 +659,12 @@ int main() {
     nums = {9, 1, 7, 9, 7, 9, 7};
     num = solution562.singleNumber(nums);
     std::cout << "56-2 num is " << num << std::endl;
+    nums = {3, 4, 3, 3};
+    num = solution562.singleNumber2(nums);
+    std::cout << "56-2 num is " << num << std::endl;
+    nums = {9, 1, 7, 9, 7, 9, 7};
+    num = solution562.singleNumber2(nums);
+    std::cout << "56-2 num is " << num << std::endl;
 
 
     // TwoSum.cpp test

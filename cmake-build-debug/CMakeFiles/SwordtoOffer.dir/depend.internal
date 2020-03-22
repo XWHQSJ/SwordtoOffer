@@ -183,6 +183,9 @@ CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o
 CMakeFiles/SwordtoOffer.dir/Search.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Search.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Search.h
+CMakeFiles/SwordtoOffer.dir/SingleNumber.cpp.o
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumber.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumber.h
 CMakeFiles/SwordtoOffer.dir/SingleNumbers.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumbers.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumbers.h
@@ -269,6 +272,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Search.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumber.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumbers.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/SpiralOrder.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/StrToInt.h
