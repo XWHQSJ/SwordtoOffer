@@ -70,6 +70,7 @@
 #include "MissingNumber.h"
 #include "KthLargest.h"
 #include "IsBalanced.h"
+#include "SingleNumbers.h"
 
 using namespace std;
 
@@ -630,6 +631,21 @@ int main() {
 
     // IsBalanced.cpp test
     Solution55_2 solution552;
+
+
+    // SingleNumbers.cpp test
+    Solution56_1 solution561;
+    nums = {4, 1, 4, 6};
+    std::vector<int> times = solution561.singleNumbers(nums);
+    for (int time : times) {
+        std::cout << "56-1 times is " << time << std::ends;
+    }
+    std::cout << std::endl;
+    nums = {1, 2, 10, 4, 1, 4, 3, 3};
+    times = solution561.singleNumbers(nums);
+    for (int time : times) {
+        std::cout << "56-1 times is " << time << std::ends;
+    }
 
 
     // TwoSum.cpp test
