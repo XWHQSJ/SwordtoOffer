@@ -75,6 +75,7 @@
 #include "ReversePairs.h"
 #include "ReverseWords.h"
 #include "ReverseLeftWords.h"
+#include "TwoSum60.h"
 
 using namespace std;
 
@@ -760,6 +761,21 @@ int main() {
     std::cout << "pq is " << pq << std::endl;
     mq = solution592.max_value();
     std::cout << "mq is " << mq << std::endl;
+
+
+    // TwoSum60.cpp test
+    Solution60 solution60;
+    n = 1;
+    std::vector<double> sum = solution60.twoSum(n);
+    for (auto a : sum) {
+        std::cout << "60 sum is " << a << std::ends;
+    }
+    std::cout << std::endl;
+    n = 2;
+    sum = solution60.twoSum(n);
+    for (auto a : sum) {
+        std::cout << "60 sum is " << a << std::ends;
+    }
 
 
     // SumNums.cpp test
