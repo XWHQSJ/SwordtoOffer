@@ -689,7 +689,7 @@ int main() {
     for (auto a : ans) {
         std::cout << "57 ans = " << a << std::ends;
     }
-
+    std::cout << std::endl;
 
     // ReverseWords.cpp test
     Solution58_1 solution581;
@@ -701,6 +701,18 @@ int main() {
     std::cout << "58-1 ansStr is " << ansStr << std::endl;
     s = "a good   example";
     ansStr = solution581.reverseWords(s);
+    std::cout << "58-1 ansStr is " << ansStr << std::endl;
+    s = "the sky is blue";
+    ansStr = solution581.reverseWords2(s);
+    std::cout << "58-1 ansStr is " << ansStr << std::endl;
+    s = "  hello world!  ";
+    ansStr = solution581.reverseWords2(s);
+    std::cout << "58-1 ansStr is " << ansStr << std::endl;
+    s = "a good   example";
+    ansStr = solution581.reverseWords2(s);
+    std::cout << "58-1 ansStr is " << ansStr << std::endl;
+    s = "   a   b  c d   e  ";
+    ansStr = solution581.reverseWords2(s);
     std::cout << "58-1 ansStr is " << ansStr << std::endl;
 
 
