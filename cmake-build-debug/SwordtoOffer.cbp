@@ -419,6 +419,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/ReplaceSpace.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseLeftWords.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseLeftWords.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

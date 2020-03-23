@@ -1500,6 +1500,33 @@ ReplaceSpace.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.s
 .PHONY : ReplaceSpace.cpp.s
 
+ReverseLeftWords.o: ReverseLeftWords.cpp.o
+
+.PHONY : ReverseLeftWords.o
+
+# target to build an object file
+ReverseLeftWords.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ReverseLeftWords.cpp.o
+.PHONY : ReverseLeftWords.cpp.o
+
+ReverseLeftWords.i: ReverseLeftWords.cpp.i
+
+.PHONY : ReverseLeftWords.i
+
+# target to preprocess a source file
+ReverseLeftWords.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ReverseLeftWords.cpp.i
+.PHONY : ReverseLeftWords.cpp.i
+
+ReverseLeftWords.s: ReverseLeftWords.cpp.s
+
+.PHONY : ReverseLeftWords.s
+
+# target to generate assembly for a file
+ReverseLeftWords.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ReverseLeftWords.cpp.s
+.PHONY : ReverseLeftWords.cpp.s
+
 ReverseList.o: ReverseList.cpp.o
 
 .PHONY : ReverseList.o
@@ -2094,6 +2121,9 @@ help:
 	@echo "... ReplaceSpace.o"
 	@echo "... ReplaceSpace.i"
 	@echo "... ReplaceSpace.s"
+	@echo "... ReverseLeftWords.o"
+	@echo "... ReverseLeftWords.i"
+	@echo "... ReverseLeftWords.s"
 	@echo "... ReverseList.o"
 	@echo "... ReverseList.i"
 	@echo "... ReverseList.s"

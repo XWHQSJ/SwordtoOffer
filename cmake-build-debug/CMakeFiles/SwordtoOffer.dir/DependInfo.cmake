@@ -55,6 +55,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/Permutation.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/Permutation.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/PrintNumbers.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/ReplaceSpace.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o"
+  "/home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseLeftWords.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/ReverseLeftWords.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePairs.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/ReversePairs.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o"

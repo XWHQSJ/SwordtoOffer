@@ -50,6 +50,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/Permutation.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/PrintNumbers.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/ReplaceSpace.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/ReverseLeftWords.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/ReversePairs.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o"

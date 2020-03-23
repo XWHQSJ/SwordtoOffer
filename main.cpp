@@ -74,6 +74,7 @@
 #include "SingleNumber.h"
 #include "ReversePairs.h"
 #include "ReverseWords.h"
+#include "ReverseLeftWords.h"
 
 using namespace std;
 
@@ -714,6 +715,18 @@ int main() {
     s = "   a   b  c d   e  ";
     ansStr = solution581.reverseWords2(s);
     std::cout << "58-1 ansStr is " << ansStr << std::endl;
+
+
+    // ReverseLeftWords.cpp test
+    Solution58_2 solution582;
+    s = "abcdefg";
+    k = 2;
+    ansStr = solution582.reverseLeftWords(s, k);
+    std::cout << "58-2 ansStr is " << ansStr << std::endl;
+    s = "lrloseumgh";
+    k = 6;
+    ansStr = solution582.reverseLeftWords(s, k);
+    std::cout << "58-2 ansStr is " << ansStr << std::endl;
 
 
     // MaxSlidingWindow.cpp test

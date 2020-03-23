@@ -105,4 +105,4 @@ add_executable(SwordtoOffer
         SingleNumber.cpp SingleNumber.h
         ReversePairs.cpp ReversePairs.h
         ReverseWords.cpp ReverseWords.h
-        )
+        ReverseLeftWords.cpp ReverseLeftWords.h)
