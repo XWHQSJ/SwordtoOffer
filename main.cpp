@@ -727,6 +727,14 @@ int main() {
     k = 6;
     ansStr = solution582.reverseLeftWords(s, k);
     std::cout << "58-2 ansStr is " << ansStr << std::endl;
+    s = "abcdefg";
+    k = 2;
+    ansStr = solution582.reverseLeftWords2(s, k);
+    std::cout << "58-2 ansStr is " << ansStr << std::endl;
+    s = "lrloseumgh";
+    k = 6;
+    ansStr = solution582.reverseLeftWords2(s, k);
+    std::cout << "58-2 ansStr is " << ansStr << std::endl;
 
 
     // MaxSlidingWindow.cpp test

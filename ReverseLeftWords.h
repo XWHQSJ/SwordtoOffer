@@ -31,7 +31,21 @@
 
 class Solution58_2 {
 public:
+    /*
+     * string 类特性
+     *
+     * 将前n个字符组成字符串添加到字符串s后面，再删除前面n个字符。
+     * */
     std::string reverseLeftWords(std::string s, int n);
+
+    /*
+     * 三次原地翻转
+     *
+     * 将前n个字符与后面剩下的字符按照两个字符串，分别进行字符串翻转，再对整个字符串s进行翻转。
+     *
+     * 例如： s = abcdefg ;  k = 2 ---> s1 = bagfedc ---> s2 = cdefgab 左旋转成功
+     * */
+    std::string reverseLeftWords2(std::string s, int n);
 };
 
 
