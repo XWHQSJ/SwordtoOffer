@@ -141,6 +141,8 @@
 ├── MaxQueue.h    剑指offer 59-II 队列的最大值
 ├── TwoSum.cpp
 ├── TwoSum.h    剑指offer 57 和为s的两个数字
+├── TwoSum60.cpp
+├── TwoSum60.h    剑指offer 60 n个骰子的点数
 ├── SingleNumbers.cpp
 ├── SingleNumbers.h    剑指offer 56-I 数组中数字出现的次数
 ├── SingleNumber.cpp

@@ -503,6 +503,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum60.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/TwoSum60.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/ValidateStackSequences.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

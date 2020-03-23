@@ -1878,6 +1878,33 @@ TwoSum.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/TwoSum.cpp.s
 .PHONY : TwoSum.cpp.s
 
+TwoSum60.o: TwoSum60.cpp.o
+
+.PHONY : TwoSum60.o
+
+# target to build an object file
+TwoSum60.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/TwoSum60.cpp.o
+.PHONY : TwoSum60.cpp.o
+
+TwoSum60.i: TwoSum60.cpp.i
+
+.PHONY : TwoSum60.i
+
+# target to preprocess a source file
+TwoSum60.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/TwoSum60.cpp.i
+.PHONY : TwoSum60.cpp.i
+
+TwoSum60.s: TwoSum60.cpp.s
+
+.PHONY : TwoSum60.s
+
+# target to generate assembly for a file
+TwoSum60.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/TwoSum60.cpp.s
+.PHONY : TwoSum60.cpp.s
+
 ValidateStackSequences.o: ValidateStackSequences.cpp.o
 
 .PHONY : ValidateStackSequences.o
@@ -2163,6 +2190,9 @@ help:
 	@echo "... TwoSum.o"
 	@echo "... TwoSum.i"
 	@echo "... TwoSum.s"
+	@echo "... TwoSum60.o"
+	@echo "... TwoSum60.i"
+	@echo "... TwoSum60.s"
 	@echo "... ValidateStackSequences.o"
 	@echo "... ValidateStackSequences.i"
 	@echo "... ValidateStackSequences.s"
