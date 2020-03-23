@@ -1581,6 +1581,33 @@ ReversePrint.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.s
 .PHONY : ReversePrint.cpp.s
 
+ReverseWords.o: ReverseWords.cpp.o
+
+.PHONY : ReverseWords.o
+
+# target to build an object file
+ReverseWords.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ReverseWords.cpp.o
+.PHONY : ReverseWords.cpp.o
+
+ReverseWords.i: ReverseWords.cpp.i
+
+.PHONY : ReverseWords.i
+
+# target to preprocess a source file
+ReverseWords.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ReverseWords.cpp.i
+.PHONY : ReverseWords.cpp.i
+
+ReverseWords.s: ReverseWords.cpp.s
+
+.PHONY : ReverseWords.s
+
+# target to generate assembly for a file
+ReverseWords.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ReverseWords.cpp.s
+.PHONY : ReverseWords.cpp.s
+
 Search.o: Search.cpp.o
 
 .PHONY : Search.o
@@ -2076,6 +2103,9 @@ help:
 	@echo "... ReversePrint.o"
 	@echo "... ReversePrint.i"
 	@echo "... ReversePrint.s"
+	@echo "... ReverseWords.o"
+	@echo "... ReverseWords.i"
+	@echo "... ReverseWords.s"
 	@echo "... Search.o"
 	@echo "... Search.i"
 	@echo "... Search.s"

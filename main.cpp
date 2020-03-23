@@ -73,6 +73,7 @@
 #include "SingleNumbers.h"
 #include "SingleNumber.h"
 #include "ReversePairs.h"
+#include "ReverseWords.h"
 
 using namespace std;
 
@@ -688,6 +689,19 @@ int main() {
     for (auto a : ans) {
         std::cout << "57 ans = " << a << std::ends;
     }
+
+
+    // ReverseWords.cpp test
+    Solution58_1 solution581;
+    s = "the sky is blue";
+    std::string ansStr = solution581.reverseWords(s);
+    std::cout << "58-1 ansStr is " << ansStr << std::endl;
+    s = "  hello world!  ";
+    ansStr = solution581.reverseWords(s);
+    std::cout << "58-1 ansStr is " << ansStr << std::endl;
+    s = "a good   example";
+    ansStr = solution581.reverseWords(s);
+    std::cout << "58-1 ansStr is " << ansStr << std::endl;
 
 
     // MaxSlidingWindow.cpp test
