@@ -176,6 +176,9 @@ CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../DataStruct/Node.h
 CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../ReverseList.cpp
 CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o: ../ReverseList.h
 
+CMakeFiles/SwordtoOffer.dir/ReversePairs.cpp.o: ../ReversePairs.cpp
+CMakeFiles/SwordtoOffer.dir/ReversePairs.cpp.o: ../ReversePairs.h
+
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../DataStruct/Node.h
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.cpp
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o: ../ReversePrint.h
@@ -269,6 +272,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Permutation.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../PrintNumbers.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReplaceSpace.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReverseList.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReversePairs.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../ReversePrint.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../Search.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../SingleNumber.h

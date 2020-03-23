@@ -176,6 +176,9 @@ CMakeFiles/SwordtoOffer.dir/ReverseList.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.h
+CMakeFiles/SwordtoOffer.dir/ReversePairs.cpp.o
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePairs.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePairs.h
 CMakeFiles/SwordtoOffer.dir/ReversePrint.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.cpp
@@ -270,6 +273,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/PrintNumbers.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReplaceSpace.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePairs.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Search.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumber.h

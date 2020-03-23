@@ -236,6 +236,14 @@ string
 DataStruct/Node.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
 
+/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePairs.cpp
+ReversePairs.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePairs.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePairs.h
+vector
+-
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePrint.h
 vector
 -
@@ -245,6 +253,12 @@ DataStruct/Node.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/Search.h
 vector
 -
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumber.cpp
+unordered_map
+-
+SingleNumber.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumber.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumber.h
 vector
@@ -415,4 +429,6 @@ SingleNumbers.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumbers.h
 SingleNumber.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/SingleNumber.h
+ReversePairs.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePairs.h
 
