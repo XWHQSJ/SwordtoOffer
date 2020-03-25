@@ -798,6 +798,33 @@ KthLargest.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/KthLargest.cpp.s
 .PHONY : KthLargest.cpp.s
 
+LastRemaining.o: LastRemaining.cpp.o
+
+.PHONY : LastRemaining.o
+
+# target to build an object file
+LastRemaining.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LastRemaining.cpp.o
+.PHONY : LastRemaining.cpp.o
+
+LastRemaining.i: LastRemaining.cpp.i
+
+.PHONY : LastRemaining.i
+
+# target to preprocess a source file
+LastRemaining.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LastRemaining.cpp.i
+.PHONY : LastRemaining.cpp.i
+
+LastRemaining.s: LastRemaining.cpp.s
+
+.PHONY : LastRemaining.s
+
+# target to generate assembly for a file
+LastRemaining.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LastRemaining.cpp.s
+.PHONY : LastRemaining.cpp.s
+
 LengthOfLongestSubstring.o: LengthOfLongestSubstring.cpp.o
 
 .PHONY : LengthOfLongestSubstring.o
@@ -2070,6 +2097,9 @@ help:
 	@echo "... KthLargest.o"
 	@echo "... KthLargest.i"
 	@echo "... KthLargest.s"
+	@echo "... LastRemaining.o"
+	@echo "... LastRemaining.i"
+	@echo "... LastRemaining.s"
 	@echo "... LengthOfLongestSubstring.o"
 	@echo "... LengthOfLongestSubstring.i"
 	@echo "... LengthOfLongestSubstring.s"
