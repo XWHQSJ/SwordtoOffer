@@ -76,6 +76,7 @@
 #include "ReverseWords.h"
 #include "ReverseLeftWords.h"
 #include "TwoSum60.h"
+#include "LastRemaining.h"
 
 using namespace std;
 
@@ -777,6 +778,12 @@ int main() {
         std::cout << "60 sum is " << a << std::ends;
     }
 
+
+    // LastRemaining.cpp test
+    Solution62 solution62;
+    n = 5, m = 3;
+    num = solution62.lastRemaining(n, m);
+    std::cout << "62 num is " << num << std::endl;
 
     // SumNums.cpp test
     Solution64 solution64;

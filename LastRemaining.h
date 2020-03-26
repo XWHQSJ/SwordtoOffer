@@ -32,7 +32,18 @@
 
 class Solution62 {
 public:
+    /*
+     * 环形链表 O(mn)超时
+     *
+     *
+     * */
     int lastRemaining(int n, int m);
+
+    /*
+     * 环形链表优化
+     *
+     * */
+    int lastRemaining2(int n, int m);
 };
 
 
