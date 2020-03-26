@@ -784,6 +784,11 @@ int main() {
     n = 5, m = 3;
     num = solution62.lastRemaining(n, m);
     std::cout << "62 num is " << num << std::endl;
+    num = solution62.lastRemaining2(n, m);
+    std::cout << "62 num is " << num << std::endl;
+    num = solution62.lastRemaining3(n, m);
+    std::cout << "62 num is " << num << std::endl;
+
 
     // SumNums.cpp test
     Solution64 solution64;
