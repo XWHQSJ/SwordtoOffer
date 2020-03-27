@@ -15,6 +15,9 @@ CMakeFiles/SwordtoOffer.dir/Codec.cpp.o
  ../DataStruct/BiTreeNode.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Codec.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Codec.h
+CMakeFiles/SwordtoOffer.dir/ConstructArr.cpp.o
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/ConstructArr.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/ConstructArr.h
 CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.h
@@ -237,6 +240,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/CQueue.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/Codec.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/ConstructArr.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/CopyRandomList.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/CountDigitOne.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/CuttingRopeI.h
