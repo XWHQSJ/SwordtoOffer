@@ -108,4 +108,5 @@ add_executable(SwordtoOffer
         ReverseLeftWords.cpp ReverseLeftWords.h
         TwoSum60.cpp TwoSum60.h
         LastRemaining.cpp LastRemaining.h
+        Add.cpp Add.h
         )

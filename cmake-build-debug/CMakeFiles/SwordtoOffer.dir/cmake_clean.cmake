@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SwordtoOffer.dir/Add.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/Codec.cpp.o"

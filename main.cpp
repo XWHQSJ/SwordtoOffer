@@ -77,6 +77,7 @@
 #include "ReverseLeftWords.h"
 #include "TwoSum60.h"
 #include "LastRemaining.h"
+#include "Add.h"
 
 using namespace std;
 
@@ -803,6 +804,13 @@ int main() {
     std::cout << "ans2 = " << ans2 << std::endl;
     ans2 = sumNums5<9>::N;
     std::cout << "ans2 = " << ans2 << std::endl;
+
+
+    // Add.cpp test
+    Solution65 solution65;
+    int a = 1, bb = 1;
+    int addNum = solution65.add(a, bb);
+    std::cout << "65 addNum is " << addNum << std::endl;
 
 
     // StrToInt.cpp test

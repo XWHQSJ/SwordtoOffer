@@ -123,6 +123,33 @@ SwordtoOffer/fast:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/build
 .PHONY : SwordtoOffer/fast
 
+Add.o: Add.cpp.o
+
+.PHONY : Add.o
+
+# target to build an object file
+Add.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/Add.cpp.o
+.PHONY : Add.cpp.o
+
+Add.i: Add.cpp.i
+
+.PHONY : Add.i
+
+# target to preprocess a source file
+Add.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/Add.cpp.i
+.PHONY : Add.cpp.i
+
+Add.s: Add.cpp.s
+
+.PHONY : Add.s
+
+# target to generate assembly for a file
+Add.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/Add.cpp.s
+.PHONY : Add.cpp.s
+
 BuildTree.o: BuildTree.cpp.o
 
 .PHONY : BuildTree.o
@@ -2022,6 +2049,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... SwordtoOffer"
 	@echo "... edit_cache"
+	@echo "... Add.o"
+	@echo "... Add.i"
+	@echo "... Add.s"
 	@echo "... BuildTree.o"
 	@echo "... BuildTree.i"
 	@echo "... BuildTree.s"

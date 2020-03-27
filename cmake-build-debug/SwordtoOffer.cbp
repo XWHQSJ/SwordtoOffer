@@ -92,6 +92,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/Add.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/Add.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>
