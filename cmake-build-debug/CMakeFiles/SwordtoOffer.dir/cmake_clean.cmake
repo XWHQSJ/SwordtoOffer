@@ -23,6 +23,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/IsBalanced.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsMatch.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/IsStraight.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/KthLargest.cpp.o"

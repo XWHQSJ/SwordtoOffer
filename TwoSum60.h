@@ -32,6 +32,11 @@
 
 class Solution60 {
 public:
+    /*
+     * 动态规划
+     *
+     *
+     * */
     std::vector<double> twoSum(int n);
 };
 

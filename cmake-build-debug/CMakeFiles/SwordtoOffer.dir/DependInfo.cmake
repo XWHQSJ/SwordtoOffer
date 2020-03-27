@@ -28,6 +28,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/IsBalanced.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/IsBalanced.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/IsMatch.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/IsMatch.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o"
+  "/home/Wanhui/Workspace/Clion/SwordtoOffer/IsStraight.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/IsStraight.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSubStructure.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/IsSymmetric.cpp.o"
   "/home/Wanhui/Workspace/Clion/SwordtoOffer/KthLargest.cpp" "/home/Wanhui/Workspace/Clion/SwordtoOffer/cmake-build-debug/CMakeFiles/SwordtoOffer.dir/KthLargest.cpp.o"

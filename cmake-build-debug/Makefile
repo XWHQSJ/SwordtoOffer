@@ -771,6 +771,33 @@ IsNumber.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.s
 .PHONY : IsNumber.cpp.s
 
+IsStraight.o: IsStraight.cpp.o
+
+.PHONY : IsStraight.o
+
+# target to build an object file
+IsStraight.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsStraight.cpp.o
+.PHONY : IsStraight.cpp.o
+
+IsStraight.i: IsStraight.cpp.i
+
+.PHONY : IsStraight.i
+
+# target to preprocess a source file
+IsStraight.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsStraight.cpp.i
+.PHONY : IsStraight.cpp.i
+
+IsStraight.s: IsStraight.cpp.s
+
+.PHONY : IsStraight.s
+
+# target to generate assembly for a file
+IsStraight.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/IsStraight.cpp.s
+.PHONY : IsStraight.cpp.s
+
 IsSubStructure.o: IsSubStructure.cpp.o
 
 .PHONY : IsSubStructure.o
@@ -2148,6 +2175,9 @@ help:
 	@echo "... IsNumber.o"
 	@echo "... IsNumber.i"
 	@echo "... IsNumber.s"
+	@echo "... IsStraight.o"
+	@echo "... IsStraight.i"
+	@echo "... IsStraight.s"
 	@echo "... IsSubStructure.o"
 	@echo "... IsSubStructure.i"
 	@echo "... IsSubStructure.s"

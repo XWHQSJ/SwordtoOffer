@@ -91,6 +91,8 @@
 ├── SumNums.h    剑指offer 64 求1+2+...+n
 ├── Add.cpp
 ├── Add.h    剑指offer 65 不用加减乘除做加法
+├── IsStraight.cpp
+├── IsStraight.h    剑指offer 61 扑克牌中的顺子
 ├── ConstructArr.cpp
 ├── ConstructArr.h    剑指offer 65 不用加减乘除做加法
 ├── CountDigitOne.cpp

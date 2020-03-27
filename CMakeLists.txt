@@ -110,4 +110,5 @@ add_executable(SwordtoOffer
         LastRemaining.cpp LastRemaining.h
         Add.cpp Add.h
         ConstructArr.cpp ConstructArr.h
+        IsStraight.cpp IsStraight.h
         )

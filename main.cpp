@@ -79,6 +79,7 @@
 #include "LastRemaining.h"
 #include "Add.h"
 #include "ConstructArr.h"
+#include "IsStraight.h"
 
 using namespace std;
 
@@ -781,6 +782,16 @@ int main() {
     }
 
 
+    // IsStraight.cpp test
+    Solution61 solution61;
+    nums = {1, 2, 3, 4, 5};
+    b = solution61.isStraight(nums);
+    std::cout << "61 b is " << b << std::endl;
+    nums = {0, 0, 1, 2, 5};
+    b = solution61.isStraight(nums);
+    std::cout << "61 b is " << b << std::endl;
+
+
     // LastRemaining.cpp test
     Solution62 solution62;
     n = 5, m = 3;
@@ -819,10 +830,10 @@ int main() {
 
     // ConstructArr.cpp test
     Solution66 solution66;
-    std::vector<int> ar = {1,2,3,4,5};
+    std::vector<int> ar = {1, 2, 3, 4, 5};
     std::vector<int> arrAns = solution66.constructArr(ar);
     std::cout << "66 arr: " << std::endl;
-    for(int a : arrAns){
+    for (int a : arrAns) {
         std::cout << " a is " << a << std::ends;
     }
     std::cout << std::endl;

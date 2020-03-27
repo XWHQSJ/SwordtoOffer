@@ -254,6 +254,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/IsStraight.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/IsStraight.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/IsSubStructure.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>
