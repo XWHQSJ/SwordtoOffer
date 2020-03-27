@@ -78,6 +78,7 @@
 #include "TwoSum60.h"
 #include "LastRemaining.h"
 #include "Add.h"
+#include "ConstructArr.h"
 
 using namespace std;
 
@@ -815,6 +816,16 @@ int main() {
     addNum = solution65.add(a, bb);
     std::cout << "65 addNum is " << addNum << std::endl;
 
+
+    // ConstructArr.cpp test
+    Solution66 solution66;
+    std::vector<int> ar = {1,2,3,4,5};
+    std::vector<int> arrAns = solution66.constructArr(ar);
+    std::cout << "66 arr: " << std::endl;
+    for(int a : arrAns){
+        std::cout << " a is " << a << std::ends;
+    }
+    std::cout << std::endl;
 
     // StrToInt.cpp test
     Solution67 solution67;

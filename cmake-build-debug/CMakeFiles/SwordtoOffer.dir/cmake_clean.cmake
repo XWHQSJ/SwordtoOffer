@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SwordtoOffer.dir/BuildTree.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/CQueue.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/Codec.cpp.o"
+  "CMakeFiles/SwordtoOffer.dir/ConstructArr.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/CopyRandomList.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/CountDigitOne.cpp.o"
   "CMakeFiles/SwordtoOffer.dir/CuttingRopeI.cpp.o"

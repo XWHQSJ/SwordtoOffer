@@ -231,6 +231,33 @@ Codec.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/Codec.cpp.s
 .PHONY : Codec.cpp.s
 
+ConstructArr.o: ConstructArr.cpp.o
+
+.PHONY : ConstructArr.o
+
+# target to build an object file
+ConstructArr.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ConstructArr.cpp.o
+.PHONY : ConstructArr.cpp.o
+
+ConstructArr.i: ConstructArr.cpp.i
+
+.PHONY : ConstructArr.i
+
+# target to preprocess a source file
+ConstructArr.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ConstructArr.cpp.i
+.PHONY : ConstructArr.cpp.i
+
+ConstructArr.s: ConstructArr.cpp.s
+
+.PHONY : ConstructArr.s
+
+# target to generate assembly for a file
+ConstructArr.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/ConstructArr.cpp.s
+.PHONY : ConstructArr.cpp.s
+
 CopyRandomList.o: CopyRandomList.cpp.o
 
 .PHONY : CopyRandomList.o
@@ -2061,6 +2088,9 @@ help:
 	@echo "... Codec.o"
 	@echo "... Codec.i"
 	@echo "... Codec.s"
+	@echo "... ConstructArr.o"
+	@echo "... ConstructArr.i"
+	@echo "... ConstructArr.s"
 	@echo "... CopyRandomList.o"
 	@echo "... CopyRandomList.i"
 	@echo "... CopyRandomList.s"

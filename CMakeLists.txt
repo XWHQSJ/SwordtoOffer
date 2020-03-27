@@ -109,4 +109,5 @@ add_executable(SwordtoOffer
         TwoSum60.cpp TwoSum60.h
         LastRemaining.cpp LastRemaining.h
         Add.cpp Add.h
+        ConstructArr.cpp ConstructArr.h
         )
