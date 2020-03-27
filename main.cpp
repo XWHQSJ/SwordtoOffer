@@ -811,6 +811,9 @@ int main() {
     int a = 1, bb = 1;
     int addNum = solution65.add(a, bb);
     std::cout << "65 addNum is " << addNum << std::endl;
+    a = -1, bb = 2;
+    addNum = solution65.add(a, bb);
+    std::cout << "65 addNum is " << addNum << std::endl;
 
 
     // StrToInt.cpp test
