@@ -780,6 +780,7 @@ int main() {
     for (auto a : sum) {
         std::cout << "60 sum is " << a << std::ends;
     }
+    std::cout << std::endl;
 
 
     // IsStraight.cpp test

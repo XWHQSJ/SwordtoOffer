@@ -81,6 +81,9 @@ CMakeFiles/SwordtoOffer.dir/IsMatch.cpp.o: ../IsMatch.h
 CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o: ../IsNumber.cpp
 CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o: ../IsNumber.h
 
+CMakeFiles/SwordtoOffer.dir/IsStraight.cpp.o: ../IsStraight.cpp
+CMakeFiles/SwordtoOffer.dir/IsStraight.cpp.o: ../IsStraight.h
+
 CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o: ../DataStruct/BiTreeNode.h
 CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o: ../IsSubStructure.cpp
 CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o: ../IsSubStructure.h
@@ -262,6 +265,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../HammingWeight.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsBalanced.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsMatch.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsNumber.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsStraight.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsSubStructure.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../IsSymmetric.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../KthLargest.h

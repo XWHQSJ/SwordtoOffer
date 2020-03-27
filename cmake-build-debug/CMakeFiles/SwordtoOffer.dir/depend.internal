@@ -81,6 +81,9 @@ CMakeFiles/SwordtoOffer.dir/IsMatch.cpp.o
 CMakeFiles/SwordtoOffer.dir/IsNumber.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.cpp
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.h
+CMakeFiles/SwordtoOffer.dir/IsStraight.cpp.o
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/IsStraight.cpp
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/IsStraight.h
 CMakeFiles/SwordtoOffer.dir/IsSubStructure.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/BiTreeNode.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsSubStructure.cpp
@@ -263,6 +266,7 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsBalanced.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsMatch.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsNumber.h
+ /home/Wanhui/Workspace/Clion/SwordtoOffer/IsStraight.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsSubStructure.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/IsSymmetric.h
  /home/Wanhui/Workspace/Clion/SwordtoOffer/KthLargest.h
