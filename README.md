@@ -70,6 +70,7 @@
 │   ├── 两个链表的第一个公共节点3.png
 │   ├── 两个链表的第一个公共节点4.png
 │   ├── binarysearchtree_improved.png
+│   ├── binarytree.png
 │   ├── 复杂链表的复制1.png
 │   ├── 复杂链表的复制2.png
 │   ├── 复杂链表的复制3.png
@@ -144,6 +145,8 @@
 ├── LowestCommonAncestor.h    剑指offer 68-I 二叉搜索树的最近公共祖先
 ├── Codec.cpp
 ├── Codec.h    剑指offer 37 序列化二叉树
+├── LowestCommonAncestorOfBiTree.cpp
+├── LowestCommonAncestorOfBiTree.h    剑指offer 68-II 二叉树的最近公共祖先
 ├── MaxSlidingWindow.cpp
 ├── MaxSlidingWindow.h    剑指offer 59-I 滑动窗口的最大值
 ├── MaxQueue.cpp

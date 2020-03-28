@@ -314,6 +314,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/LowestCommonAncestor.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/LowestCommonAncestorOfBiTree.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/LowestCommonAncestorOfBiTree.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

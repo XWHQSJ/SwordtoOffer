@@ -1041,6 +1041,33 @@ LowestCommonAncestor.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LowestCommonAncestor.cpp.s
 .PHONY : LowestCommonAncestor.cpp.s
 
+LowestCommonAncestorOfBiTree.o: LowestCommonAncestorOfBiTree.cpp.o
+
+.PHONY : LowestCommonAncestorOfBiTree.o
+
+# target to build an object file
+LowestCommonAncestorOfBiTree.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LowestCommonAncestorOfBiTree.cpp.o
+.PHONY : LowestCommonAncestorOfBiTree.cpp.o
+
+LowestCommonAncestorOfBiTree.i: LowestCommonAncestorOfBiTree.cpp.i
+
+.PHONY : LowestCommonAncestorOfBiTree.i
+
+# target to preprocess a source file
+LowestCommonAncestorOfBiTree.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LowestCommonAncestorOfBiTree.cpp.i
+.PHONY : LowestCommonAncestorOfBiTree.cpp.i
+
+LowestCommonAncestorOfBiTree.s: LowestCommonAncestorOfBiTree.cpp.s
+
+.PHONY : LowestCommonAncestorOfBiTree.s
+
+# target to generate assembly for a file
+LowestCommonAncestorOfBiTree.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LowestCommonAncestorOfBiTree.cpp.s
+.PHONY : LowestCommonAncestorOfBiTree.cpp.s
+
 MajorityElement.o: MajorityElement.cpp.o
 
 .PHONY : MajorityElement.o
@@ -2232,6 +2259,9 @@ help:
 	@echo "... LowestCommonAncestor.o"
 	@echo "... LowestCommonAncestor.i"
 	@echo "... LowestCommonAncestor.s"
+	@echo "... LowestCommonAncestorOfBiTree.o"
+	@echo "... LowestCommonAncestorOfBiTree.i"
+	@echo "... LowestCommonAncestorOfBiTree.s"
 	@echo "... MajorityElement.o"
 	@echo "... MajorityElement.i"
 	@echo "... MajorityElement.s"

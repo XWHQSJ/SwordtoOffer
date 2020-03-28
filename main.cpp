@@ -81,6 +81,7 @@
 #include "ConstructArr.h"
 #include "IsStraight.h"
 #include "LowestCommonAncestor.h"
+#include "LowestCommonAncestorOfBiTree.h"
 
 using namespace std;
 
@@ -851,7 +852,8 @@ int main() {
     Solution68_1 solution681;
 
 
-
+    // LowestCommonAncestorOfBiTree.cpp test
+    Solution68_2 solution682;
 
 
     return 0;
