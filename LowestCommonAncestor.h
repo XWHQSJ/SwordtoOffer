@@ -13,9 +13,9 @@
  * 满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”
  * 例如，给定如下二叉搜索树:  root = [6,2,8,0,4,7,9,null,null,3,5]
  *
+ * 见图： binarysearchtree_improved.png
  * 示例 1:
  *
- * 见图： binarysearchtree_improved.png
  * 输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
  * 输出: 6
  * 解释: 节点 2 和节点 8 的最近公共祖先是 6。
@@ -36,7 +36,17 @@
 
 class Solution68_1 {
 public:
-    BiTreeNode* lowestCommonAncestor(BiTreeNode* root, BiTreeNode* p, BiTreeNode* q);
+    /*
+     * 递归遍历
+     *
+     * 因为二叉搜索树的性质是左节点的值小于根节点的值小于右节点的值，
+     * 而最低公共祖先节点的值必然在两给定节点值中间，包括两端。
+     * 所以将父节点的值与给定两节点的值进行比较：
+     * 1. 如果父节点值在两节点值中间，返回父节点；
+     * 2. 如果两节点值都大于父节点值，则遍历右子树；
+     * 3. 如果两节点值都小于父节点值，则遍历左子树。
+     * */
+    BiTreeNode *lowestCommonAncestor(BiTreeNode *root, BiTreeNode *p, BiTreeNode *q);
 };
 
 
