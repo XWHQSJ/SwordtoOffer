@@ -38,7 +38,26 @@
 
 class Solution68_2 {
 public:
+    /*
+     * 递归遍历
+     *
+     *
+     * */
     BiTreeNode * lowestCommonAncestor(BiTreeNode* root, BiTreeNode* p, BiTreeNode* q);
+
+    /*
+     * 父指针
+     *
+     *
+     * */
+    BiTreeNode * lowestCommonAncestor2(BiTreeNode* root, BiTreeNode* p, BiTreeNode* q);
+
+    /*
+     * 栈
+     *
+     *
+     * */
+    BiTreeNode * lowestCommonAncestor3(BiTreeNode* root, BiTreeNode* p, BiTreeNode* q);
 };
 
 
