@@ -308,6 +308,12 @@
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/LevelOrderIII.h">
 			<Option target="SwordtoOffer"/>
 		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/LowestCommonAncestor.cpp">
+			<Option target="SwordtoOffer"/>
+		</Unit>
+		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/LowestCommonAncestor.h">
+			<Option target="SwordtoOffer"/>
+		</Unit>
 		<Unit filename="/home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.cpp">
 			<Option target="SwordtoOffer"/>
 		</Unit>

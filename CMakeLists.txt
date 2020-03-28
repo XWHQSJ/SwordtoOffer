@@ -111,4 +111,5 @@ add_executable(SwordtoOffer
         Add.cpp Add.h
         ConstructArr.cpp ConstructArr.h
         IsStraight.cpp IsStraight.h
+        LowestCommonAncestor.cpp LowestCommonAncestor.h
         )

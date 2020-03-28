@@ -1014,6 +1014,33 @@ LevelOrderIII.cpp.s:
 	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LevelOrderIII.cpp.s
 .PHONY : LevelOrderIII.cpp.s
 
+LowestCommonAncestor.o: LowestCommonAncestor.cpp.o
+
+.PHONY : LowestCommonAncestor.o
+
+# target to build an object file
+LowestCommonAncestor.cpp.o:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LowestCommonAncestor.cpp.o
+.PHONY : LowestCommonAncestor.cpp.o
+
+LowestCommonAncestor.i: LowestCommonAncestor.cpp.i
+
+.PHONY : LowestCommonAncestor.i
+
+# target to preprocess a source file
+LowestCommonAncestor.cpp.i:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LowestCommonAncestor.cpp.i
+.PHONY : LowestCommonAncestor.cpp.i
+
+LowestCommonAncestor.s: LowestCommonAncestor.cpp.s
+
+.PHONY : LowestCommonAncestor.s
+
+# target to generate assembly for a file
+LowestCommonAncestor.cpp.s:
+	$(MAKE) -f CMakeFiles/SwordtoOffer.dir/build.make CMakeFiles/SwordtoOffer.dir/LowestCommonAncestor.cpp.s
+.PHONY : LowestCommonAncestor.cpp.s
+
 MajorityElement.o: MajorityElement.cpp.o
 
 .PHONY : MajorityElement.o
@@ -2202,6 +2229,9 @@ help:
 	@echo "... LevelOrderIII.o"
 	@echo "... LevelOrderIII.i"
 	@echo "... LevelOrderIII.s"
+	@echo "... LowestCommonAncestor.o"
+	@echo "... LowestCommonAncestor.i"
+	@echo "... LowestCommonAncestor.s"
 	@echo "... MajorityElement.o"
 	@echo "... MajorityElement.i"
 	@echo "... MajorityElement.s"

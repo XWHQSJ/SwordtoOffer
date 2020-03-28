@@ -80,6 +80,7 @@
 #include "Add.h"
 #include "ConstructArr.h"
 #include "IsStraight.h"
+#include "LowestCommonAncestor.h"
 
 using namespace std;
 
@@ -844,6 +845,13 @@ int main() {
     std::string numStr = "42";
     num = solution67.strToInt(numStr);
     std::cout << "num is " << num << std::endl;
+
+
+    // LowestCommonAncestor.cpp test
+    Solution68_1 solution681;
+
+
+
 
 
     return 0;
