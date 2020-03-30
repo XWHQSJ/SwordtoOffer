@@ -75,7 +75,8 @@ int Solution62::lastRemaining2(int n, int m) {
         // 计算删除的节点索引
         // 通过模运算方式，能避免循环
         rmIdx = (rmIdx + m - 1) % numList.size();
-        // 将指针从链表首部移动到索引处
+        // 将指针从链表首部移动到索引处,
+        // 此操作在线性时间内完成
         std::advance(iter, rmIdx);
         // 删除该索引处的节点
         numList.erase(iter);

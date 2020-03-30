@@ -41,9 +41,10 @@ public:
     int lastRemaining(int n, int m);
 
     /*
-     * 环形链表优化 O(n)
+     * 环形链表优化 O(n2)
      *
      * 通过模运算可以避免使用循环查找第m个节点的索引。
+     * 因为计算指针位置时，链表查找仍然是线性的，所以时间复杂度为O(n2)。
      * */
     int lastRemaining2(int n, int m);
 
