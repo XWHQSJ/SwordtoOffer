@@ -114,6 +114,14 @@ CMakeFiles/SwordtoOffer.dir/LevelOrderIII.cpp.o: ../DataStruct/BiTreeNode.h
 CMakeFiles/SwordtoOffer.dir/LevelOrderIII.cpp.o: ../LevelOrderIII.cpp
 CMakeFiles/SwordtoOffer.dir/LevelOrderIII.cpp.o: ../LevelOrderIII.h
 
+CMakeFiles/SwordtoOffer.dir/LowestCommonAncestor.cpp.o: ../DataStruct/BiTreeNode.h
+CMakeFiles/SwordtoOffer.dir/LowestCommonAncestor.cpp.o: ../LowestCommonAncestor.cpp
+CMakeFiles/SwordtoOffer.dir/LowestCommonAncestor.cpp.o: ../LowestCommonAncestor.h
+
+CMakeFiles/SwordtoOffer.dir/LowestCommonAncestorOfBiTree.cpp.o: ../DataStruct/BiTreeNode.h
+CMakeFiles/SwordtoOffer.dir/LowestCommonAncestorOfBiTree.cpp.o: ../LowestCommonAncestorOfBiTree.cpp
+CMakeFiles/SwordtoOffer.dir/LowestCommonAncestorOfBiTree.cpp.o: ../LowestCommonAncestorOfBiTree.h
+
 CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o: ../MajorityElement.cpp
 CMakeFiles/SwordtoOffer.dir/MajorityElement.cpp.o: ../MajorityElement.h
 
@@ -274,6 +282,8 @@ CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../LengthOfLongestSubstring.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../LevelOrder.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../LevelOrderII.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../LevelOrderIII.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../LowestCommonAncestor.h
+CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../LowestCommonAncestorOfBiTree.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MajorityElement.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MaxDepth.h
 CMakeFiles/SwordtoOffer.dir/main.cpp.o: ../MaxQueue.h

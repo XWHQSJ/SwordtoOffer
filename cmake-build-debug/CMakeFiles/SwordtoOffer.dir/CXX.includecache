@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../DataStruct/BiTreeNode.h
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/Add.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/BuildTree.h
@@ -106,6 +108,12 @@ string
 string
 -
 
+/home/Wanhui/Workspace/Clion/SwordtoOffer/IsStraight.cpp
+algorithm
+-
+IsStraight.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/IsStraight.h
+
 /home/Wanhui/Workspace/Clion/SwordtoOffer/IsStraight.h
 vector
 -
@@ -144,6 +152,28 @@ vector
 DataStruct/BiTreeNode.h
 -
 vector
+-
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LowestCommonAncestor.cpp
+LowestCommonAncestor.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LowestCommonAncestor.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LowestCommonAncestor.h
+DataStruct/BiTreeNode.h
+-
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LowestCommonAncestorOfBiTree.cpp
+stack
+-
+unordered_set
+-
+unordered_map
+-
+LowestCommonAncestorOfBiTree.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LowestCommonAncestorOfBiTree.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LowestCommonAncestorOfBiTree.h
+DataStruct/BiTreeNode.h
 -
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/MajorityElement.h
@@ -251,6 +281,10 @@ string
 /home/Wanhui/Workspace/Clion/SwordtoOffer/ReverseList.h
 DataStruct/Node.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/DataStruct/Node.h
+
+/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePairs.cpp
+ReversePairs.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePairs.h
 
 /home/Wanhui/Workspace/Clion/SwordtoOffer/ReversePairs.h
 vector
@@ -459,4 +493,8 @@ ConstructArr.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/ConstructArr.h
 IsStraight.h
 /home/Wanhui/Workspace/Clion/SwordtoOffer/IsStraight.h
+LowestCommonAncestor.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LowestCommonAncestor.h
+LowestCommonAncestorOfBiTree.h
+/home/Wanhui/Workspace/Clion/SwordtoOffer/LowestCommonAncestorOfBiTree.h
 
