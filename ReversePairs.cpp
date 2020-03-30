@@ -9,8 +9,10 @@ int Solution51::reversePairs(std::vector<int> &nums) {
         return 0;
     }
 
+    // 合并数组用
     std::vector<int> copyNums(nums.size(), 0);
 
+    // 逆序对的个数
     int count = 0;
     mergeSort(nums, copyNums, 0, nums.size() - 1, count);
 
@@ -18,15 +20,19 @@ int Solution51::reversePairs(std::vector<int> &nums) {
 }
 
 void Solution51::mergeSort(std::vector<int> &nums, std::vector<int> &copyNums, int start, int end, int &count) {
+    // 只有一个数，不存在逆序对
     if (start >= end) {
         return;
     }
 
+    // 将数组对分
     int mid = start + (end - start) / 2;
 
+    // 将数组不断的对半分，直到只有一个数的子数组
     mergeSort(nums, copyNums, start, mid, count);
     mergeSort(nums, copyNums, mid + 1, end, count);
 
+    // 对子数组进行合并
     int i = start, j = mid + 1, k = start;
     while (i <= mid && j <= end) {
         if (nums[j] < nums[i]) {
@@ -37,6 +43,7 @@ void Solution51::mergeSort(std::vector<int> &nums, std::vector<int> &copyNums, i
         }
     }
 
+    // 对数据进行复制
     if (i <= mid) {
         std::copy(nums.begin() + i, nums.begin() + mid + 1, copyNums.begin() + k);
     }
