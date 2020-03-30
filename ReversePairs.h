@@ -26,6 +26,8 @@
 class Solution51 {
 public:
     int reversePairs(std::vector<int>& nums);
+
+    void mergeSort(std::vector<int>& nums, std::vector<int>& copyNums, int start, int end, int& count);
 };
 
 
