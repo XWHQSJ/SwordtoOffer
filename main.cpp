@@ -783,6 +783,18 @@ int main() {
         std::cout << "60 sum is " << a << std::ends;
     }
     std::cout << std::endl;
+    n = 1;
+    sum = solution60.twoSum2(n);
+    for (auto a : sum) {
+        std::cout << "60 sum is " << a << std::ends;
+    }
+    std::cout << std::endl;
+    n = 2;
+    sum = solution60.twoSum2(n);
+    for (auto a : sum) {
+        std::cout << "60 sum is " << a << std::ends;
+    }
+    std::cout << std::endl;
 
 
     // IsStraight.cpp test
