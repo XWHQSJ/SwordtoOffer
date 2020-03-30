@@ -39,25 +39,38 @@
 class Solution68_2 {
 public:
     /*
-     * 递归遍历
+     * 递归遍历 O(n)
      *
-     *
+     * 递归遍历的目的是在子树中是否能够找到节点p或q，如果找到则返回p或q，
+     * 如果未找到，则从其他子树中继续遍历，直到找到节点p或q，再返回最低公共祖先节点。
+     * 1. 如果当前节点等于nullptr则直接返回nullptr；
+     * 2. 如果当前节点为p或q，则当前子树存在节点p或q，返回当前节点；
+     * 3. 如果当前节点不是p或q，则递归遍历左右子树：
+     *    1) 如果遍历到左子树为空，仍然没找到p或q，则回溯到右子树继续遍历；
+     *    2) 如果遍历到右子树为空，仍然没找到p或q，则回溯到左子树继续遍历；
+     *    3) 如果左右子树都非空，即左右子树找到了节点p或q，则左右子树的当前节点是节点p和q的最近公共祖先。
      * */
-    BiTreeNode * lowestCommonAncestor(BiTreeNode* root, BiTreeNode* p, BiTreeNode* q);
+    BiTreeNode *lowestCommonAncestor(BiTreeNode *root, BiTreeNode *p, BiTreeNode *q);
 
     /*
-     * 父指针
+     * 使用父指针迭代 O(n)
      *
+     * 本方法不局限于二叉树或二叉搜索树，可以直接使用于树的最近公共祖先节点的查找中。
      *
+     * 如果每个节点都有父指针，则可以从节点p或q返回以获取它们的祖先。
+     * 在遍历的过程中，得到的第一个公共节点即为最近公共祖先节点。
+     * 要实现每个节点都有父指针，可以在遍历二叉树时将父指针保存到字典中。
+     * 1. 从根节点开始遍树；
+     * 2. 在找到节点p或q前，将父指针存储到紫殿中；
+     * 3. 当找到节点p或q时，可以使用父亲字典获得p或q的所有祖先，并添加到一个祖先集合中；
+     * 4. 同时向上遍历p和q的祖先集合中的节点，如果找到第一个它们的祖先相同，则该节点是p和q的最近公共祖先。
+     *
+     * 代码实现上:
+     * 1> 使用unordered_map哈希表存储父指针;
+     * 2> 使用stack栈实现二叉树的遍历；
+     * 3> 使用unorder_set哈希集合存储节点p或q的祖先节点。
      * */
-    BiTreeNode * lowestCommonAncestor2(BiTreeNode* root, BiTreeNode* p, BiTreeNode* q);
-
-    /*
-     * 栈
-     *
-     *
-     * */
-    BiTreeNode * lowestCommonAncestor3(BiTreeNode* root, BiTreeNode* p, BiTreeNode* q);
+    BiTreeNode *lowestCommonAncestor2(BiTreeNode *root, BiTreeNode *p, BiTreeNode *q);
 };
 
 
