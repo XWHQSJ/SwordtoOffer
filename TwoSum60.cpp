@@ -11,7 +11,7 @@ std::vector<double> Solution60::twoSum(int n) {
     }
 
     // 定义状态数组
-    std::vector<std::vector<int>> dp(11, std::vector<int>(66, 0));
+    std::vector<std::vector<int>> dp(12, std::vector<int>(67, 0));
 
     // 初始化第1枚骰子投掷完后每个点数出现的次数
     for (int i = 1; i <= 6; i++) {

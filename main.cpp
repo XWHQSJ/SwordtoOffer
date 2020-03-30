@@ -771,25 +771,25 @@ int main() {
 
     // TwoSum60.cpp test
     Solution60 solution60;
-    n = 1;
+    n = 6;
     std::vector<double> sum = solution60.twoSum(n);
     for (auto a : sum) {
         std::cout << "60 sum is " << a << std::ends;
     }
     std::cout << std::endl;
-    n = 2;
+    n = 11;
     sum = solution60.twoSum(n);
     for (auto a : sum) {
         std::cout << "60 sum is " << a << std::ends;
     }
     std::cout << std::endl;
-    n = 1;
+    n = 6;
     sum = solution60.twoSum2(n);
     for (auto a : sum) {
         std::cout << "60 sum is " << a << std::ends;
     }
     std::cout << std::endl;
-    n = 2;
+    n = 11;
     sum = solution60.twoSum2(n);
     for (auto a : sum) {
         std::cout << "60 sum is " << a << std::ends;
