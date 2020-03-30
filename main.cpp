@@ -750,7 +750,12 @@ int main() {
     int k4 = 3;
     std::vector<int> ans1 = solution591.maxSlidingWindow(nums5, k4);
     for (auto a : ans1) {
-        std::cout << "a = " << a << std::ends;
+        std::cout << "59_1 a = " << a << std::ends;
+    }
+    std::cout << std::endl;
+    ans1 = solution591.maxSlidingWindow2(nums5, k4);
+    for (auto a : ans1) {
+        std::cout << "59_1 a = " << a << std::ends;
     }
     std::cout << std::endl;
 
