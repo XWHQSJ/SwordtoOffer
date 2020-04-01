@@ -42,15 +42,10 @@ public:
      *    将逆序对的个数加上后一指针指向数的索引加1，将较大的数复制到空数组中，前一子数组指针前移；
      * 4. 重复步骤3的比较，将两个子数组合并复制到一个数组中，同时也统计了逆序对的个数。
      * */
-    int reversePairs(std::vector<int>& nums);
+    int reversePairs(std::vector<int> &nums);
 
     // 归并排序
-    void mergeSort(std::vector<int>& nums, std::vector<int>& copyNums, int start, int end, int& count);
-
-
-    /*
-     *
-     * */
+    void mergeSort(std::vector<int> &nums, std::vector<int> &copyNums, int start, int end, int &count);
 };
 
 
