@@ -21,8 +21,6 @@
 │   ├── SingleNodeList.h    数据结构 单链表
 │   ├── BiNode.h    数据结构 双向节点
 │   └── DoubleListNode.h    数据结构 双向链表
-├── DeleteNode.cpp
-├── DeleteNode.h    剑指offer 18 删除链表的节点
 ├── Exchange.cpp
 ├── Exchange.h    剑指offer 21 调整数组顺序使奇数位于偶数前面 
 ├── Exist.cpp
@@ -79,6 +77,8 @@
 │   ├── 复杂链表的复制回溯法1.png
 │   ├── 复杂链表的复制回溯法2.png
 │   └── 有限状态机.png
+├── DeleteNode.cpp
+├── DeleteNode.h    剑指offer 18 删除链表的节点
 ├── ReverseList.cpp
 ├── ReverseList.h    剑指offer 24 反转链表
 ├── ValidateStackSequences.cpp
